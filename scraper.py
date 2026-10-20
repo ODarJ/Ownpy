@@ -36,6 +36,7 @@ MATCH_OK = 0.85        # similarity needed to accept
 MATCH_OK_SHORT = 0.90  # stricter for short titles (<= 6 chars)
 MATCH_REVIEW = 0.70    # between this and MATCH_OK -> review.json
 MAX_CANDIDATES = 4     # English title candidates tried per post
+REQUIRE_YEAR = True    # no year in the post -> goes to review.json, not auto-accepted
 
 REVIEW = []     # near-misses, written to review.json
 REJECTED = []   # skipped posts, written to rejected.json
@@ -242,12 +243,16 @@ def resolve_title(candidates):
         first_title = first_title or title
         tries = []
         m = TRAIL_YEAR_RE.match(title)
+        has_year = bool(year or m)
         if m and not year:
             tries.append((m.group(1), m.group(2)))  # "Dune 2021" -> "Dune" + 2021
         tries.append((title, year))
         for q, y in tries:
             status, info = match_cached(q, y)
             if status == "ok":
+                if REQUIRE_YEAR and not has_year:
+                    review = review or (info, q)  # no year: needs a human look
+                    continue
                 return "ok", info, q
             if status == "error":
                 return "error", None, first_title
@@ -281,12 +286,19 @@ def extract_sources(msg):
     return raw, texts
 
 
+def is_bad_link(url):
+    """Bot links (t.me/xxxbot) are ads/promos, never a movie card."""
+    m = re.match(r"https?://(?:www\.)?t\.me/([^/?#]+)", url, re.IGNORECASE)
+    return bool(m and m.group(1).lower().endswith("bot"))
+
+
 def extract_links(msg, post_link):
     links = []
     selector = ".tgme_widget_message_text a[href], a.tgme_widget_message_link_preview[href]"
     for a in msg.select(selector):
         href = a["href"].strip()
-        if href.startswith(("http://", "https://")) and href != post_link and href not in links:
+        if (href.startswith(("http://", "https://")) and href != post_link
+                and href not in links and not is_bad_link(href)):
             links.append(href)
     return links
 
