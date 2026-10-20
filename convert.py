@@ -29,9 +29,8 @@ def convert(item):
         "poster": f"{IMG}w500{t['poster']}" if t.get("poster") else "",
         "backdrop": f"{IMG}w780{t['backdrop']}" if t.get("backdrop") else "",
         "rating": round(rating, 1) if rating else 0,
-        # valid_card_link is the channel's group invite (same for many movies);
-        # post_link is unique per movie.
-        "group_link": item["valid_card_link"],
+        # channel link = group_link, post link (unique per movie) = video_link
+        "group_link": item.get("channel_link") or f"https://t.me/{item['channel']}",
         "video_link": item["post_link"],
     }
 
