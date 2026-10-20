@@ -1,38 +1,48 @@
-name: Test Scrape
+name: Manual Test Run
 
 on:
-  workflow_dispatch:       # manual "Run workflow" button
-  push:
-    branches: [main]
+  workflow_dispatch:
+    inputs:
+      channel_name:
+        description: 'Telegram Public Channel Name (e.g., channelhpmm)'
+        required: true
+        default: 'channelhpmm'
+      limit:
+        description: 'Number of posts to scrape (e.g., 100)'
+        required: true
+        default: '100'
+
+permissions:
+  contents: write
 
 jobs:
-  test:
+  scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.10
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Run scraper
+      - name: Run Scraper
+        env:
+          TARGET_CHANNEL: ${{ github.event.inputs.channel_name }}
+          TARGET_LIMIT: ${{ github.event.inputs.limit }}
         run: python scraper.py
 
-      - name: Print output.json
-        if: always()
-        run: |
-          echo "===== output.json ====="
-          cat output.json || echo "output.json not found"
+      - name: Print Output
+        run: cat output.json
 
-      - name: Upload output.json artifact
-        if: always()
+      - name: Upload Output Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: output-json
-          path: output.json
-          if-no-files-found: warn
+          name: scraped-data
+          path: |
+            output.json
+            state.json
