@@ -34,6 +34,7 @@ jobs:
         env:
           TARGET_CHANNEL: ${{ github.event.inputs.channel_name }}
           TARGET_LIMIT: ${{ github.event.inputs.limit }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }} # 👈 ဒီစာကြောင်းလေး အသစ်ထည့်ထားပါတယ်
         run: python scraper.py
 
       - name: Print Output
