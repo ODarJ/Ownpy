@@ -28,6 +28,8 @@ HEADERS = {
 FETCH_TIMEOUT = 15
 LINK_TIMEOUT = 3
 LINK_DELAY = 1
+TME_TIMEOUT = 6          # t.me pages are slower than normal sites
+REQUIRE_ALL_LINKS = False  # True: every link in the post must work; False: at least one
 
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 TMDB_TIMEOUT = 10
@@ -304,8 +306,28 @@ def extract_links(msg, post_link):
 
 
 # --------------------------------------------------------- Link validation
+_link_cache = {}  # url -> bool, so a shared invite link is only checked once per run
+TME_RE = re.compile(r"^https?://(?:www\.)?(?:t|telegram)\.me/", re.IGNORECASE)
+TME_MISSING_RE = re.compile(r"Telegram:\s*Contact\s*@", re.IGNORECASE)
+
+
+def tme_alive(url):
+    """t.me answers 200 even for missing usernames, so also read the page title."""
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=TME_TIMEOUT, allow_redirects=True)
+    except requests.RequestException:
+        return False
+    if not (200 <= r.status_code < 400):
+        return False
+    m = re.search(r"<title>(.*?)</title>", r.text, re.IGNORECASE | re.DOTALL)
+    title = m.group(1).strip() if m else ""
+    return not TME_MISSING_RE.match(title)
+
+
 def is_alive(url):
-    """HEAD first; fall back to streamed GET. Alive = status 200-399."""
+    """Normal sites: HEAD first, then streamed GET. Alive = status 200-399."""
+    if TME_RE.match(url):
+        return tme_alive(url)
     try:
         r = requests.head(url, headers=HEADERS, timeout=LINK_TIMEOUT, allow_redirects=True)
         if 200 <= r.status_code < 400:
@@ -323,13 +345,18 @@ def is_alive(url):
         return False
 
 
-def first_alive_link(links):
+def check_links(links):
+    """Check EVERY link in the post. Returns (alive_links, dead_links)."""
+    alive, dead = [], []
     for url in links:
-        alive = is_alive(url)
-        time.sleep(LINK_DELAY)
-        if alive:
-            return url
-    return None
+        if url in _link_cache:
+            ok = _link_cache[url]
+        else:
+            ok = is_alive(url)
+            _link_cache[url] = ok
+            time.sleep(LINK_DELAY)
+        (alive if ok else dead).append(url)
+    return alive, dead
 
 
 # ----------------------------------------------------------------- Scraping
@@ -408,9 +435,13 @@ def scrape_channel(channel, last_id, known, seen_cards, max_posts=0):
                     movie_name = info["tmdb_title"]
 
                 links = extract_links(msg, post_link)
-                valid = first_alive_link(links) if links else None
-                if not valid:
+                if not links:
                     continue
+                alive, dead = check_links(links)
+                if not alive or (REQUIRE_ALL_LINKS and dead):
+                    print(f"[DEADLINK] {movie_name}: {len(dead)} dead, {len(alive)} alive")
+                    continue
+                valid = alive[0]
 
                 card_key = (info.get("tmdb_id"), valid)
                 if info.get("tmdb_id") and card_key in seen_cards:
@@ -423,6 +454,8 @@ def scrape_channel(channel, last_id, known, seen_cards, max_posts=0):
                     "movie_name": movie_name,
                     "post_link": post_link,
                     "valid_card_link": valid,
+                    "alive_links": alive,
+                    "dead_links": dead,
                     "raw_title": raw_title,
                     "tmdb": info,
                 })
