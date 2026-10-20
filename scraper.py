@@ -75,18 +75,25 @@ RES_RE = re.compile(
     r"dvdrip|camrip|x264|x265|h264|h265|hevc)\b",
     re.IGNORECASE,
 )
-# 3+ single characters separated by single spaces: "T h e" -> "The"
-SPACED_RE = re.compile(r"(?<!\S)(?:[A-Za-z@$013] ){2,}[A-Za-z@$013](?!\S)")
-# Leetspeak chars only when touching a letter (keeps "2019", "Apollo 11" safe)
-LEET_RE = re.compile(r"(?<=[A-Za-z])[3@01$]|[3@01$](?=[A-Za-z])")
+
+# Single characters separated by whitespace: "T h e" -> "The"
+SPACED_RE = re.compile(r"\b(?:[A-Za-z0-9]\s){2,}[A-Za-z0-9]\b")
+
+# Leetspeak map and regex (only chars touching a letter: keeps "2019" safe)
 LEET_MAP = {"3": "e", "@": "a", "0": "o", "1": "l", "$": "s"}
-JUNK_RE = re.compile(r"[|•·★☆✦✧►▶◆■□●○▪※~_*#\[\]{}<>=+/\\\"“”]")
+LEET_RE = re.compile(r"(?<=[A-Za-z])[3@01$]|[3@01$](?=[A-Za-z])")
+
+# Decorative symbols to strip (ASCII-safe \u escapes)
+JUNK_RE = re.compile(
+    r'[|\u2022\u00b7\u2605\u2606\u2726\u2727\u25ba\u25b6\u25c6\u25a0\u25a1'
+    r'\u25cf\u25cb\u25aa\u203b~_*#\[\]{}<>=+/\\"\u201c\u201d]'
+)
 
 
 def collapse_spaced_letters(text):
     # Words separated by 2+ spaces keep one space between them.
     parts = re.split(r"\s{2,}", text)
-    parts = [SPACED_RE.sub(lambda m: m.group(0).replace(" ", ""), p) for p in parts]
+    parts = [SPACED_RE.sub(lambda m: re.sub(r"\s", "", m.group(0)), p) for p in parts]
     return " ".join(parts)
 
 
