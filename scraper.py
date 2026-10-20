@@ -29,6 +29,7 @@ FETCH_TIMEOUT = 15
 LINK_TIMEOUT = 3
 LINK_DELAY = 1
 TME_TIMEOUT = 6          # t.me pages are slower than normal sites
+KEEP_NO_LINK_POSTS = True   # title matched TMDB but the card has no link at all: keep it anyway
 REQUIRE_ALL_LINKS = False  # True: every link in the post must work; False: at least one
 
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
@@ -42,6 +43,8 @@ REQUIRE_YEAR = True    # no year in the post -> goes to review.json, not auto-ac
 
 REVIEW = []     # near-misses, written to review.json
 REJECTED = []   # skipped posts, written to rejected.json
+NOLINKS = []    # raw HTML of a few link-less posts, written to nolinks_sample.json
+NOLINKS_FILE = Path("nolinks_sample.json")
 
 
 # ---------------------------------------------------------------- JSON I/O
@@ -296,7 +299,8 @@ def is_bad_link(url):
 
 def extract_links(msg, post_link):
     links = []
-    selector = ".tgme_widget_message_text a[href], a.tgme_widget_message_link_preview[href]"
+    selector = (".tgme_widget_message_text a[href], a.tgme_widget_message_link_preview[href], "
+                ".tgme_widget_message_inline_keyboard a[href]")  # inline buttons
     for a in msg.select(selector):
         href = a["href"].strip()
         if (href.startswith(("http://", "https://")) and href != post_link
@@ -374,7 +378,7 @@ def fetch_page(channel, before_id=None):
         return None
 
 
-def scrape_channel(channel, last_id, known, seen_cards, max_posts=0):
+def scrape_channel(channel, last_id, known, max_posts=0):
     """Returns (new_results, highest_id_seen) or (None, last_id) on fetch failure."""
     results = []
     max_id = last_id
@@ -434,28 +438,27 @@ def scrape_channel(channel, last_id, known, seen_cards, max_posts=0):
                 else:
                     movie_name = info["tmdb_title"]
 
+                # Links inside the card are only used to decide keep/skip.
                 links = extract_links(msg, post_link)
-                if not links:
+                if links:
+                    alive, dead = check_links(links)
+                    if not alive or (REQUIRE_ALL_LINKS and dead):
+                        print(f"[DEADLINK] {movie_name}: {len(dead)} dead, {len(alive)} alive")
+                        continue
+                elif KEEP_NO_LINK_POSTS:
+                    # Title-only card (link is in a comment/button we can't see): keep it.
+                    if len(NOLINKS) < 5:
+                        NOLINKS.append({"post_link": post_link, "html": str(msg)[:3000]})
+                    print(f"[NOLINK] kept: {movie_name}")
+                else:
                     continue
-                alive, dead = check_links(links)
-                if not alive or (REQUIRE_ALL_LINKS and dead):
-                    print(f"[DEADLINK] {movie_name}: {len(dead)} dead, {len(alive)} alive")
-                    continue
-                valid = alive[0]
-
-                card_key = (info.get("tmdb_id"), valid)
-                if info.get("tmdb_id") and card_key in seen_cards:
-                    continue
-                seen_cards.add(card_key)
 
                 results.append({
                     "channel": channel,
+                    "channel_link": f"https://t.me/{channel}",
                     "message_id": message_id,
                     "movie_name": movie_name,
                     "post_link": post_link,
-                    "valid_card_link": valid,
-                    "alive_links": alive,
-                    "dead_links": dead,
                     "raw_title": raw_title,
                     "tmdb": info,
                 })
@@ -505,8 +508,6 @@ def main():
             output = []
         known = {(o.get("channel"), o.get("message_id")) for o in output}
 
-    seen_cards = {((o.get("tmdb") or {}).get("tmdb_id"), o.get("valid_card_link")) for o in output}
-
     if not channels:
         print("No channels to scrape.")
         return 0
@@ -515,7 +516,7 @@ def main():
         print(f"--- {channel} ---")
         last_id = 0 if target_channel else int(state.get(channel, 0))
 
-        results, new_max = scrape_channel(channel, last_id, known, seen_cards, max_posts=target_limit)
+        results, new_max = scrape_channel(channel, last_id, known, max_posts=target_limit)
         if results is None:
             continue
 
@@ -532,6 +533,7 @@ def main():
     save_json(CACHE_FILE, _cache)
     save_json(REVIEW_FILE, REVIEW)
     save_json(REJECTED_FILE, REJECTED)
+    save_json(NOLINKS_FILE, NOLINKS)
     print(f"Done. Output: {len(output)} | review: {len(REVIEW)} | rejected: {len(REJECTED)}")
     return 0
 
