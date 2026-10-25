@@ -1,49 +1,87 @@
-name: Manual Test Run
+name: Test Scrape
 
 on:
   workflow_dispatch:
     inputs:
-      channel_name:
-        description: 'Telegram Public Channel Name (e.g., channelhpmm)'
-        required: true
-        default: 'channelhpmm'
+      channel:
+        description: "Channel username (empty = first channel in channels.txt)"
+        required: false
+        default: ""
       limit:
-        description: 'Number of posts to scrape (e.g., 100)'
-        required: true
-        default: '100'
+        description: "Max new posts to save"
+        required: false
+        default: "20"
+  push:
+    branches: [main]
 
 permissions:
-  contents: write
+  contents: read    # nothing is committed back
 
 jobs:
-  scrape:
+  test:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
+          cache: pip
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install -r requirements.txt
 
-      - name: Run Scraper
+      - name: Pick channel
+        id: pick
         env:
-          TARGET_CHANNEL: ${{ github.event.inputs.channel_name }}
-          TARGET_LIMIT: ${{ github.event.inputs.limit }}
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }} # 👈 ဒီစာကြောင်းလေး အသစ်ထည့်ထားပါတယ်
+          INPUT_CHANNEL: ${{ github.event.inputs.channel }}
+          CHANNELS_KEY: ${{ secrets.CHANNELS_KEY }}
+          HIDE_CHANNELS: ${{ vars.HIDE_CHANNELS }}
+        run: |
+          python3 - <<'PY'
+          import os, sys
+          sys.path.insert(0, ".")
+          from channels_crypto import ChannelsFileError, clean_channel, read_channels
+
+          ch = clean_channel(os.environ.get("INPUT_CHANNEL", ""))
+          if not ch:
+              try:
+                  names = read_channels("channels.txt")      # plain or encrypted
+              except ChannelsFileError as e:
+                  sys.exit("channels.txt: " + str(e))
+              if not names:
+                  sys.exit("channels.txt is empty")
+              ch = names[0]
+          hide = os.environ.get("HIDE_CHANNELS") == "true"
+          if hide:
+              print("::add-mask::" + ch)
+          else:
+              print("Testing channel:", ch)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("channel=" + ch + "\n")
+          PY
+
+      - name: Run scraper
+        env:
+          TARGET_CHANNEL: ${{ steps.pick.outputs.channel }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TARGET_LIMIT: ${{ github.event.inputs.limit || '20' }}
+          JSON_DIR: test_output          # fresh folder, ignores committed state, never committed
+          MAX_RUNTIME_MIN: "50"
+          CHANNEL_BUDGET_MIN: "0"
         run: python scraper.py
 
-      - name: Print Output
-        run: cat output.json
+      - name: Print output.json
+        if: always()
+        run: |
+          echo "===== output.json ====="
+          cat "test_output/${{ steps.pick.outputs.channel }}/output.json" || echo "output.json not found"
 
-      - name: Upload Output Artifact
+      - name: Upload test output
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: scraped-data
-          path: |
-            output.json
-            state.json
+          name: test-output
+          path: test_output/
+          if-no-files-found: warn

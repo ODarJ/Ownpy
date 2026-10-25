@@ -2,16 +2,31 @@ name: Daily Scrape
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # every day at 00:00 UTC
-  workflow_dispatch:       # lets you also run it by hand
+    - cron: "0 1 * * *"   # 01:00 UTC = 07:30 Myanmar time
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Only these channels (comma separated or JSON list). Empty = every channel in channels.txt"
+        required: false
+        default: ""
+      chain:
+        description: "Counter used by automatic follow-up runs (leave 0)"
+        required: false
+        default: "0"
 
 permissions:
-  contents: write          # needed to push the commit
+  contents: write   # commit the results
+  actions: write    # start a follow-up run while some channels are unfinished
+
+concurrency:
+  group: daily-scrape
+  cancel-in-progress: false
 
 jobs:
-  scrape:
+  # 1) read new channel links from the source channel -> channels.txt (encrypted) + seen_links.json
+  sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 15
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -22,28 +37,272 @@ jobs:
           python-version: "3.10"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4 cryptography
 
-      - name: Check TMDB key
+      - name: Sync links from the source channel
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: test -n "$TMDB_API_KEY" || (echo "TMDB_API_KEY secret is missing" && exit 1)
+          SOURCE_CHANNEL: ${{ secrets.SOURCE_CHANNEL }}
+          CHANNELS_KEY: ${{ secrets.CHANNELS_KEY }}
+        run: python sync_links.py
 
-      - name: Run scraper
-        env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: python scraper.py
-
-      - name: Commit results
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in output.json state.json tmdb_cache.json review.json rejected.json nolinks_sample.json; do
-            [ -f "$f" ] && git add "$f"
+          for p in channels.txt seen_links.json; do
+            [ -e "$p" ] && git add "$p"
           done
           if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore: daily scrape $(date -u +'%Y-%m-%d')"
-            git push
+            exit 0
           fi
+          git commit -m "chore: sync new links from Telegram"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep 5
+          done
+          exit 1
+
+  # 2) channels.txt (plain or encrypted) -> batches (at most 40 jobs, however many channels there are)
+  prepare:
+    needs: sync
+    # still runs when `sync` failed (e.g. Telegram hiccup): then it uses the previous channels.txt
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    outputs:
+      batches: ${{ steps.plan.outputs.batches }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}   # latest commit of the branch, i.e. including what `sync` just pushed
+      - name: Install cryptography
+        run: pip install cryptography
+      - id: plan
+        env:
+          ONLY: ${{ github.event.inputs.only }}
+          CHANNELS_KEY: ${{ secrets.CHANNELS_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, math, os, re, sys
+          sys.path.insert(0, ".")
+          from channels_crypto import ChannelsFileError, clean_channel, maybe_decrypt, read_channels
+
+          MAX_JOBS = 40        # matrix size limit is 256; 20 jobs run at the same time on the free plan
+          JOB_MINUTES = 95     # time a job may spend scraping (the scraper stops by itself)
+
+          clean = clean_channel
+          try:
+              all_channels = read_channels("channels.txt")          # decrypts when needed
+              only = maybe_decrypt(os.environ.get("ONLY", "").strip()).strip()
+          except ChannelsFileError as e:
+              sys.exit("ERROR: " + str(e))                          # fail loudly (never print names)
+
+          if only:
+              try:
+                  picked = json.loads(only)
+              except ValueError:
+                  picked = re.split(r"[,\s]+", only)
+              wanted = {clean(str(x)).lower() for x in picked if clean(str(x))}
+              channels = [c for c in all_channels if c.lower() in wanted]
+          else:
+              channels = all_channels
+
+          size = max(1, math.ceil(len(channels) / MAX_JOBS))
+          batches = []
+          for i in range(0, len(channels), size):
+              chunk = channels[i:i + size]
+              batches.append({
+                  "id": len(batches),
+                  "channels": ",".join(chunk),
+                  "budget": max(10, JOB_MINUTES // len(chunk)),   # minutes per channel
+              })
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("batches=" + json.dumps(batches) + "\n")
+          print(len(channels), "channels ->", len(batches), "jobs")
+          PY
+
+  # 3) one job per batch (parallel)
+  scrape:
+    name: Batch ${{ matrix.batch.id }}
+    needs: prepare
+    if: ${{ needs.prepare.outputs.batches != '[]' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        batch: ${{ fromJson(needs.prepare.outputs.batches) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # optional: set the repo variable HIDE_CHANNELS=true to hide channel names in the logs
+      - name: Mask channel names in logs
+        if: ${{ vars.HIDE_CHANNELS == 'true' }}
+        env:
+          CHANNELS: ${{ matrix.batch.channels }}
+        run: |
+          for ch in ${CHANNELS//,/ }; do echo "::add-mask::$ch"; done
+
+      - name: Run scraper
+        env:
+          TARGET_CHANNEL: ${{ matrix.batch.channels }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TARGET_LIMIT: ${{ vars.TARGET_LIMIT || '300' }}
+          MAX_RUNTIME_MIN: "100"      # stops by itself before the 120 min job timeout
+          CHANNEL_BUDGET_MIN: ${{ matrix.batch.budget }}
+        run: python scraper.py
+
+      # upload only THIS job's channel folders + the NEW cache entries (not the whole caches)
+      - name: Collect this job's results
+        if: always()
+        env:
+          CHANNELS: ${{ matrix.batch.channels }}
+        run: |
+          python3 - <<'PY'
+          import json, os, shutil, subprocess
+          from pathlib import Path
+
+          out = Path("_upload")
+          (out / "json_data").mkdir(parents=True, exist_ok=True)
+          for ch in os.environ["CHANNELS"].split(","):
+              src = Path("json_data") / ch
+              if src.is_dir():
+                  shutil.copytree(src, out / "json_data" / ch, dirs_exist_ok=True)
+
+          def parse(text):
+              try:
+                  d = json.loads(text)
+                  return d if isinstance(d, dict) else {}
+              except Exception:
+                  return {}
+
+          for name in ("tmdb_cache.json", "mm_cache.json"):
+              now = parse(Path(name).read_text(encoding="utf-8")) if Path(name).exists() else {}
+              old = parse(subprocess.run(["git", "show", "HEAD:" + name],
+                                         capture_output=True, text=True).stdout)
+              delta = {k: v for k, v in now.items() if k not in old or old[k] != v}
+              (out / name).write_text(json.dumps(delta, ensure_ascii=False), encoding="utf-8")
+              print(name, "new entries:", len(delta))
+          PY
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-${{ matrix.batch.id }}
+          path: _upload
+          if-no-files-found: warn
+          retention-days: 1
+
+  # 4) merge everything and commit ONCE (no git conflicts between parallel jobs)
+  commit:
+    needs: [prepare, scrape]
+    if: ${{ always() && needs.prepare.result == 'success' && needs.prepare.outputs.batches != '[]' }}
+    runs-on: ubuntu-latest
+    outputs:
+      unfinished: ${{ steps.merge.outputs.unfinished }}   # JSON list, encrypted when CHANNELS_KEY is set
+      has_unfinished: ${{ steps.merge.outputs.has_unfinished }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: scrape-*
+          path: _incoming
+
+      - name: Install cryptography
+        run: pip install cryptography
+
+      - name: Merge results
+        id: merge
+        env:
+          CHANNELS_KEY: ${{ secrets.CHANNELS_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, shutil, sys
+          from pathlib import Path
+          sys.path.insert(0, ".")
+          from channels_crypto import encrypt_text
+
+          def load(p):
+              try:
+                  return json.loads(Path(p).read_text(encoding="utf-8"))
+              except Exception:
+                  return {}
+
+          incoming = Path("_incoming")
+
+          # shared caches: repo copy + the new entries of every job
+          for name in ("tmdb_cache.json", "mm_cache.json"):
+              merged = load(name)
+              if not isinstance(merged, dict):
+                  merged = {}
+              for f in sorted(incoming.glob("*/" + name)):
+                  d = load(f)
+                  if isinstance(d, dict):
+                      merged.update(d)
+              Path(name).write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          # per-channel folders: copy over the repo copy
+          for ch_dir in incoming.glob("*/json_data/*"):
+              if ch_dir.is_dir():
+                  dest = Path("json_data") / ch_dir.name
+                  dest.mkdir(parents=True, exist_ok=True)
+                  shutil.copytree(ch_dir, dest, dirs_exist_ok=True)
+
+          # channels that still have a saved resume point
+          unfinished = []
+          for st in sorted(Path("json_data").glob("*/state.json")):
+              s = load(st)
+              if isinstance(s, dict) and s.get("pending"):
+                  unfinished.append(st.parent.name)
+          # with a key the list is passed on encrypted, so channel names never show up in
+          # workflow inputs or logs
+          payload = json.dumps(unfinished)
+          if os.environ.get("CHANNELS_KEY", "").strip():
+              payload = encrypt_text(payload)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("unfinished=" + payload + "\n")
+              f.write("has_unfinished=" + ("true" if unfinished else "false") + "\n")
+          print("unfinished channels:", len(unfinished))
+          PY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for p in json_data tmdb_cache.json mm_cache.json; do
+            [ -e "$p" ] && git add "$p"
+          done
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: scrape $(date -u +'%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep 5
+          done
+          exit 1
+
+  # 5) some channels are not finished: run again for ONLY those (max 6 times in a row)
+  follow-up:
+    needs: commit
+    if: ${{ needs.commit.outputs.has_unfinished == 'true' && fromJson(github.event.inputs.chain || '0') < 6 }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start the next run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NEXT: ${{ fromJson(github.event.inputs.chain || '0') + 1 }}
+          UNFINISHED: ${{ needs.commit.outputs.unfinished }}
+        run: gh workflow run daily_scrape.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" -f chain="$NEXT" -f only="$UNFINISHED"
