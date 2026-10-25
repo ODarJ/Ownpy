@@ -1,5 +1,24 @@
 #!/usr/bin/env python3
-"""Telegram public-channel scraper (English title -> TMDB match -> link check)."""
+"""Telegram public-channel scraper for GitHub Actions (Matrix: one job per channel).
+
+Flow per post: English title -> TMDB match -> link check -> TMDB details (backdrop, trailer)
+               -> Burmese overview -> json_data/<channel>/output.json
+
+Environment variables
+  TARGET_CHANNEL       channel username(s) for this job: "a" or "a,b,c" (default "default" = every
+                       channel in channels.txt)
+  TARGET_LIMIT         max NEW posts saved per run (default 100, 0 = unlimited); the next run resumes
+  MAX_RUNTIME_MIN      whole-run time budget in minutes (default 100)
+  CHANNEL_BUDGET_MIN   per-channel time budget in minutes (default 30, 0 = no limit)
+  JSON_DIR             output folder (default "json_data")
+  TMDB_API_KEY         TMDB v3 API key
+  CHANNELS_KEY         Fernet key to decrypt channels.txt (only needed in "default" mode and when
+                       the file is encrypted; matrix jobs get their channels via TARGET_CHANNEL)
+Per-channel files (created automatically):
+  json_data/<channel>/{output,state,review,rejected,nolinks}.json
+Shared files (repo root, merged on save):
+  tmdb_cache.json, mm_cache.json
+"""
 
 import json
 import os
@@ -12,12 +31,44 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+from channels_crypto import ChannelsFileError, read_channels as read_channels_file
+
+
+# ------------------------------------------------------------------ settings
+def env_number(name, default, cast=int):
+    """Read a number from the environment; empty/invalid values fall back to the default."""
+    try:
+        return cast(os.getenv(name, "").strip() or default)
+    except ValueError:
+        return default
+
+
+def normalize_channel(value):
+    name = re.sub(r"^(?:https?://)?(?:www\.)?t\.me/(?:s/)?", "", (value or "").strip())
+    return name.lstrip("@").split("/")[0].split("?")[0]
+
+
+def parse_targets(raw):
+    out, seen = [], set()
+    for part in re.split(r"[,\s]+", raw or ""):
+        name = normalize_channel(part)
+        if name and name.lower() not in seen:
+            seen.add(name.lower())
+            out.append(name)
+    return out or ["default"]
+
+
+TARGET_CHANNELS = parse_targets(os.getenv("TARGET_CHANNEL", "default"))
+TARGET_CHANNEL = ",".join(TARGET_CHANNELS)
+TARGET_LIMIT = env_number("TARGET_LIMIT", 100)
+MAX_RUNTIME_MIN = env_number("MAX_RUNTIME_MIN", 100, float)
+CHANNEL_BUDGET_MIN = env_number("CHANNEL_BUDGET_MIN", 30, float)
+RUN_DEADLINE = time.time() + MAX_RUNTIME_MIN * 60
+
+JSON_DIR = Path(os.getenv("JSON_DIR", "json_data"))
 CHANNELS_FILE = Path("channels.txt")
-STATE_FILE = Path("state.json")
-OUTPUT_FILE = Path("output.json")
-CACHE_FILE = Path("tmdb_cache.json")
-REVIEW_FILE = Path("review.json")
-REJECTED_FILE = Path("rejected.json")
+CACHE_FILE = Path("tmdb_cache.json")      # shared, repo root
+MM_CACHE_FILE = Path("mm_cache.json")     # shared, repo root
 
 HEADERS = {
     "User-Agent": (
@@ -27,24 +78,23 @@ HEADERS = {
 }
 FETCH_TIMEOUT = 15
 LINK_TIMEOUT = 3
+TME_TIMEOUT = 6            # t.me pages are slower than normal sites
 LINK_DELAY = 1
-TME_TIMEOUT = 6          # t.me pages are slower than normal sites
-KEEP_NO_LINK_POSTS = True   # title matched TMDB but the card has no link at all: keep it anyway
-REQUIRE_ALL_LINKS = False  # True: every link in the post must work; False: at least one
+KEEP_NO_LINK_POSTS = True  # no links in the card (links in comments/buttons): keep the post
 
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 TMDB_TIMEOUT = 10
 TMDB_SEARCH_URL = "https://api.themoviedb.org/3/search/multi"
-MATCH_OK = 0.85        # similarity needed to accept
-MATCH_OK_SHORT = 0.90  # stricter for short titles (<= 6 chars)
-MATCH_REVIEW = 0.70    # between this and MATCH_OK -> review.json
-MAX_CANDIDATES = 4     # English title candidates tried per post
-REQUIRE_YEAR = True    # no year in the post -> goes to review.json, not auto-accepted
+TMDB_DETAILS_URL = "https://api.themoviedb.org/3/{kind}/{tid}"
+BACKDROP_BASE = "https://image.tmdb.org/t/p/w1280"
+MATCH_OK = 0.85            # similarity needed to accept
+MATCH_OK_SHORT = 0.90      # stricter for short titles (<= 6 chars)
+MATCH_REVIEW = 0.70        # between this and MATCH_OK -> review.json
+MAX_CANDIDATES = 4         # English title candidates tried per post
+REQUIRE_YEAR = True        # no year in the post -> review.json, never auto-accepted
 
-REVIEW = []     # near-misses, written to review.json
-REJECTED = []   # skipped posts, written to rejected.json
-NOLINKS = []    # raw HTML of a few link-less posts, written to nolinks_sample.json
-NOLINKS_FILE = Path("nolinks_sample.json")
+MM_DELAY = 0.6             # seconds between translation calls
+MM_MAX_FAILS = 5           # consecutive failures before translation is switched off for this run
 
 
 # ---------------------------------------------------------------- JSON I/O
@@ -61,32 +111,96 @@ def load_json(path, default):
 
 def save_json(path, data):
     """Atomic write so a crash never leaves a half-written file."""
-    tmp = f"{path}.tmp"
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_name(path.name + ".tmp")
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     os.replace(tmp, path)
 
 
-_cache = load_json(CACHE_FILE, {})
+def save_shared_json(path, data):
+    """Shared cache: merge with what is on disk (ours wins) and never crash on failure."""
+    try:
+        merged = load_json(path, {})
+        if not isinstance(merged, dict):
+            merged = {}
+        merged.update(data)
+        save_json(path, merged)
+    except Exception as e:
+        print(f"[WARN] Could not save shared file {path}: {e}")
+
+
+def load_list(path):
+    data = load_json(path, [])
+    return data if isinstance(data, list) else []
+
+
+_cache = load_json(CACHE_FILE, {})        # TMDB search + details cache
 if not isinstance(_cache, dict):
     _cache = {}
+_mm_cache = load_json(MM_CACHE_FILE, {})  # tmdb_id -> Burmese overview
+if not isinstance(_mm_cache, dict):
+    _mm_cache = {}
+
+
+class ChannelData:
+    """Every file of one channel lives in json_data/<channel>/ (created automatically)."""
+
+    def __init__(self, channel):
+        self.channel = channel
+        self.dir = JSON_DIR / channel
+        self.dir.mkdir(parents=True, exist_ok=True)
+        self.state_file = self.dir / "state.json"
+        self.output_file = self.dir / "output.json"
+        self.review_file = self.dir / "review.json"
+        self.rejected_file = self.dir / "rejected.json"
+        self.nolinks_file = self.dir / "nolinks.json"
+
+        st = load_json(self.state_file, {})
+        st = st if isinstance(st, dict) else {}
+        try:
+            self.last_id = int(st.get("last_id") or 0)
+        except (TypeError, ValueError):
+            self.last_id = 0
+        self.pending = st.get("pending")
+
+        self.output = load_list(self.output_file)
+        self.review = load_list(self.review_file)      # near-misses and posts without a year
+        self.rejected = load_list(self.rejected_file)  # skipped posts (capped)
+        self.nolinks = load_list(self.nolinks_file)    # HTML samples of link-less posts
+        self.known = {o.get("message_id") for o in self.output}
+        self.seen_posts = {e.get("post_link") for e in self.review + self.rejected}
+
+    def add_unique(self, bucket, entry, cap):
+        if entry["post_link"] in self.seen_posts or len(bucket) >= cap:
+            return
+        self.seen_posts.add(entry["post_link"])
+        bucket.append(entry)
+
+    def save_state(self):
+        save_json(self.state_file, {"last_id": self.last_id, "pending": self.pending})
+
+    def save_files(self):
+        """Called after every page: output + side files + shared caches."""
+        save_json(self.output_file, self.output)
+        save_json(self.review_file, self.review)
+        save_json(self.rejected_file, self.rejected)
+        save_json(self.nolinks_file, self.nolinks)
+        save_shared_json(CACHE_FILE, _cache)
+        save_shared_json(MM_CACHE_FILE, _mm_cache)
 
 
 def read_channels():
+    """channels.txt may be encrypted (needs CHANNELS_KEY) or plain text."""
     if not CHANNELS_FILE.exists():
         print("[ERROR] channels.txt not found")
         return []
-    channels, seen = [], set()
-    for line in CHANNELS_FILE.read_text(encoding="utf-8").splitlines():
-        name = line.strip()
-        if not name or name.startswith("#"):
-            continue
-        name = re.sub(r"^(?:https?://)?(?:www\.)?t\.me/(?:s/)?", "", name)
-        name = name.lstrip("@").split("/")[0].split("?")[0]
-        if name and name.lower() not in seen:
-            seen.add(name.lower())
-            channels.append(name)
-    return channels
+    try:
+        return read_channels_file(CHANNELS_FILE)
+    except ChannelsFileError as e:
+        print(f"[ERROR] channels.txt: {e}")
+        sys.exit(1)  # fail loudly instead of silently scraping nothing
 
 
 # ----------------------------------------------------------- Normalization
@@ -268,6 +382,79 @@ def resolve_title(candidates):
     return "none", None, first_title
 
 
+def fetch_details(info):
+    """Backdrop + YouTube trailer via /movie/{id}?append_to_response=videos (TV: /tv/{id})."""
+    tid = info.get("tmdb_id")
+    if not tid or not TMDB_API_KEY:
+        return {}
+    kind = "tv" if info.get("tmdb_type") == "tv" else "movie"
+    key = f"details:{kind}:{tid}"
+    if key in _cache:
+        return _cache[key]
+    try:
+        r = requests.get(
+            TMDB_DETAILS_URL.format(kind=kind, tid=tid),
+            params={"api_key": TMDB_API_KEY, "append_to_response": "videos"},
+            timeout=TMDB_TIMEOUT,
+        )
+        time.sleep(0.25)
+        r.raise_for_status()
+        data = r.json()
+    except (requests.RequestException, ValueError) as e:
+        print(f"[WARN] TMDB details failed for {kind}/{tid}: {e}")
+        return {}
+
+    videos = [v for v in (data.get("videos") or {}).get("results") or []
+              if v.get("site") == "YouTube" and v.get("key")]
+    pick = (next((v for v in videos if v.get("type") == "Trailer" and v.get("official")), None)
+            or next((v for v in videos if v.get("type") == "Trailer"), None)
+            or next((v for v in videos if v.get("type") == "Teaser"), None))
+    details = {
+        "backdrop_path": data.get("backdrop_path") or "",
+        "trailer": f"https://www.youtube.com/watch?v={pick['key']}" if pick else "",
+    }
+    _cache[key] = details
+    return details
+
+
+# ------------------------------------------------ Burmese translation (inline)
+_translator = None
+_mm_fails = 0  # consecutive failures
+
+
+def translate_mm(info):
+    """English TMDB overview -> Burmese (cached per tmdb_id). Returns "" on failure."""
+    global _translator, _mm_fails
+    overview = (info.get("overview") or "").strip()
+    tid = str(info.get("tmdb_id") or "")
+    if not overview or not tid:
+        return ""
+    if tid in _mm_cache:
+        return _mm_cache[tid]
+    if _mm_fails >= MM_MAX_FAILS:
+        return ""  # Google looks blocked: stop trying for the rest of this run
+    try:
+        if _translator is None:
+            from deep_translator import GoogleTranslator
+            _translator = GoogleTranslator(source="en", target="my")
+        mm = (_translator.translate(overview[:4500]) or "").strip()
+        time.sleep(MM_DELAY)
+    except ImportError:
+        print("[WARN] deep-translator not installed: skipping Burmese translation")
+        _mm_fails = MM_MAX_FAILS
+        return ""
+    except Exception as e:
+        _mm_fails += 1
+        print(f"[WARN] translate failed for {tid} ({_mm_fails}/{MM_MAX_FAILS}): {e}")
+        time.sleep(MM_DELAY)
+        return ""
+    if not mm:
+        return ""
+    _mm_fails = 0
+    _mm_cache[tid] = mm
+    return mm
+
+
 # --------------------------------------------------------------- Extraction
 def extract_sources(msg):
     """Returns (raw_title, [text sources]) from preview title + message text."""
@@ -365,56 +552,101 @@ def check_links(links):
 
 # ----------------------------------------------------------------- Scraping
 def fetch_page(channel, before_id=None):
-    """Fetch t.me/s/ page. If before_id is provided, fetch older posts."""
+    """Fetch t.me/s/ page (posts OLDER than before_id). Retries on 429/5xx with backoff."""
     url = f"https://t.me/s/{channel}"
     if before_id:
         url += f"?before={before_id}"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=FETCH_TIMEOUT)
-        r.raise_for_status()
-        return r.text
-    except requests.RequestException as e:
-        print(f"[ERROR] {channel}: fetch failed: {e}")
-        return None
+    for attempt in range(3):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=FETCH_TIMEOUT)
+            if r.status_code in (429, 500, 502, 503, 504) and attempt < 2:
+                try:
+                    wait = int(r.headers.get("Retry-After", ""))
+                except ValueError:
+                    wait = 5 * (attempt + 1)
+                wait = max(1, min(wait, 60))
+                print(f"[RETRY] {channel}: HTTP {r.status_code}, waiting {wait}s")
+                time.sleep(wait)
+                continue
+            r.raise_for_status()
+            return r.text
+        except requests.RequestException as e:
+            if attempt < 2:
+                time.sleep(3 * (attempt + 1))
+                continue
+            print(f"[ERROR] {channel}: fetch failed: {e}")
+    return None
 
 
-def scrape_channel(channel, last_id, known, max_posts=0):
-    """Returns (new_results, highest_id_seen) or (None, last_id) on fetch failure."""
-    results = []
-    max_id = last_id
-    before_id = None
+def scrape_channel(data, max_posts=0):
+    """Scrape one channel, newest -> oldest, resumable.
+
+    state.json = {"last_id": N, "pending": None | {"top_id": T, "before": B}}
+      last_id  everything up to this id was fully processed by earlier completed passes
+      pending  an unfinished pass: posts newer than `before` (up to top_id) are done;
+               the next run continues from `before` downwards until it reaches last_id
+
+    Returns "done" (pass complete, last_id advanced), "partial" (stopped early, resumes next
+    run) or "fail" (first page could not be fetched).
+    """
+    channel = data.channel
+    last_id, pending = data.last_id, data.pending
+    before_id = pending["before"] if pending else None
+    top_id = pending["top_id"] if pending else None
     saved_count = 0
 
+    chan_deadline = float("inf")
+    if CHANNEL_BUDGET_MIN > 0:
+        chan_deadline = time.time() + CHANNEL_BUDGET_MIN * 60
+
+    def time_up():
+        return time.time() >= min(RUN_DEADLINE, chan_deadline)
+
+    def remember(before):
+        data.pending = {"top_id": top_id, "before": before}
+        data.save_state()
+
+    if pending:
+        print(f"[RESUME] {channel}: continuing below id {before_id} (until {last_id})")
+
     while True:
+        if time_up():
+            print(f"[TIME] {channel}: time budget reached, progress saved")
+            if top_id is not None:
+                remember(before_id)
+            return "partial"
+
         html = fetch_page(channel, before_id)
         if html is None:
-            if before_id is None:
-                return None, last_id
-            break
+            if top_id is None:
+                return "fail"
+            remember(before_id)
+            return "partial"
 
         soup = BeautifulSoup(html, "html.parser")
-        messages = soup.select("div.tgme_widget_message[data-post]")
-        if not messages:
-            break
-
-        oldest_id_on_page = None
-
-        for msg in messages:
+        parsed = []
+        for msg in soup.select("div.tgme_widget_message[data-post]"):
             try:
-                data_post = msg["data-post"]
-                message_id = int(data_post.rsplit("/", 1)[-1])
+                parsed.append((int(msg["data-post"].rsplit("/", 1)[-1]), msg))
+            except (KeyError, ValueError):
+                continue
+        if not parsed:
+            break  # start of the channel reached
 
-                if oldest_id_on_page is None or message_id < oldest_id_on_page:
-                    oldest_id_on_page = message_id
+        parsed.sort(key=lambda x: x[0])  # oldest -> newest
+        page_min, page_max = parsed[0][0], parsed[-1][0]
+        if top_id is None:
+            top_id = max(last_id, page_max)  # first page of a fresh pass
 
-                if message_id <= last_id:
-                    continue
-
-                max_id = max(max_id, message_id)
-                if (channel, message_id) in known:
-                    continue
-
-                post_link = f"https://t.me/{data_post}"
+        interrupted = False
+        for message_id, msg in parsed:
+            if message_id <= last_id or message_id in data.known:
+                continue
+            if time_up() or (max_posts > 0 and saved_count >= max_posts):
+                interrupted = True
+                break
+            try:
+                post_link = f"https://t.me/{msg['data-post']}"
                 raw_title, texts = extract_sources(msg)
                 candidates = english_candidates(*texts)
                 if not candidates:
@@ -425,116 +657,117 @@ def scrape_channel(channel, last_id, known, max_posts=0):
                 if status == "error":
                     info = {}  # TMDB outage: keep the post without TMDB data
                 elif status == "review":
-                    REVIEW.append({"post_link": post_link, "raw_title": raw_title,
-                                   "query": movie_name, "tmdb": info})
+                    data.add_unique(data.review, {"post_link": post_link, "raw_title": raw_title,
+                                                  "query": movie_name, "tmdb": info}, 5000)
                     print(f"[REVIEW] {movie_name} ~ {info['tmdb_title']} ({info['score']})")
                     continue
                 elif status == "none":
-                    if len(REJECTED) < 500:
-                        REJECTED.append({"post_link": post_link, "raw_title": raw_title,
-                                         "candidates": candidates})
+                    data.add_unique(data.rejected, {"post_link": post_link, "raw_title": raw_title,
+                                                    "candidates": candidates}, 500)
                     print(f"[SKIP] Not on TMDB: {candidates[0]}")
                     continue
                 else:
                     movie_name = info["tmdb_title"]
 
-                # Links inside the card are only used to decide keep/skip.
+                # Links are only used to decide keep/skip (not stored): one alive link is enough
                 links = extract_links(msg, post_link)
                 if links:
                     alive, dead = check_links(links)
-                    if not alive or (REQUIRE_ALL_LINKS and dead):
-                        print(f"[DEADLINK] {movie_name}: {len(dead)} dead, {len(alive)} alive")
+                    if not alive:
+                        print(f"[DEADLINK] {movie_name}: {len(dead)} dead links")
                         continue
                 elif KEEP_NO_LINK_POSTS:
-                    # Title-only card (link is in a comment/button we can't see): keep it.
-                    if len(NOLINKS) < 5:
-                        NOLINKS.append({"post_link": post_link, "html": str(msg)[:3000]})
+                    if len(data.nolinks) < 5:
+                        data.nolinks.append({"post_link": post_link, "html": str(msg)[:3000]})
                     print(f"[NOLINK] kept: {movie_name}")
                 else:
                     continue
 
-                results.append({
+                # TMDB details (backdrop + trailer) and Burmese overview
+                # (info is copied so the TMDB search cache stays untouched)
+                tmdb_out = dict(info)
+                details = fetch_details(info)
+                backdrop = details.get("backdrop_path") or info.get("backdrop") or ""
+                tmdb_out["backdrop"] = f"{BACKDROP_BASE}{backdrop}" if backdrop else ""
+                tmdb_out["trailer"] = details.get("trailer", "")
+                tmdb_out["overview_mm"] = translate_mm(info)
+
+                data.output.append({
                     "channel": channel,
                     "channel_link": f"https://t.me/{channel}",
                     "message_id": message_id,
                     "movie_name": movie_name,
                     "post_link": post_link,
                     "raw_title": raw_title,
-                    "tmdb": info,
+                    "tmdb": tmdb_out,
                 })
-
-                known.add((channel, message_id))
+                data.known.add(message_id)
                 saved_count += 1
                 print(f"[OK] {channel}/{message_id}: {movie_name}")
-
-                if max_posts > 0 and saved_count >= max_posts:
-                    break
-
             except Exception as e:
                 print(f"[WARN] {channel}: skipped a message: {e}")
 
-        if max_posts > 0 and saved_count >= max_posts:
-            break
-        if oldest_id_on_page is None:
-            break
-        if oldest_id_on_page <= last_id:
-            break  # reached posts processed in a previous run
+        data.save_files()  # after every page
 
-        before_id = oldest_id_on_page
+        if interrupted:
+            why = "limit reached" if max_posts > 0 and saved_count >= max_posts else "time budget reached"
+            print(f"[STOP] {channel}: {why}, will resume next run")
+            remember(page_max + 1)  # redo this page next time (saved posts are skipped quickly)
+            return "partial"
+
+        if page_min <= last_id:
+            break  # reached the part processed in earlier runs
+
+        before_id = page_min
+        remember(before_id)  # crash-safe: state always points at the next page
         time.sleep(1)
 
-    return results, max_id
+    data.last_id = top_id if top_id is not None else last_id
+    data.pending = None
+    data.save_state()
+    return "done"
+
+
+def write_github_output(done):
+    """Lets a workflow read steps.<id>.outputs.done."""
+    path = os.getenv("GITHUB_OUTPUT")
+    if not path:
+        return
+    try:
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(f"done={'true' if done else 'false'}\n")
+    except OSError as e:
+        print(f"[WARN] Could not write GITHUB_OUTPUT: {e}")
 
 
 def main():
-    channels = read_channels()
-
-    target_channel = os.getenv("TARGET_CHANNEL")
-    target_limit_str = os.getenv("TARGET_LIMIT")
-    target_limit = int(target_limit_str) if target_limit_str and target_limit_str.isdigit() else 0
-
-    if target_channel:
-        print(f"[INFO] Manual run. Channel: {target_channel} (Limit: {target_limit})")
-        name = re.sub(r"^(?:https?://)?(?:www\.)?t\.me/(?:s/)?", "", target_channel)
-        name = name.lstrip("@").split("/")[0].split("?")[0]
-        channels = [name]
-        state, output, known = {}, [], set()
-    else:
-        state = load_json(STATE_FILE, {})
-        output = load_json(OUTPUT_FILE, [])
-        if not isinstance(state, dict):
-            state = {}
-        if not isinstance(output, list):
-            output = []
-        known = {(o.get("channel"), o.get("message_id")) for o in output}
+    channels = read_channels() if TARGET_CHANNELS == ["default"] else TARGET_CHANNELS
+    print(f"[INFO] job={TARGET_CHANNEL} | limit={TARGET_LIMIT} | budget={MAX_RUNTIME_MIN}m/"
+          f"{CHANNEL_BUDGET_MIN}m per channel | folder={JSON_DIR}")
 
     if not channels:
         print("No channels to scrape.")
+        write_github_output(True)
         return 0
 
+    unfinished, total = [], 0
     for channel in channels:
-        print(f"--- {channel} ---")
-        last_id = 0 if target_channel else int(state.get(channel, 0))
-
-        results, new_max = scrape_channel(channel, last_id, known, max_posts=target_limit)
-        if results is None:
+        if time.time() >= RUN_DEADLINE:
+            unfinished.append(channel)
             continue
-
-        output.extend(results)
-        if not target_channel:
-            state[channel] = new_max
-            save_json(STATE_FILE, state)
-
-        save_json(OUTPUT_FILE, output)
-        save_json(CACHE_FILE, _cache)
+        print(f"--- {channel} ---")
+        data = ChannelData(channel)
+        status = scrape_channel(data, max_posts=TARGET_LIMIT)
+        data.save_files()
+        total += len(data.output)
+        if status != "done":
+            unfinished.append(channel)
         time.sleep(1)
 
-    save_json(OUTPUT_FILE, output)
-    save_json(CACHE_FILE, _cache)
-    save_json(REVIEW_FILE, REVIEW)
-    save_json(REJECTED_FILE, REJECTED)
-    save_json(NOLINKS_FILE, NOLINKS)
-    print(f"Done. Output: {len(output)} | review: {len(REVIEW)} | rejected: {len(REJECTED)}")
+    print(f"Done. Posts in output: {total}")
+    if unfinished:
+        print(f"[INFO] Unfinished (will resume next run): {', '.join(unfinished)}")
+    write_github_output(not unfinished)
     return 0
 
 
