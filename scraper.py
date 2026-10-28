@@ -2,7 +2,8 @@
 """Telegram public-channel scraper for GitHub Actions (Matrix: one job per channel).
 
 Flow per post: English title -> TMDB match -> link check -> TMDB details (backdrop, trailer)
-               -> Burmese overview -> json_data/<channel>/output.json
+               -> Burmese overview -> Turso table `movies` (or json_data/<channel>/output.json
+               when TURSO_DATABASE_URL / TURSO_AUTH_TOKEN are not set)
 
 Environment variables
   TARGET_CHANNEL       channel username(s) for this job: "a" or "a,b,c" (default "default" = every
@@ -10,12 +11,14 @@ Environment variables
   TARGET_LIMIT         max NEW posts saved per run (default 100, 0 = unlimited); the next run resumes
   MAX_RUNTIME_MIN      whole-run time budget in minutes (default 100)
   CHANNEL_BUDGET_MIN   per-channel time budget in minutes (default 30, 0 = no limit)
-  JSON_DIR             output folder (default "json_data")
+  JSON_DIR             folder for state/review/rejected files (default "json_data")
+  TURSO_DATABASE_URL   libsql://<db>-<org>.turso.io   } when both are set the movies are saved in
+  TURSO_AUTH_TOKEN     database token (write access) } Turso instead of output.json
   TMDB_API_KEY         TMDB v3 API key
   CHANNELS_KEY         Fernet key to decrypt channels.txt (only needed in "default" mode and when
                        the file is encrypted; matrix jobs get their channels via TARGET_CHANNEL)
 Per-channel files (created automatically):
-  json_data/<channel>/{output,state,review,rejected,nolinks}.json
+  json_data/<channel>/{state,review,rejected,nolinks}.json   (+ output.json without Turso)
 Shared files (repo root, merged on save):
   tmdb_cache.json, mm_cache.json
 """
@@ -69,6 +72,9 @@ JSON_DIR = Path(os.getenv("JSON_DIR", "json_data"))
 CHANNELS_FILE = Path("channels.txt")
 CACHE_FILE = Path("tmdb_cache.json")      # shared, repo root
 MM_CACHE_FILE = Path("mm_cache.json")     # shared, repo root
+
+TURSO_DATABASE_URL = os.getenv("TURSO_DATABASE_URL", "").strip()
+TURSO_AUTH_TOKEN = os.getenv("TURSO_AUTH_TOKEN", "").strip()
 
 HEADERS = {
     "User-Agent": (
@@ -136,6 +142,75 @@ def load_list(path):
     return data if isinstance(data, list) else []
 
 
+# ------------------------------------------------------------------- Turso
+CREATE_TABLE_SQL = """
+CREATE TABLE IF NOT EXISTS movies (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    channel TEXT,
+    message_id INTEGER,
+    movie_name TEXT,
+    post_link TEXT,
+    tmdb_id INTEGER,
+    tmdb_data TEXT, -- Store the whole TMDB dictionary as a JSON string
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE(channel, message_id) -- Avoid duplicates
+)
+"""
+# same post again (e.g. a run was repeated) -> update the row instead of failing or duplicating
+UPSERT_SQL = """
+INSERT INTO movies (channel, message_id, movie_name, post_link, tmdb_id, tmdb_data)
+VALUES (?, ?, ?, ?, ?, ?)
+ON CONFLICT(channel, message_id) DO UPDATE SET
+    movie_name = excluded.movie_name,
+    post_link  = excluded.post_link,
+    tmdb_id    = excluded.tmdb_id,
+    tmdb_data  = excluded.tmdb_data
+"""
+
+
+def connect_turso():
+    """Global Turso client, created only when both variables are set (else local JSON mode)."""
+    if not (TURSO_DATABASE_URL and TURSO_AUTH_TOKEN):
+        if TURSO_DATABASE_URL or TURSO_AUTH_TOKEN:
+            print("[WARN] Only one of TURSO_DATABASE_URL / TURSO_AUTH_TOKEN is set: using local JSON files")
+        return None
+    try:
+        import libsql_client
+        url = TURSO_DATABASE_URL
+        if url.startswith("libsql://"):
+            url = "https://" + url[len("libsql://"):]  # HTTP transport: simpler and sturdier in CI
+        return libsql_client.create_client_sync(url, auth_token=TURSO_AUTH_TOKEN)
+    except ImportError:
+        print("[WARN] libsql-client is not installed (pip install libsql-client): using local JSON files")
+    except Exception as e:  # never print the URL or the token
+        print(f"[WARN] Could not create the Turso client ({type(e).__name__}): using local JSON files")
+    return None
+
+
+db = connect_turso()
+
+
+def db_execute(sql, args=()):
+    """One statement, 3 attempts with a growing pause."""
+    last = None
+    for attempt in range(3):
+        try:
+            return db.execute(sql, list(args))
+        except Exception as e:
+            last = e
+            time.sleep(2 * (attempt + 1))
+    raise last
+
+
+def init_db():
+    db_execute(CREATE_TABLE_SQL)
+
+
+def load_known_ids(channel):
+    rs = db_execute("SELECT message_id FROM movies WHERE channel = ?", [channel])
+    return {int(row[0]) for row in rs.rows if row[0] is not None}
+
+
 _cache = load_json(CACHE_FILE, {})        # TMDB search + details cache
 if not isinstance(_cache, dict):
     _cache = {}
@@ -165,11 +240,16 @@ class ChannelData:
             self.last_id = 0
         self.pending = st.get("pending")
 
-        self.output = load_list(self.output_file)
+        self.output = [] if db else load_list(self.output_file)  # output.json only without Turso
+        self.pending_rows = []   # movies waiting to be written to Turso (flushed after every page)
+        self.saved = 0           # movies added in this run
         self.review = load_list(self.review_file)      # near-misses and posts without a year
         self.rejected = load_list(self.rejected_file)  # skipped posts (capped)
         self.nolinks = load_list(self.nolinks_file)    # HTML samples of link-less posts
-        self.known = {o.get("message_id") for o in self.output}
+        if db:
+            self.known = load_known_ids(channel)   # what Turso already has for this channel
+        else:
+            self.known = {o.get("message_id") for o in self.output}
         self.seen_posts = {e.get("post_link") for e in self.review + self.rejected}
 
     def add_unique(self, bucket, entry, cap):
@@ -178,12 +258,37 @@ class ChannelData:
         self.seen_posts.add(entry["post_link"])
         bucket.append(entry)
 
+    def add_movie(self, record):
+        if db:
+            self.pending_rows.append(record)
+        else:
+            self.output.append(record)
+        self.known.add(record["message_id"])
+        self.saved += 1
+
+    def flush(self):
+        """Write the waiting movies to Turso. False = failed (the caller must not advance the state)."""
+        if not db or not self.pending_rows:
+            return True
+        try:
+            for r in self.pending_rows:
+                t = r.get("tmdb") or {}
+                db_execute(UPSERT_SQL, [r["channel"], r["message_id"], r["movie_name"], r["post_link"],
+                                        t.get("tmdb_id"), json.dumps(t, ensure_ascii=False)])
+        except Exception as e:
+            print(f"[ERROR] {self.channel}: could not write to Turso ({type(e).__name__}); "
+                  "this page will be retried on the next run")
+            return False
+        self.pending_rows = []
+        return True
+
     def save_state(self):
         save_json(self.state_file, {"last_id": self.last_id, "pending": self.pending})
 
     def save_files(self):
-        """Called after every page: output + side files + shared caches."""
-        save_json(self.output_file, self.output)
+        """Called after every page: output (local mode) + side files + shared caches."""
+        if not db:
+            save_json(self.output_file, self.output)
         save_json(self.review_file, self.review)
         save_json(self.rejected_file, self.rejected)
         save_json(self.nolinks_file, self.nolinks)
@@ -692,7 +797,7 @@ def scrape_channel(data, max_posts=0):
                 tmdb_out["trailer"] = details.get("trailer", "")
                 tmdb_out["overview_mm"] = translate_mm(info)
 
-                data.output.append({
+                data.add_movie({
                     "channel": channel,
                     "channel_link": f"https://t.me/{channel}",
                     "message_id": message_id,
@@ -701,13 +806,15 @@ def scrape_channel(data, max_posts=0):
                     "raw_title": raw_title,
                     "tmdb": tmdb_out,
                 })
-                data.known.add(message_id)
                 saved_count += 1
                 print(f"[OK] {channel}/{message_id}: {movie_name}")
             except Exception as e:
                 print(f"[WARN] {channel}: skipped a message: {e}")
 
-        data.save_files()  # after every page
+        if not data.flush():       # Turso write failed: keep the old resume point
+            data.save_files()
+            return "partial"
+        data.save_files()          # after every page
 
         if interrupted:
             why = "limit reached" if max_posts > 0 and saved_count >= max_posts else "time budget reached"
@@ -743,7 +850,14 @@ def write_github_output(done):
 def main():
     channels = read_channels() if TARGET_CHANNELS == ["default"] else TARGET_CHANNELS
     print(f"[INFO] job={TARGET_CHANNEL} | limit={TARGET_LIMIT} | budget={MAX_RUNTIME_MIN}m/"
-          f"{CHANNEL_BUDGET_MIN}m per channel | folder={JSON_DIR}")
+          f"{CHANNEL_BUDGET_MIN}m per channel | store={'Turso' if db else 'local JSON'}")
+
+    if db:
+        try:
+            init_db()          # CREATE TABLE IF NOT EXISTS movies (...)
+        except Exception as e:
+            print(f"[ERROR] Turso is not reachable ({type(e).__name__}); stopping so nothing is lost")
+            return 1
 
     if not channels:
         print("No channels to scrape.")
@@ -756,18 +870,28 @@ def main():
             unfinished.append(channel)
             continue
         print(f"--- {channel} ---")
-        data = ChannelData(channel)
+        try:
+            data = ChannelData(channel)
+        except Exception as e:      # e.g. Turso read failed: skip this channel, keep going
+            print(f"[ERROR] {channel}: could not start ({type(e).__name__})")
+            unfinished.append(channel)
+            continue
         status = scrape_channel(data, max_posts=TARGET_LIMIT)
         data.save_files()
-        total += len(data.output)
+        total += data.saved
         if status != "done":
             unfinished.append(channel)
         time.sleep(1)
 
-    print(f"Done. Posts in output: {total}")
+    print(f"Done. New movies this run: {total}")
     if unfinished:
         print(f"[INFO] Unfinished (will resume next run): {', '.join(unfinished)}")
     write_github_output(not unfinished)
+    if db:
+        try:
+            db.close()
+        except Exception:
+            pass
     return 0
 
 
