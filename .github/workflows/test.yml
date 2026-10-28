@@ -11,6 +11,10 @@ on:
         description: "Max new posts to save"
         required: false
         default: "20"
+      write_to_turso:
+        description: "true = write to the real Turso database (default: local test_output only)"
+        required: false
+        default: "false"
   push:
     branches: [main]
 
@@ -66,6 +70,9 @@ jobs:
         env:
           TARGET_CHANNEL: ${{ steps.pick.outputs.channel }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          # a test run must not touch the real database unless you ask for it
+          TURSO_DATABASE_URL: ${{ github.event.inputs.write_to_turso == 'true' && secrets.TURSO_DATABASE_URL || '' }}
+          TURSO_AUTH_TOKEN: ${{ github.event.inputs.write_to_turso == 'true' && secrets.TURSO_AUTH_TOKEN || '' }}
           TARGET_LIMIT: ${{ github.event.inputs.limit || '20' }}
           JSON_DIR: test_output          # fresh folder, ignores committed state, never committed
           MAX_RUNTIME_MIN: "50"
@@ -76,7 +83,8 @@ jobs:
         if: always()
         run: |
           echo "===== output.json ====="
-          cat "test_output/${{ steps.pick.outputs.channel }}/output.json" || echo "output.json not found"
+          F="test_output/${{ steps.pick.outputs.channel }}/output.json"
+          if [ -f "$F" ]; then cat "$F"; else echo "no output.json (the movies went to Turso, or nothing was found)"; fi
 
       - name: Upload test output
         if: always()

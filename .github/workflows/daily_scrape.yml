@@ -156,6 +156,8 @@ jobs:
         env:
           TARGET_CHANNEL: ${{ matrix.batch.channels }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
           TARGET_LIMIT: ${{ vars.TARGET_LIMIT || '300' }}
           MAX_RUNTIME_MIN: "100"      # stops by itself before the 120 min job timeout
           CHANNEL_BUDGET_MIN: ${{ matrix.batch.budget }}
