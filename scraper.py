@@ -2,7 +2,7 @@
 """Telegram public-channel scraper for GitHub Actions (Matrix: one job per channel).
 
 Flow per post: English title -> TMDB match -> link check -> TMDB details (backdrop, trailer)
-               -> Burmese overview -> Turso table `movies` (or json_data/<channel>/output.json
+               -> Burmese overview (local WindyWord/Marian model) -> Turso table `movies` (or json_data/<channel>/output.json
                when TURSO_DATABASE_URL / TURSO_AUTH_TOKEN are not set)
 
 Environment variables
@@ -15,6 +15,10 @@ Environment variables
   TURSO_DATABASE_URL   libsql://<db>-<org>.turso.io   } when both are set the movies are saved in
   TURSO_AUTH_TOKEN     database token (write access) } Turso instead of output.json
   TMDB_API_KEY         TMDB v3 API key
+  MM_ENGINE            "windyword" (default, local model) | "google" (deep-translator) | "none"
+  MT_MODEL             Hugging Face repo of the model (default WindyWord/translate-en-sit)
+  MT_SUBFOLDER         sub-folder inside the repo (default "lora")
+  MT_LANG_TOKEN        target-language token the model needs (default ">>mya<<" = Burmese)
   CHANNELS_KEY         Fernet key to decrypt channels.txt (only needed in "default" mode and when
                        the file is encrypted; matrix jobs get their channels via TARGET_CHANNEL)
 Per-channel files (created automatically):
@@ -99,7 +103,12 @@ MATCH_REVIEW = 0.70        # between this and MATCH_OK -> review.json
 MAX_CANDIDATES = 4         # English title candidates tried per post
 REQUIRE_YEAR = True        # no year in the post -> review.json, never auto-accepted
 
-MM_DELAY = 0.6             # seconds between translation calls
+MM_ENGINE = os.getenv("MM_ENGINE", "windyword").strip().lower()
+MT_MODEL = os.getenv("MT_MODEL", "WindyWord/translate-en-sit").strip()
+MT_SUBFOLDER = os.getenv("MT_SUBFOLDER", "lora").strip()
+MT_LANG_TOKEN = os.getenv("MT_LANG_TOKEN", ">>mya<<").strip()  # Sino-Tibetan model: target language is chosen by this prefix
+MT_BATCH = 8               # sentences translated together
+MT_BEAMS = 4               # beam search width (higher = slower, slightly better)
 MM_MAX_FAILS = 5           # consecutive failures before translation is switched off for this run
 
 
@@ -523,37 +532,95 @@ def fetch_details(info):
 
 
 # ------------------------------------------------ Burmese translation (inline)
-_translator = None
-_mm_fails = 0  # consecutive failures
+_mt = None              # (tokenizer, model, device, torch) once the local model is loaded
+_translator = None      # only used when MM_ENGINE=google
+_mm_fails = 0           # consecutive failures
+SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
+
+
+def load_mt():
+    """Load WindyWord (MarianMT) once per process; the weights come from the Hugging Face cache."""
+    global _mt
+    if _mt is None:
+        import torch
+        from transformers import MarianMTModel, MarianTokenizer
+        tokenizer = MarianTokenizer.from_pretrained(MT_MODEL, subfolder=MT_SUBFOLDER)
+        model = MarianMTModel.from_pretrained(MT_MODEL, subfolder=MT_SUBFOLDER)
+        if MT_LANG_TOKEN not in tokenizer.get_vocab():
+            raise RuntimeError(f"the model has no {MT_LANG_TOKEN} language token")
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        model.to(device).eval()
+        _mt = (tokenizer, model, device, torch)
+        print(f"[INFO] translation model loaded on {device}")
+    return _mt
+
+
+def translate_windyword(text):
+    """English -> Burmese with the local model, sentence by sentence (Marian works best on short inputs)."""
+    tokenizer, model, device, torch = load_mt()
+    sentences = [x.strip() for x in SENTENCE_SPLIT_RE.split(text[:4500]) if x.strip()]
+    out = []
+    for i in range(0, len(sentences), MT_BATCH):
+        batch = [f"{MT_LANG_TOKEN} {x}" for x in sentences[i:i + MT_BATCH]]
+        enc = tokenizer(batch, return_tensors="pt", padding=True, truncation=True, max_length=256).to(device)
+        with torch.no_grad():
+            generated = model.generate(**enc, num_beams=MT_BEAMS, max_new_tokens=256)
+        out.extend(tokenizer.decode(g, skip_special_tokens=True).strip() for g in generated)
+    return " ".join(x for x in out if x)
+
+
+def translate_google(text):
+    global _translator
+    if _translator is None:
+        from deep_translator import GoogleTranslator
+        _translator = GoogleTranslator(source="en", target="my")
+    time.sleep(0.6)
+    return (_translator.translate(text[:4500]) or "").strip()
+
+
+def looks_burmese(text):
+    """True when most of the letters are Myanmar script (rejects Chinese/Latin/empty output)."""
+    mm = sum(1 for c in text if "\u1000" <= c <= "\u109f" or "\uaa60" <= c <= "\uaa7f")
+    other = sum(1 for c in text if c.isalpha() and not ("\u1000" <= c <= "\u109f" or "\uaa60" <= c <= "\uaa7f"))
+    return mm >= 5 and mm / (mm + other) >= 0.6
 
 
 def translate_mm(info):
     """English TMDB overview -> Burmese (cached per tmdb_id). Returns "" on failure."""
-    global _translator, _mm_fails
+    global _mm_fails
     overview = (info.get("overview") or "").strip()
     tid = str(info.get("tmdb_id") or "")
-    if not overview or not tid:
+    if not overview or not tid or MM_ENGINE == "none":
         return ""
     if tid in _mm_cache:
         return _mm_cache[tid]
     if _mm_fails >= MM_MAX_FAILS:
-        return ""  # Google looks blocked: stop trying for the rest of this run
+        return ""  # the model/engine keeps failing: stop trying for the rest of this run
     try:
-        if _translator is None:
-            from deep_translator import GoogleTranslator
-            _translator = GoogleTranslator(source="en", target="my")
-        mm = (_translator.translate(overview[:4500]) or "").strip()
-        time.sleep(MM_DELAY)
-    except ImportError:
-        print("[WARN] deep-translator not installed: skipping Burmese translation")
+        if MM_ENGINE == "google":
+            mm = translate_google(overview)
+        else:
+            try:
+                load_mt()
+            except ImportError:
+                raise
+            except Exception as e:  # download failed, wrong repo, no language token ...
+                print(f"[WARN] could not load the translation model ({type(e).__name__}): {str(e)[:120]}")
+                _mm_fails = MM_MAX_FAILS  # do not retry the (slow) load for every movie
+                return ""
+            mm = translate_windyword(overview)
+    except ImportError as e:
+        print(f"[WARN] translation libraries missing ({e.name}): skipping Burmese translation")
         _mm_fails = MM_MAX_FAILS
         return ""
     except Exception as e:
         _mm_fails += 1
-        print(f"[WARN] translate failed for {tid} ({_mm_fails}/{MM_MAX_FAILS}): {e}")
-        time.sleep(MM_DELAY)
+        print(f"[WARN] translate failed for {tid} ({_mm_fails}/{MM_MAX_FAILS}): {type(e).__name__}: {str(e)[:120]}")
         return ""
-    if not mm:
+    if not looks_burmese(mm):
+        # a multi-language model can answer in the wrong script: never store that
+        _mm_fails += 1
+        print(f"[WARN] translation for {tid} is not Burmese text ({_mm_fails}/{MM_MAX_FAILS}), not saved")
         return ""
     _mm_fails = 0
     _mm_cache[tid] = mm

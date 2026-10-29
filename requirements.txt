@@ -1,5 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 requests
 beautifulsoup4
 deep-translator
 cryptography
 libsql-client
+transformers
+torch
+sentencepiece
+sacremoses
