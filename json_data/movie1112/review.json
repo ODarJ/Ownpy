@@ -7499,5 +7499,61 @@
       ],
       "score": 0.72
     }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8442",
+    "raw_title": "🥹😞😙😎😅☺️😆🙃🤓🙂🤩🙂",
+    "query": "Telegram",
+    "tmdb": {
+      "tmdb_id": 612813,
+      "tmdb_type": "movie",
+      "tmdb_title": "Telegram",
+      "tmdb_year": "2001",
+      "poster": "/3pR3Ob7XVGfcrh8Hbtnwywd1XHd.jpg",
+      "backdrop": "/81PPHe35pYryAAffpGqccrBa2vl.jpg",
+      "overview": "In Jakarta, a young journalist struggling to escape from the confines of familiar obligations, receives a telegram informing him that his mother is dying.",
+      "rating": 10.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8429",
+    "raw_title": "R-e-m-e-m-b-r-a-n-c-e [2026]",
+    "query": "identity",
+    "tmdb": {
+      "tmdb_id": 2832,
+      "tmdb_type": "movie",
+      "tmdb_title": "Identity",
+      "tmdb_year": "2003",
+      "poster": "/sYgimsiBywqVwJI8H4sETke8m7v.jpg",
+      "backdrop": "/iiPBXynI88EgnpunHoUlBCnLpSE.jpg",
+      "overview": "Complete strangers stranded at a remote desert motel during a raging storm soon find themselves the target of a deranged murderer. As their numbers thin out, the travelers begin to turn on each other, as each tries to figure out who the killer is.",
+      "rating": 7.183,
+      "genre_ids": [
+        9648,
+        53
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8431",
+    "raw_title": "⏩အွန်းလိုင်းဂိမ်းကိုမှ ကစားချင်တဲ့လူကြီးမင်းတို့ အတွက်   💰ငွေကြေးပိုင် 💯စိတ်ချရပြီ   ⏩စလော့ /ကျွဲ/အဖိုးကြီး /ရှမ်း /ဘူကြီး ဂိမ်းပေါင်းများစွာကို ဆော့ကစားနိုင်ပါတယ်ရှင့်⏩",
+    "query": "Shan",
+    "tmdb": {
+      "tmdb_id": 1116288,
+      "tmdb_type": "movie",
+      "tmdb_title": "Shan",
+      "tmdb_year": "2014",
+      "poster": null,
+      "backdrop": null,
+      "overview": "“SHAN,” is a portrait of a young Trinidadian dancer at the Universoul Circus, which tours the USA. This experimental work follows Shan, backstage and onstage, moving between darkness and light, as she prepares to pass under the limbo stick … reflecting on her past, present and future.",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 1.0
+    }
   }
 ]
