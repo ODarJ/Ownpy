@@ -7555,5 +7555,42 @@
       "genre_ids": [],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8453",
+    "raw_title": "တောင်ပေါ်သားရှမ်းကိုးမီး၊ဘူကြီး၊",
+    "query": "10 Lucky Star",
+    "tmdb": {
+      "tmdb_id": 1441508,
+      "tmdb_type": "movie",
+      "tmdb_title": "Ten Lucky Stars",
+      "tmdb_year": "2007",
+      "poster": "/8A8CeS5XunYPwQc7mdioiGxL7Un.jpg",
+      "backdrop": null,
+      "overview": "chinese film",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 0.79
+    }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8457",
+    "raw_title": "📌Slot Online Game ကိုမှ နိုင်ငံတကာအသိမှတ်ပြု ရ ထားရမယ်  ငွေကြေးပိုင်း အရော်စားမှာလည်း မှန်ကန်၊ ယုံကြည်၊ စိတ်ချ ရတဲ့Online Game Website ကြီး နဲ့မှ ဂိမ်းကစားချင်တဲ့ သူဌေးလောင်းတို့တွက် မိတ်ဆက်ပေးပါရစေရှ",
+    "query": "African",
+    "tmdb": {
+      "tmdb_id": 57586,
+      "tmdb_type": "movie",
+      "tmdb_title": "African Cats",
+      "tmdb_year": "2011",
+      "poster": "/nERPMF2kHjc1slLHZYZGwcWX9kg.jpg",
+      "backdrop": "/mFTlNXsPzny0geJLxdo3ddzFR1Q.jpg",
+      "overview": "African Cats captures the real-life love, humor and determination of the majestic kings of the savanna. The story features Mara, an endearing lion cub who strives to grow up with her mother’s strength, spirit and wisdom; Sita, a fearless cheetah and single mother of five mischievous newborns; and Fang, a proud leader of the pride who must defend his family from a once banished lion.",
+      "rating": 7.4,
+      "genre_ids": [
+        99,
+        12
+      ],
+      "score": 0.74
+    }
   }
 ]
