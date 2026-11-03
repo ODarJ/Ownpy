@@ -7681,5 +7681,39 @@
       "genre_ids": [],
       "score": 0.79
     }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8499",
+    "raw_title": "တောင်ပေါ်သားရှမ်းကိုးမီး၊ဘူကြီး၊",
+    "query": "10 Lucky Star",
+    "tmdb": {
+      "tmdb_id": 1441508,
+      "tmdb_type": "movie",
+      "tmdb_title": "Ten Lucky Stars",
+      "tmdb_year": "2007",
+      "poster": "/8A8CeS5XunYPwQc7mdioiGxL7Un.jpg",
+      "backdrop": null,
+      "overview": "chinese film",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 0.79
+    }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8501",
+    "raw_title": "T-r-e-a-s-u-r-e i-s-l-a-n-d(2026)",
+    "query": "Hispaniola",
+    "tmdb": {
+      "tmdb_id": 440771,
+      "tmdb_type": "movie",
+      "tmdb_title": "Hispaniola",
+      "tmdb_year": "2007",
+      "poster": null,
+      "backdrop": null,
+      "overview": "Hispaniola is the endearing story of two boys from different worlds, one Haitian, the other Dominican, who form a bond through baseball. It is through their eyes that we witness first hand the conflicts and misunderstandings between two people who share the same island, the island of Hispaniola. \"One island, two worlds.\"",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 1.0
+    }
   }
 ]
