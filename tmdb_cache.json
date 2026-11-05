@@ -64879,5 +64879,3083 @@
   "the lion king classic animation movie kids & adults family-friendly movie|": [
     "none",
     null
-  ]
+  ],
+  "christopher nolan tubi platform|": [
+    "none",
+    null
+  ],
+  "low-budget action fantasy b-movie|": [
+    "none",
+    null
+  ],
+  "h-a-u-n-t-i-n-g o-f m-o-u-n-t w-e-l-i-r-a-n-g|2026": [
+    "none",
+    null
+  ],
+  "t-h-e c-o-w-b-o-y k-i-l-l-e-r|2026": [
+    "none",
+    null
+  ],
+  "cowboy|": [
+    "none",
+    null
+  ],
+  "t-h-e d-a-m-n-a-t-i-on|2025": [
+    "none",
+    null
+  ],
+  "t-h-e v-i-l-l-a-i-n o-f v-i-l-l-a-i-n-s|2026": [
+    "none",
+    null
+  ],
+  "m-a-s-s j-a-t-h-a-r-a|2025": [
+    "none",
+    null
+  ],
+  "come on man u|": [
+    "none",
+    null
+  ],
+  "5 .....what a come back|": [
+    "none",
+    null
+  ],
+  "misty|2018": [
+    "ok",
+    {
+      "tmdb_id": 76715,
+      "tmdb_type": "tv",
+      "tmdb_title": "Misty",
+      "tmdb_year": "2018",
+      "poster": "/5kqnPQJrbOiyT03OawvSAKnX1u5.jpg",
+      "backdrop": "/9ZFTBeisjt3BEdzNKKNB0VkoSk5.jpg",
+      "overview": "When a popular anchorwoman for a prime time news show becomes the suspect in a murder case, her estranged husband - who has worked as a prosecutor in the past but now works as a public defender - decides to defend his wife.",
+      "rating": 7.4,
+      "genre_ids": [
+        18,
+        80,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:76715": {
+    "backdrop_path": "/9ZFTBeisjt3BEdzNKKNB0VkoSk5.jpg",
+    "trailer": "https://www.youtube.com/watch?v=y8aOsiLl884"
+  },
+  "island|2022": [
+    "none",
+    null
+  ],
+  "( part 1 2 )|": [
+    "review",
+    {
+      "tmdb_id": 1656715,
+      "tmdb_type": "movie",
+      "tmdb_title": "Vugol",
+      "tmdb_year": "2008",
+      "poster": "/jsVHMtxLx2HeeH0bg5uuQRCUg7I.jpg",
+      "backdrop": null,
+      "overview": "What happens when you can't navigate at all",
+      "rating": 0.0,
+      "genre_ids": [
+        35
+      ],
+      "score": 0.8
+    }
+  ],
+  "ep-1 to 69|": [
+    "none",
+    null
+  ],
+  "my perfect stranger|2023": [
+    "ok",
+    {
+      "tmdb_id": 204589,
+      "tmdb_type": "tv",
+      "tmdb_title": "My Perfect Stranger",
+      "tmdb_year": "2023",
+      "poster": "/gYJBz6NMvP4oc2mf181bjPJSgxJ.jpg",
+      "backdrop": "/6PwWXSPUiKjjWaGnapfbDGTWNGF.jpg",
+      "overview": "Yun Hae Jun is the youngest anchor to ever work at his broadcasting station. He is calm and straightforward as a journalist and kind in his personal life. On the other hand, Baek Yun Yeong dreamed of becoming a writer but wound up working at a publishing company. The two somehow travel back in time to the year 1987. There, Yun Hae Jun tries to find the truth behind a serial murder case, while Baek Yun Yeong attempts to prevent her parents from marrying. They soon realize that their objectives are connected.",
+      "rating": 8.097,
+      "genre_ids": [
+        18,
+        10765,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:204589": {
+    "backdrop_path": "/6PwWXSPUiKjjWaGnapfbDGTWNGF.jpg",
+    "trailer": "https://www.youtube.com/watch?v=wq2MHMBrGsM"
+  },
+  "boys over flower|2009": [
+    "ok",
+    {
+      "tmdb_id": 16420,
+      "tmdb_type": "tv",
+      "tmdb_title": "Boys Over Flowers",
+      "tmdb_year": "2009",
+      "poster": "/7nqNwwCoMB3IdMU9VKSPTg5SrfL.jpg",
+      "backdrop": "/nFrIKLtWiHiEApHEa1tvM2eDbbh.jpg",
+      "overview": "A poor high school student earns a scholarship to an elite academy, where she clashes with the most popular boy in school!",
+      "rating": 8.3,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 0.97
+    }
+  ],
+  "details:tv:16420": {
+    "backdrop_path": "/nFrIKLtWiHiEApHEa1tvM2eDbbh.jpg",
+    "trailer": "https://www.youtube.com/watch?v=3nlknMugIpo"
+  },
+  "2 more than friends|2020": [
+    "none",
+    null
+  ],
+  "ep-1 to 70|": [
+    "none",
+    null
+  ],
+  "lovestruck in the city|2021": [
+    "ok",
+    {
+      "tmdb_id": 113710,
+      "tmdb_type": "tv",
+      "tmdb_title": "Lovestruck in the City",
+      "tmdb_year": "2020",
+      "poster": "/ylSkgVyStX0DwSF8irjQVAf2P4H.jpg",
+      "backdrop": "/wYO8Shc4w2FXsqGqSl1MSQtQT8U.jpg",
+      "overview": "Heart stolen by a free-spirited woman after a beachside romance, a passionate architect sets out to reunite with her on the streets of Seoul.",
+      "rating": 7.667,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "gunman in joseon|2014": [
+    "ok",
+    {
+      "tmdb_id": 61184,
+      "tmdb_type": "tv",
+      "tmdb_title": "Gunman in Joseon",
+      "tmdb_year": "2014",
+      "poster": "/aDCOU0CzLLlqCPW08HHW3SjyFOG.jpg",
+      "backdrop": "/asIU3aG16JrMOKNRRdb7rJe5oO9.jpg",
+      "overview": "It’s the 19th Century and as western influences spread across Asia, Korea’s Joseon dynasty is experiencing great upheaval and rapid modernization. As the son of the last great swordsman, Park Yoon Kang is caught between two worlds, but the sudden murder of his father and sister catapult him into the new era as he takes up the gun to avenge their deaths. However, it’s not just his family who needs his protection, but his people as well. Is Park Yoon Kang cut out to be the hero of an era?",
+      "rating": 4.6,
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:61184": {
+    "backdrop_path": "/asIU3aG16JrMOKNRRdb7rJe5oO9.jpg",
+    "trailer": "https://www.youtube.com/watch?v=eugROKRkecM"
+  },
+  "kundo: age of the rampant|2014": [
+    "ok",
+    {
+      "tmdb_id": 281780,
+      "tmdb_type": "movie",
+      "tmdb_title": "Kundo: Age of the Rampant",
+      "tmdb_year": "2014",
+      "poster": "/yAiANYk9aocISH5To89qwC8ZF8x.jpg",
+      "backdrop": "/eyC9ezPoOWFTplsWcmXaLo5NKWC.jpg",
+      "overview": "In 1862, amidst the rule of the late Joseon dynasty in Korea, a band of fighters named Kundo rise against the unjust authorities.",
+      "rating": 6.6,
+      "genre_ids": [
+        28,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:281780": {
+    "backdrop_path": "/eyC9ezPoOWFTplsWcmXaLo5NKWC.jpg",
+    "trailer": "https://www.youtube.com/watch?v=6eRQ17wv2FU"
+  },
+  "more than friends|2020": [
+    "ok",
+    {
+      "tmdb_id": 108146,
+      "tmdb_type": "tv",
+      "tmdb_title": "More Than Friends",
+      "tmdb_year": "2020",
+      "poster": "/mjL20L3DaguveNihHEuQIDSAMrh.jpg",
+      "backdrop": "/7EAwCkDw6EmqSfo8HC4GbtMfvnq.jpg",
+      "overview": "Due to a misunderstanding, Lee Soo and Kyung Woo Yeon have held a crush on each other for over 10 years.\n\nLee Soo works as a photographer and he is attractive. He is also mistaken for a model many times.  Kyung Woo Yeon works as a calligrapher. She has had a crush on Lee Soo for the past 10 years, since she was 18 years old.",
+      "rating": 5.8,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:108146": {
+    "backdrop_path": "/7EAwCkDw6EmqSfo8HC4GbtMfvnq.jpg",
+    "trailer": "https://www.youtube.com/watch?v=n68bfVkIyl0"
+  },
+  "part-1 to part-4|": [
+    "none",
+    null
+  ],
+  "45 drama|": [
+    "none",
+    null
+  ],
+  "twenty five twenty one|2022": [
+    "ok",
+    {
+      "tmdb_id": 129888,
+      "tmdb_type": "tv",
+      "tmdb_title": "Twenty Five Twenty One",
+      "tmdb_year": "2022",
+      "poster": "/yCQFnmYhYf7XALMka2EoBRAFmPO.jpg",
+      "backdrop": "/2Yr8QxputyVoWPSTbXCUkP3aalm.jpg",
+      "overview": "In a time when dreams seem out of reach, a teen fencer pursues big ambitions and meets a hardworking young man who seeks to rebuild his life.",
+      "rating": 8.445,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:129888": {
+    "backdrop_path": "/2Yr8QxputyVoWPSTbXCUkP3aalm.jpg",
+    "trailer": "https://www.youtube.com/watch?v=gYp4cKumTwU"
+  },
+  "duty after school|2023": [
+    "ok",
+    {
+      "tmdb_id": 158258,
+      "tmdb_type": "tv",
+      "tmdb_title": "Duty After School",
+      "tmdb_year": "2023",
+      "poster": "/vtokuvfqLbfJaSCW6EWhWtrmz2s.jpg",
+      "backdrop": "/5kMIZHO8OYOC08urACEFFqmFA4p.jpg",
+      "overview": "When mysterious alien spheres start invading the world, high school students are called upon to join the world's first war against extraterrestrial forces.",
+      "rating": 8.055,
+      "genre_ids": [
+        18,
+        10765,
+        10759
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:158258": {
+    "backdrop_path": "/5kMIZHO8OYOC08urACEFFqmFA4p.jpg",
+    "trailer": "https://www.youtube.com/watch?v=zYiXxz8Ft0U"
+  },
+  "2 my holo love|2020": [
+    "none",
+    null
+  ],
+  "work later, drink now season 1|2021": [
+    "none",
+    null
+  ],
+  "ahn so hee, han ji yeon kang ji gu|": [
+    "none",
+    null
+  ],
+  "so hee , ji yeon ji gu youtuber kang buk gu pd|": [
+    "none",
+    null
+  ],
+  "work later, drink now season 2|2023": [
+    "none",
+    null
+  ],
+  "squad season 2|": [
+    "none",
+    null
+  ],
+  "the point men|2023": [
+    "ok",
+    {
+      "tmdb_id": 606400,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Point Men",
+      "tmdb_year": "2023",
+      "poster": "/nBwFfruuNu5JAkeum499yykZibo.jpg",
+      "backdrop": "/8fWHHZN1XjsTaGHpIdFRvrpdbSv.jpg",
+      "overview": "A group of Korean tourists is taken hostage by an extremist Taliban group in Afghanistan. The Korean government dispatches Jae-ho, known as one of Korea's most skilled diplomats, in order to handle the situation. Once he arrives, he asks for the Afghan government's cooperation and uses every means possible to free the hostages. However, his efforts go in vain. Due to his failure, he's forced to work with Dae-sik, a special agent who is an expert on the Middle East. As they begin making their move to get to the Taliban, the first hostage death occurs. With nowhere else to turn, the two become unlikely allies in a race against time to save the rest of the hostages.",
+      "rating": 5.8,
+      "genre_ids": [
+        28,
+        53,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:606400": {
+    "backdrop_path": "/8fWHHZN1XjsTaGHpIdFRvrpdbSv.jpg",
+    "trailer": "https://www.youtube.com/watch?v=m49-H3CbWrc"
+  },
+  "the king of pigs|2022": [
+    "ok",
+    {
+      "tmdb_id": 154523,
+      "tmdb_type": "tv",
+      "tmdb_title": "The King of Pigs",
+      "tmdb_year": "2022",
+      "poster": "/zCyngZDHOESiY52bg4QXhtkM2S5.jpg",
+      "backdrop": "/pMDhLfyYcuz6MMicbhkFKxMjcEE.jpg",
+      "overview": "Two friends in the past were victims of serious school bullying. One could not resist his trauma, and becomes a serial killer, walking in the path of revenge. Another one tries his best to overcome the trauma and becomes a police detective. He now faces tragic fate to risk his life to capture the serial killer.",
+      "rating": 8.47,
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:154523": {
+    "backdrop_path": "/pMDhLfyYcuz6MMicbhkFKxMjcEE.jpg",
+    "trailer": "https://www.youtube.com/watch?v=9W8P5fQaBTo"
+  },
+  "reborn rich|2022": [
+    "ok",
+    {
+      "tmdb_id": 153496,
+      "tmdb_type": "tv",
+      "tmdb_title": "Reborn Rich",
+      "tmdb_year": "2022",
+      "poster": "/6vs7qtD5KUwijUhpthuhA6PkwxI.jpg",
+      "backdrop": "/clGOzO82lN4gPI4Fon7wNVXS90i.jpg",
+      "overview": "After ten years, a loyal employee is framed for embezzlement, then murdered by his employers, only to be reborn as their youngest son, with a yearn for revenge guiding his hostile takeover.",
+      "rating": 8.004,
+      "genre_ids": [
+        18,
+        10765
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:153496": {
+    "backdrop_path": "/clGOzO82lN4gPI4Fon7wNVXS90i.jpg",
+    "trailer": "https://www.youtube.com/watch?v=6lGImvjI_Sw"
+  },
+  "ep-1 to 68|": [
+    "none",
+    null
+  ],
+  "all that we loved|2023": [
+    "ok",
+    {
+      "tmdb_id": 206619,
+      "tmdb_type": "tv",
+      "tmdb_title": "All That We Loved",
+      "tmdb_year": "2023",
+      "poster": "/pioZKN9PG3LJIcDrU4wfrMwotPF.jpg",
+      "backdrop": "/sIhx1HwIxTSjJ7chmACsCnMSxb3.jpg",
+      "overview": "A love story that covers adolescent teenagers having trouble deciding the gravity of love and friendship.",
+      "rating": 7.2,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:206619": {
+    "backdrop_path": "/sIhx1HwIxTSjJ7chmACsCnMSxb3.jpg",
+    "trailer": "https://www.youtube.com/watch?v=QgYZ8K-WrCI"
+  },
+  "perfect proposal|2015": [
+    "ok",
+    {
+      "tmdb_id": 342021,
+      "tmdb_type": "movie",
+      "tmdb_title": "Perfect Proposal",
+      "tmdb_year": "2015",
+      "poster": "/x7qBOFa56GzvQEWMzb0SiXKjzUX.jpg",
+      "backdrop": "/m5uB8mLjq94RAnDtrVyrNajNms.jpg",
+      "overview": "An indebted young woman gets a proposal from a handsome man to apply for work on a luxury yacht with his boss, the difficult, infirm old chairman of a large company, where they can manipulate him to get their hands on his wealth.",
+      "rating": 6.2,
+      "genre_ids": [
+        53,
+        80,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:342021": {
+    "backdrop_path": "/m5uB8mLjq94RAnDtrVyrNajNms.jpg",
+    "trailer": "https://www.youtube.com/watch?v=MeVegTrTli0"
+  },
+  "love song for illusion|2024": [
+    "ok",
+    {
+      "tmdb_id": 226107,
+      "tmdb_type": "tv",
+      "tmdb_title": "Love Song for Illusion",
+      "tmdb_year": "2024",
+      "poster": "/t9ZEGP9qiajZ6Qs5JoNTrDAlvvq.jpg",
+      "backdrop": "/SnI8rxqP9jNenCxNusrMde31ro.jpg",
+      "overview": "The Crown Prince discovers that his new concubine is actually a vengeful assassin intent on killing the King. But will love intercede – and bring them together?",
+      "rating": 7.9,
+      "genre_ids": [
+        18,
+        10765
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:226107": {
+    "backdrop_path": "/SnI8rxqP9jNenCxNusrMde31ro.jpg",
+    "trailer": "https://www.youtube.com/watch?v=3vkGu5R1IKo"
+  },
+  "twinkling watermelon|2023": [
+    "ok",
+    {
+      "tmdb_id": 212204,
+      "tmdb_type": "tv",
+      "tmdb_title": "Twinkling Watermelon",
+      "tmdb_year": "2023",
+      "poster": "/bwTzW1wTgUxUOQruhT8DvinUYgR.jpg",
+      "backdrop": "/efaMS00Fevc3fw2dbeP7rh22O6D.jpg",
+      "overview": "A CODA (child of deaf adult) student born with a gift for music crash lands at an unfamiliar place after time traveling through a suspicious music shop. There, he forms the band Watermelon Sugar with other mysterious youths.",
+      "rating": 8.806,
+      "genre_ids": [
+        10765,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:212204": {
+    "backdrop_path": "/efaMS00Fevc3fw2dbeP7rh22O6D.jpg",
+    "trailer": "https://www.youtube.com/watch?v=KbWi3VW6QuM"
+  },
+  "ep-1 to 67|": [
+    "none",
+    null
+  ],
+  "juvenile justice|2022": [
+    "ok",
+    {
+      "tmdb_id": 112833,
+      "tmdb_type": "tv",
+      "tmdb_title": "Juvenile Justice",
+      "tmdb_year": "2022",
+      "poster": "/xH2wTVlsUlYeFEOVGFDaamHkMCm.jpg",
+      "backdrop": "/eW6CqrGSRUk6xMbdCjreMQiP5W8.jpg",
+      "overview": "A tough judge balances her aversion to minor offenders with firm beliefs on justice and punishment as she tackles complex cases inside a juvenile court.",
+      "rating": 8.096,
+      "genre_ids": [
+        18,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:112833": {
+    "backdrop_path": "/eW6CqrGSRUk6xMbdCjreMQiP5W8.jpg",
+    "trailer": "https://www.youtube.com/watch?v=yGcmgNGDAAk"
+  },
+  "secret: untold melody|2025": [
+    "ok",
+    {
+      "tmdb_id": 797109,
+      "tmdb_type": "movie",
+      "tmdb_title": "Secret: Untold Melody",
+      "tmdb_year": "2025",
+      "poster": "/6mxPhkPdmm2CaxI060QS7eCz0a2.jpg",
+      "backdrop": "/eSHL0CjnVnavnYwbCUfeSNYuiBP.jpg",
+      "overview": "A promising pianist in a slump has a chance meeting with a young woman playing mysterious music, and the encounter forces him to make a once-in-a-lifetime choice.",
+      "rating": 6.889,
+      "genre_ids": [
+        10749,
+        14,
+        18,
+        10402
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:797109": {
+    "backdrop_path": "/eSHL0CjnVnavnYwbCUfeSNYuiBP.jpg",
+    "trailer": "https://www.youtube.com/watch?v=TArtPWIX7fc"
+  },
+  "caf minamdang|2022": [
+    "none",
+    null
+  ],
+  "long awaited drama minamdong case note seo in guk oppa|": [
+    "none",
+    null
+  ],
+  "(seo in guk)|": [
+    "review",
+    {
+      "tmdb_id": 1119485,
+      "tmdb_type": "movie",
+      "tmdb_title": "TRAP by SEO IN GUK",
+      "tmdb_year": "2023",
+      "poster": "/rCjDKSkqUTzC6dVG5NPqxfQBiOR.jpg",
+      "backdrop": "/wVZNpoop2TOakIi67fxyOKzLeML.jpg",
+      "overview": "Art is often an expression of rigorous focus. This story revolves around the internal pressures of the protagonist, and his attempt to escape his own mind and let out his imagination.  An artist lives in a world they create, but sometimes fear can break us down.",
+      "rating": 0.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 0.71
+    }
+  ],
+  "when life gives you tangerines|2025": [
+    "ok",
+    {
+      "tmdb_id": 219246,
+      "tmdb_type": "tv",
+      "tmdb_title": "When Life Gives You Tangerines",
+      "tmdb_year": "2025",
+      "poster": "/1VC3sEFxYXYDqQUCAnvWfUsYg1s.jpg",
+      "backdrop": "/a9qlroMOHewiDsUR93PYMVfpbF5.jpg",
+      "overview": "In Jeju, a spirited girl and a steadfast boy's island story blossoms into a lifelong tale of setbacks and triumphs — proving love endures across time.",
+      "rating": 8.795,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:219246": {
+    "backdrop_path": "/a9qlroMOHewiDsUR93PYMVfpbF5.jpg",
+    "trailer": "https://www.youtube.com/watch?v=4ECAaQkNAbc"
+  },
+  "shooting stars|2022": [
+    "ok",
+    {
+      "tmdb_id": 127231,
+      "tmdb_type": "tv",
+      "tmdb_title": "Shooting Stars",
+      "tmdb_year": "2021",
+      "poster": "/qJsELNZ2fJcI3tPuzM3wTZLjsWh.jpg",
+      "backdrop": "/nHWwfiaOK0YockI11UpCU66uic8.jpg",
+      "overview": "Female soccer teams comprised of celebrities and non celebrities, working together to battle it out on the soccer field. Most have little soccer experience, but with the coaching from various Korean soccer legends, the team members grow with a fierce passion that leads to inspiring victories and regretful losses. Each team is grouped by certain types i.e. comedians, models, foreigners, actresses, etc. Unpredictable and exciting, the games are filled with fun intensity and emotions on high.",
+      "rating": 6.5,
+      "genre_ids": [
+        10764
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:127231": {
+    "backdrop_path": "/nHWwfiaOK0YockI11UpCU66uic8.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Puf0yKIGgvM"
+  },
+  "barbie|2012": [
+    "none",
+    null
+  ],
+  "kim sae ron kim ah ron|": [
+    "none",
+    null
+  ],
+  "alchemy of souls season 1|2022": [
+    "none",
+    null
+  ],
+  "tvn tving netflix cast|": [
+    "none",
+    null
+  ],
+  "alchemy of souls season 2|2022": [
+    "none",
+    null
+  ],
+  "alchemy of souls part 2|": [
+    "review",
+    {
+      "tmdb_id": 135157,
+      "tmdb_type": "tv",
+      "tmdb_title": "Alchemy of Souls",
+      "tmdb_year": "2022",
+      "poster": "/gvOZN1NlAoL8iz9ghpES1zWA3w3.jpg",
+      "backdrop": "/nBZyWSGAUEzCH7Mna0zUNTpBQlQ.jpg",
+      "overview": "She was named Naksu because wherever she went, a trail of heads followed. She performs the alchemy of souls, magic that can change people's bodies and souls, which is forbidden in Daeho, and ends up being chased. Naksu hurriedly abandons her body and attempts the alchemy of souls on a woman passing by. Jang Wook, the son of the King of Daeho, realizes that Mudeok's soul has been changed and helps her. Jang Wook wants to learn Naksu's martial arts and become a sorcerer, and Naksu, in the body of Mudeok, stays by his side so she can recover her strength.",
+      "rating": 8.597,
+      "genre_ids": [
+        18,
+        10765,
+        10759,
+        9648
+      ],
+      "score": 0.82
+    }
+  ],
+  "? part -2|": [
+    "review",
+    {
+      "tmdb_id": 212410,
+      "tmdb_type": "tv",
+      "tmdb_title": "Jaal Part 2",
+      "tmdb_year": "2022",
+      "poster": "/wJdRt8mv2WTLBLrLMNw8ij6Mr56.jpg",
+      "backdrop": "/3nBRsg1GRSRM0DGUKngaqeNdFrI.jpg",
+      "overview": "Nidhi is married to a dysfunctional family, where relationships are mere words, every member tries to overplay the other to gain monitory benefits, to overcome these odds, Nidhi has walk a bloody path that she never thought she would step on.",
+      "rating": 0.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 0.71
+    }
+  ],
+  "ep-1 to 65|": [
+    "none",
+    null
+  ],
+  "weak hero class 1|2022": [
+    "none",
+    null
+  ],
+  "webtoon wanna one flower boy park ji hoon|": [
+    "none",
+    null
+  ],
+  "weak hero class 2|2025": [
+    "none",
+    null
+  ],
+  "wannaone park jihoon, namib: the starry night ryeo un, xo kitty choi min yeong, kick kick kick kick lee min jae, musical bae na ra, when life gives you tangerines lee jun yeong|": [
+    "none",
+    null
+  ],
+  "(park jihoon)|": [
+    "none",
+    null
+  ],
+  "mr. plankton|2024": [
+    "ok",
+    {
+      "tmdb_id": 230448,
+      "tmdb_type": "tv",
+      "tmdb_title": "Mr. Plankton",
+      "tmdb_year": "2024",
+      "poster": "/ugWl7rqoJsJSOC410tzctQf2cYN.jpg",
+      "backdrop": "/7LmwKWqnd0sYLQvz0VvjdW5J8sN.jpg",
+      "overview": "A man plagued by misfortune and his ex, the unluckiest bride-to-be, are forced to accompany one another on the final journey of his life.",
+      "rating": 8.1,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:230448": {
+    "backdrop_path": "/7LmwKWqnd0sYLQvz0VvjdW5J8sN.jpg",
+    "trailer": "https://www.youtube.com/watch?v=mt4wezFpLvA"
+  },
+  "the glory ( 2022 2023 )|": [
+    "none",
+    null
+  ],
+  "part 1 2|": [
+    "review",
+    {
+      "tmdb_id": 1656715,
+      "tmdb_type": "movie",
+      "tmdb_title": "Vugol",
+      "tmdb_year": "2008",
+      "poster": "/jsVHMtxLx2HeeH0bg5uuQRCUg7I.jpg",
+      "backdrop": null,
+      "overview": "What happens when you can't navigate at all",
+      "rating": 0.0,
+      "genre_ids": [
+        35
+      ],
+      "score": 0.8
+    }
+  ],
+  "2 run on|2020": [
+    "none",
+    null
+  ],
+  "ep-1 to 66|": [
+    "none",
+    null
+  ],
+  "heartbeat|2023": [
+    "ok",
+    {
+      "tmdb_id": 1360783,
+      "tmdb_type": "movie",
+      "tmdb_title": "Heartbeat",
+      "tmdb_year": "",
+      "poster": "/bBjOjsSV97mYz6ZljWSR3c9hkmQ.jpg",
+      "backdrop": null,
+      "overview": "A man loses himself in an attempt to do what he thinks is right for the love of his life.",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1360783": {
+    "backdrop_path": "",
+    "trailer": ""
+  },
+  "start up|2020": [
+    "ok",
+    {
+      "tmdb_id": 99048,
+      "tmdb_type": "tv",
+      "tmdb_title": "Start-Up",
+      "tmdb_year": "2020",
+      "poster": "/hxJQ3A2wtreuWDnVBbzzXI3YlOE.jpg",
+      "backdrop": "/v9Ej3dWhR0nFcLPOtvdPFXC6DN9.jpg",
+      "overview": "Young entrepreneurs aspiring to launch virtual dreams into reality compete for success and love in the cutthroat world of Korea's high-tech industry.",
+      "rating": 8.177,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 0.93
+    }
+  ],
+  "details:tv:99048": {
+    "backdrop_path": "/v9Ej3dWhR0nFcLPOtvdPFXC6DN9.jpg",
+    "trailer": "https://www.youtube.com/watch?v=BemKyzbLDDc"
+  },
+  "doona!|2023": [
+    "ok",
+    {
+      "tmdb_id": 194797,
+      "tmdb_type": "tv",
+      "tmdb_title": "Doona!",
+      "tmdb_year": "2023",
+      "poster": "/bQhiOkU3lCu5pwCqPdNVG5GBLlj.jpg",
+      "backdrop": "/1aBYcDp9CVbwU4h6mOYkkUgMPEl.jpg",
+      "overview": "A college student navigates life and school while dealing with a unique predicament — he's living with a beautiful former K-pop sensation.",
+      "rating": 7.698,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:194797": {
+    "backdrop_path": "/1aBYcDp9CVbwU4h6mOYkkUgMPEl.jpg",
+    "trailer": "https://www.youtube.com/watch?v=v4rtx48siJI"
+  },
+  "along with the gods: the two worlds|": [
+    "ok",
+    {
+      "tmdb_id": 397567,
+      "tmdb_type": "movie",
+      "tmdb_title": "Along with the Gods: The Two Worlds",
+      "tmdb_year": "2017",
+      "poster": "/gJSvIsI6oQfFim0PGyuuiCYfqKs.jpg",
+      "backdrop": "/wyv2Y9vXYJwJzF6cNVuVwVOsOUj.jpg",
+      "overview": "Having died unexpectedly, firefighter Ja-hong is taken to the afterlife by 3 afterlife guardians. Only when he passes 7 trials over 49 days and proves he was innocent in human life, he’s able to reincarnate, and his 3 afterlife guardians are by his side to defend him in trial.",
+      "rating": 8.06,
+      "genre_ids": [
+        28,
+        12,
+        18,
+        14,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "imdb..... 7.2|": [
+    "none",
+    null
+  ],
+  "( update )|": [
+    "ok",
+    {
+      "tmdb_id": 1571606,
+      "tmdb_type": "movie",
+      "tmdb_title": "Update",
+      "tmdb_year": "2025",
+      "poster": "/a8Jm1O0kehkGhTZPEkix6PfsVtc.jpg",
+      "backdrop": "/3oiC1AOr2VDyOfuBUuK1k3hgNHI.jpg",
+      "overview": "",
+      "rating": 0.0,
+      "genre_ids": [
+        878,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "ha jung woo, ju ji hoon, cha tae hyun, lee jung jae, ma dong seok, kim hyang gi|": [
+    "none",
+    null
+  ],
+  "ep-1 to 63|": [
+    "none",
+    null
+  ],
+  "number one|2026": [
+    "review",
+    {
+      "tmdb_id": 321152,
+      "tmdb_type": "tv",
+      "tmdb_title": "Number One Fan",
+      "tmdb_year": "2026",
+      "poster": "/uhFSX44LJBoc2exwRWUq7q1mZLd.jpg",
+      "backdrop": "/8TPezCdW5hA2zHdocx9w9afbkED.jpg",
+      "overview": "TV host Lucy is saved from an attack by fan Donna. Lucy invites her to a show taping, but Donna's subsequent behavior becomes increasingly obsessive and concerning.",
+      "rating": 1.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 0.83
+    }
+  ],
+  "choi woo-shik|": [
+    "none",
+    null
+  ],
+  "parasite choi woo-shik|": [
+    "none",
+    null
+  ],
+  "ep-1 to 64|": [
+    "none",
+    null
+  ],
+  "2 sweet home (sl&se) (2020 3 4)|": [
+    "none",
+    null
+  ],
+  "destined with you|2023": [
+    "ok",
+    {
+      "tmdb_id": 215001,
+      "tmdb_type": "tv",
+      "tmdb_title": "Destined with You",
+      "tmdb_year": "2023",
+      "poster": "/e21UFBbQStpqSkU4iyWwVJsb8DZ.jpg",
+      "backdrop": "/jJMfTkvU2exHwCFoBHsIqwaHImh.jpg",
+      "overview": "A lawyer bound by a centuries-old curse becomes entangled with a civil servant who holds the key to his freedom — igniting an unexpected romance.",
+      "rating": 8.103,
+      "genre_ids": [
+        18,
+        10765,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:215001": {
+    "backdrop_path": "/jJMfTkvU2exHwCFoBHsIqwaHImh.jpg",
+    "trailer": "https://www.youtube.com/watch?v=BXTDH1Ropfo"
+  },
+  "ep-1 to 62|": [
+    "none",
+    null
+  ],
+  "my dearest|2023": [
+    "ok",
+    {
+      "tmdb_id": 206693,
+      "tmdb_type": "tv",
+      "tmdb_title": "My Dearest",
+      "tmdb_year": "2023",
+      "poster": "/d00uWx8T84ZRsguQTqITl3HnFJO.jpg",
+      "backdrop": "/3MkrzqX1jog9ItFux72MvYyYfuT.jpg",
+      "overview": "A love-story between a noblewoman and a mysterious man who shows up in her hometown set in the 1600s during the Qing invasion.",
+      "rating": 8.383,
+      "genre_ids": [
+        18,
+        10768,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:206693": {
+    "backdrop_path": "/3MkrzqX1jog9ItFux72MvYyYfuT.jpg",
+    "trailer": "https://www.youtube.com/watch?v=DU5h-KEc5xo"
+  },
+  "our universe|2026": [
+    "ok",
+    {
+      "tmdb_id": 297424,
+      "tmdb_type": "tv",
+      "tmdb_title": "Our Universe",
+      "tmdb_year": "2026",
+      "poster": "/d0ZW2r5L8Ma50gvkvSY7BZSE6fb.jpg",
+      "backdrop": "/bHv9tTPd0dxpV2OD3WeDoZOFzPQ.jpg",
+      "overview": "Two in-laws forced to raise their orphaned nephew together slowly overcome their misunderstandings, finding personal growth and an unexpected romance through co-parenting under one roof.",
+      "rating": 8.2,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:297424": {
+    "backdrop_path": "/bHv9tTPd0dxpV2OD3WeDoZOFzPQ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=UgoUQGJiA98"
+  },
+  "wretches|2018": [
+    "ok",
+    {
+      "tmdb_id": 506830,
+      "tmdb_type": "movie",
+      "tmdb_title": "Wretches",
+      "tmdb_year": "2018",
+      "poster": "/16Da8tWFZNOfIekEIk1vuk8JBl7.jpg",
+      "backdrop": "/duTt5xjkQOPB0feEEQrgNy867rt.jpg",
+      "overview": "Jae-young is a high school student who is often bullied by the school’s mob leader, Yong-gyu. When Yong-gyu is hospitalized, Hoon wants to take his place at the top of the school. Jae-young hoped doing away with Yong-gyu would help him escape the tedious violence, but he finds himself tormented and harassed even more under the persistent Hoon.",
+      "rating": 5.2,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:506830": {
+    "backdrop_path": "/duTt5xjkQOPB0feEEQrgNy867rt.jpg",
+    "trailer": ""
+  },
+  "would you marry me?|2025": [
+    "ok",
+    {
+      "tmdb_id": 281011,
+      "tmdb_type": "tv",
+      "tmdb_title": "Would You Marry Me?",
+      "tmdb_year": "2025",
+      "poster": "/pfN6Ln8a6Xw23LQw0vL1YL8Kwqh.jpg",
+      "backdrop": "/gwbw9uaUyO1mUJMuhhWCttBWdVX.jpg",
+      "overview": "A couple who pretend to be newlyweds, find themselves developing genuine feelings for each other as they navigate their fake marriage.",
+      "rating": 8.2,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:281011": {
+    "backdrop_path": "/gwbw9uaUyO1mUJMuhhWCttBWdVX.jpg",
+    "trailer": "https://www.youtube.com/watch?v=g5PBlF0fgJQ"
+  },
+  "branding in seongsu|2024": [
+    "ok",
+    {
+      "tmdb_id": 230824,
+      "tmdb_type": "tv",
+      "tmdb_title": "Branding in Seongsu",
+      "tmdb_year": "2024",
+      "poster": "/w41prbBwg3AMFj63b2NHwvYgj1U.jpg",
+      "backdrop": "/s1SOyxMrCSXPbFvDrOzZUzLrmfi.jpg",
+      "overview": "A relentless marketing executive and a warm-hearted intern are always at odds with each other but everything takes a wild turn when their souls switch after an unexpected kiss.",
+      "rating": 7.8,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:230824": {
+    "backdrop_path": "/s1SOyxMrCSXPbFvDrOzZUzLrmfi.jpg",
+    "trailer": "https://www.youtube.com/watch?v=K_E4ZzmYV5Y"
+  },
+  "pipeline|2021": [
+    "ok",
+    {
+      "tmdb_id": 602009,
+      "tmdb_type": "movie",
+      "tmdb_title": "Pipeline",
+      "tmdb_year": "2020",
+      "poster": "/fwV69EqnyDqNkGsNNSWu80mCvAh.jpg",
+      "backdrop": "/A6Ovg3tdEfHBb1482N3J733IE8Q.jpg",
+      "overview": "A family rents their home to unsuspecting tourists to satiate the monster that lives in its very walls.",
+      "rating": 4.1,
+      "genre_ids": [
+        27
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:602009": {
+    "backdrop_path": "/A6Ovg3tdEfHBb1482N3J733IE8Q.jpg",
+    "trailer": "https://www.youtube.com/watch?v=fW6bYB507lY"
+  },
+  "ep-1 to 60|": [
+    "none",
+    null
+  ],
+  "under the gun|2024": [
+    "ok",
+    {
+      "tmdb_id": 251722,
+      "tmdb_type": "tv",
+      "tmdb_title": "Under The Gun",
+      "tmdb_year": "2024",
+      "poster": "/v7kxzZ7mukwklorF947hyUzr5zB.jpg",
+      "backdrop": "/tdFe7P1zlmgvK7A2KS3U3vrSxEQ.jpg",
+      "overview": "Meet ‘Goh Gun’, the ‘It’ Boy of Sunhwa High School, who is admired by his friends for his charming looks and impressive skills in Texas-style poker game, Holdem. However, when his younger sister Jun-hee falls ill with an incurable disease, his life takes an unexpected turn. With their father losing all their savings in gambling, Goh Gun takes the responsibility of saving his sister at any cost.",
+      "rating": 7.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:251722": {
+    "backdrop_path": "/tdFe7P1zlmgvK7A2KS3U3vrSxEQ.jpg",
+    "trailer": ""
+  },
+  "midnight|2021": [
+    "review",
+    {
+      "tmdb_id": 97400,
+      "tmdb_type": "tv",
+      "tmdb_title": "Midnight Mass",
+      "tmdb_year": "2021",
+      "poster": "/iYoMZYVD775MtBYJfv6OGY1FsnL.jpg",
+      "backdrop": "/YauN3gyvgqktYhze4gXPWuoZBY.jpg",
+      "overview": "The arrival of a charismatic young priest brings glorious miracles, ominous mysteries and renewed religious fervor to a dying town desperate to believe.",
+      "rating": 7.579,
+      "genre_ids": [
+        9648,
+        18
+      ],
+      "score": 0.76
+    }
+  ],
+  "call center|": [
+    "ok",
+    {
+      "tmdb_id": 100867,
+      "tmdb_type": "tv",
+      "tmdb_title": "Call Center",
+      "tmdb_year": "2020",
+      "poster": "/dDfbrxJlsYMtFkdBh01GFZhkOdY.jpg",
+      "backdrop": "/ivtUrpk4Z6n9jaZ69GdJpQC6Ics.jpg",
+      "overview": "Moscow. High rise. Here, on the 12th floor, is the office of the call center \"Online Store for Adults\". One morning, twelve people who are in the office suddenly find out that there is a bomb in the room. The voices of the unknowns who introduced themselves as Dad and Mom threaten to blow it up at any time if the hostages do not follow their instructions. While the countdown is going on, they will have to experience the absolute power of invisible sadists and learn something about each other’s life that they did not even suspect.",
+      "rating": 6.281,
+      "genre_ids": [
+        18,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "s line|2025": [
+    "ok",
+    {
+      "tmdb_id": 232402,
+      "tmdb_type": "tv",
+      "tmdb_title": "S Line",
+      "tmdb_year": "2025",
+      "poster": "/7TGolwcia6AI6uvInBOoedAi9Il.jpg",
+      "backdrop": "/buA9gM0cEcBmIcQX79o6QpTYUPT.jpg",
+      "overview": "A young woman with the ability to see mysterious red connections between lovers discovers her secret gift is no longer unique when special glasses granting similar powers appear on the black market.",
+      "rating": 7.506,
+      "genre_ids": [
+        10765,
+        18,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:232402": {
+    "backdrop_path": "/buA9gM0cEcBmIcQX79o6QpTYUPT.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ozeChwYWHhY"
+  },
+  "melo movie|2025": [
+    "ok",
+    {
+      "tmdb_id": 243964,
+      "tmdb_type": "tv",
+      "tmdb_title": "Melo Movie",
+      "tmdb_year": "2025",
+      "poster": "/4Aat5liR3Aepisn0fhxegpBSGKF.jpg",
+      "backdrop": "/9QjIFAVFN7Pe4MbF2O7oHvLkFsI.jpg",
+      "overview": "A movie buff falls for an aspiring director, igniting a romance that fizzles out too soon. When their paths cross again, can love find its way back?",
+      "rating": 7.5,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:243964": {
+    "backdrop_path": "/9QjIFAVFN7Pe4MbF2O7oHvLkFsI.jpg",
+    "trailer": "https://www.youtube.com/watch?v=F4leB_jBpDk"
+  },
+  "ep-1 to 61|": [
+    "none",
+    null
+  ],
+  "the witch|2025": [
+    "none",
+    null
+  ],
+  "got7 jinyoung hiarchery, 18 again roh jeong-eui mystery romance|": [
+    "none",
+    null
+  ],
+  "moving , light shop kang pool webtoon the witch|": [
+    "none",
+    null
+  ],
+  "honour|2026": [
+    "ok",
+    {
+      "tmdb_id": 287346,
+      "tmdb_type": "tv",
+      "tmdb_title": "Honour",
+      "tmdb_year": "2026",
+      "poster": "/d1kQcjue665jjB8AABliD8V9jFL.jpg",
+      "backdrop": "/fULDivcid9WAuV6hKwobgRhVWD4.jpg",
+      "overview": "There's no statute of limitations on revenge. A mystery thriller about three female lawyers who confront the past head-on, as it returns as a massive scandal.",
+      "rating": 9.2,
+      "genre_ids": [
+        9648,
+        80,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:287346": {
+    "backdrop_path": "/fULDivcid9WAuV6hKwobgRhVWD4.jpg",
+    "trailer": ""
+  },
+  "badland hunters|2024": [
+    "ok",
+    {
+      "tmdb_id": 933131,
+      "tmdb_type": "movie",
+      "tmdb_title": "Badland Hunters",
+      "tmdb_year": "2024",
+      "poster": "/zVMyvNowgbsBAL6O6esWfRpAcOb.jpg",
+      "backdrop": "/qLQiQXe8tHk8mokDH0LoKudPDH3.jpg",
+      "overview": "After a deadly earthquake turns Seoul into a lawless badland, a fearless huntsman springs into action to rescue a teenager abducted by a mad doctor.",
+      "rating": 6.719,
+      "genre_ids": [
+        28,
+        12,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:933131": {
+    "backdrop_path": "/qLQiQXe8tHk8mokDH0LoKudPDH3.jpg",
+    "trailer": "https://www.youtube.com/watch?v=7u3zBVAxx_w"
+  },
+  "sweet home season 2|2023": [
+    "none",
+    null
+  ],
+  "netflix sweet home s2|": [
+    "none",
+    null
+  ],
+  "sweet home 16 netflix series|": [
+    "none",
+    null
+  ],
+  "sweet home season 3|2024": [
+    "none",
+    null
+  ],
+  "sweet home final season se song kang lee jin wook lee do hyun lee si young go min si|": [
+    "none",
+    null
+  ],
+  "beauty inside|2018": [
+    "ok",
+    {
+      "tmdb_id": 82237,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Beauty Inside",
+      "tmdb_year": "2018",
+      "poster": "/u3UGsVYD0nxsucvN7NHLzXP0FHu.jpg",
+      "backdrop": "/raoz5xNPjFijXtvloEOKwGIfCqV.jpg",
+      "overview": "The love story between a top actress and an airline director who each suffers an unusual phenomenon. He suffers from prosopagnosia, while every month she transforms into someone else for a week.",
+      "rating": 7.923,
+      "genre_ids": [
+        18,
+        35,
+        10765
+      ],
+      "score": 0.87
+    }
+  ],
+  "details:tv:82237": {
+    "backdrop_path": "/raoz5xNPjFijXtvloEOKwGIfCqV.jpg",
+    "trailer": "https://www.youtube.com/watch?v=wkFD3ESBn10"
+  },
+  "undercover miss hong|2026": [
+    "ok",
+    {
+      "tmdb_id": 293608,
+      "tmdb_type": "tv",
+      "tmdb_title": "Undercover Miss Hong",
+      "tmdb_year": "2026",
+      "poster": "/bZr3i8yczHGDzyqZQ9oOArEEVON.jpg",
+      "backdrop": "/6yyKOxjQgb0C3I43T6qyXbieHni.jpg",
+      "overview": "A retro office comedy depicting the chaotic events that unfold in the late 1990s when Sammo Hung, a 30-year-old elite securities supervisor who only cares about work, goes undercover as a 20-year-old high school graduate employee at a securities firm where suspicious money flows are detected.",
+      "rating": 8.4,
+      "genre_ids": [
+        80,
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:293608": {
+    "backdrop_path": "/6yyKOxjQgb0C3I43T6qyXbieHni.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ggrP-QrbkNM"
+  },
+  "the fiery priest season 1|2019": [
+    "none",
+    null
+  ],
+  "action, comedy, crime, mystery|": [
+    "none",
+    null
+  ],
+  "casting the pirates kim nam gi, one the woman lee ha nee reply series kim sung kyun|": [
+    "none",
+    null
+  ],
+  "intimate strangers|2018": [
+    "ok",
+    {
+      "tmdb_id": 548352,
+      "tmdb_type": "movie",
+      "tmdb_title": "Intimate Strangers",
+      "tmdb_year": "2018",
+      "poster": "/2qpBfh6US8OQBSw2RuurxSm9HUm.jpg",
+      "backdrop": "/b3EHE8vWwZz47NGp1PObtsVvBO4.jpg",
+      "overview": "A group of people meet for the first time in a long time and play a game that reveals each other's secrets.",
+      "rating": 7.2,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:548352": {
+    "backdrop_path": "/b3EHE8vWwZz47NGp1PObtsVvBO4.jpg",
+    "trailer": "https://www.youtube.com/watch?v=pS6wX9HRGGw"
+  },
+  "the fiery priest season 2|2024": [
+    "none",
+    null
+  ],
+  "2019 sbs drama award|": [
+    "none",
+    null
+  ],
+  "kim nam gil daesang the fiery priest|": [
+    "none",
+    null
+  ],
+  "wonderful world|2024": [
+    "none",
+    null
+  ],
+  "eun soo hyun|": [
+    "none",
+    null
+  ],
+  "kwon seon yul (cha eun woo)|": [
+    "none",
+    null
+  ],
+  "the producers|2015": [
+    "ok",
+    {
+      "tmdb_id": 62644,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Producers",
+      "tmdb_year": "2015",
+      "poster": "/wtOMeQS4Yoeu1LdGf89XEk5XJ6l.jpg",
+      "backdrop": "/mmAaQ3xSfUaZZ0Lt074YuCmGA90.jpg",
+      "overview": "A rookie producer joins the Korean Broadcasting System to be near his secret crush and enters the madcap world of network TV, where ratings rule.",
+      "rating": 7.4,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:62644": {
+    "backdrop_path": "/mmAaQ3xSfUaZZ0Lt074YuCmGA90.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Un4C3SEiLNQ"
+  },
+  "ep-1 to 59|": [
+    "none",
+    null
+  ],
+  "mr. sunshine|2018": [
+    "ok",
+    {
+      "tmdb_id": 75820,
+      "tmdb_type": "tv",
+      "tmdb_title": "Mr. Sunshine",
+      "tmdb_year": "2018",
+      "poster": "/p7ljjykSsiyWstGVAwIkbdfPzRV.jpg",
+      "backdrop": "/gQwa6X2nmTHkmDgAifU4wacNqp4.jpg",
+      "overview": "Set in the early 1900s, this drama tells the story of a young man from Korea who grows up in the United States. When he returns to Korea as a US Marine Corps officer, he meets and falls in love with a noblewoman who is fighting for Korean independence. Their romance is complicated by social class and political ideology.",
+      "rating": 8.407,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:75820": {
+    "backdrop_path": "/gQwa6X2nmTHkmDgAifU4wacNqp4.jpg",
+    "trailer": "https://www.youtube.com/watch?v=rPJSo4fhtRU"
+  },
+  "boyfriend on demand|2026": [
+    "ok",
+    {
+      "tmdb_id": 281016,
+      "tmdb_type": "tv",
+      "tmdb_title": "Boyfriend on Demand",
+      "tmdb_year": "2026",
+      "poster": "/1WSuH8eK44KDavNggmWhKS5zUCF.jpg",
+      "backdrop": "/sjOTFlGapgXFjwV3LmD9eHZEp3d.jpg",
+      "overview": "Seo Mi-rae is worn out by work. Love? It's the last thing on her mind. But a virtual dating service sparks feelings — and maybe a real shot at romance.",
+      "rating": 8.435,
+      "genre_ids": [
+        35,
+        10765,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:281016": {
+    "backdrop_path": "/sjOTFlGapgXFjwV3LmD9eHZEp3d.jpg",
+    "trailer": "https://www.youtube.com/watch?v=A0GqKTgSpuE"
+  },
+  "crazy love|2022": [
+    "ok",
+    {
+      "tmdb_id": 134465,
+      "tmdb_type": "tv",
+      "tmdb_title": "Crazy Love",
+      "tmdb_year": "2022",
+      "poster": "/wQmABWWAGsifRGn2nltTJRLEF3Y.jpg",
+      "backdrop": "/ppG2MqOXVg7cDFgdJpKeS3OjZPr.jpg",
+      "overview": "No Go Jin is the most popular mathematics instructor in the private education field and the CEO of GOTOP Education. Even though he has only a high school level education, he has achieved all of his success due to his extreme intelligence. He seems like a perfect man with a handsome appearance, high IQ, and wealth. He is also narcissistic. One day, he is suddenly warned that he will be murdered.\n\nLee Shin A works as No Go Jin’s secretary. She is a diligent and responsible employee. Due to her quiet and introverted personality, she has little presence with her boss No Go Jin and her colleagues at work. Her colleagues begin to recognize her, because she has worked for the notorious No Go Jin for more than 1 year. She then learns that she does not have much time left to live.",
+      "rating": 7.8,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:134465": {
+    "backdrop_path": "/ppG2MqOXVg7cDFgdJpKeS3OjZPr.jpg",
+    "trailer": "https://www.youtube.com/watch?v=OgdRkr1k8DM"
+  },
+  "to the moon|2025": [
+    "ok",
+    {
+      "tmdb_id": 275177,
+      "tmdb_type": "tv",
+      "tmdb_title": "To the Moon",
+      "tmdb_year": "2025",
+      "poster": "/osxUZY8lESNEzethCZkj6gP3C2Q.jpg",
+      "backdrop": "/3Y5TZXEiOJSmwh8pQPfn3JlEv3A.jpg",
+      "overview": "Three colleagues at a confectionery company struggle to break free from financial hardship. When they turn to cryptocurrency as a possible solution, their lives are shaken by risk, reward, and unexpected change. Alongside a successful but unfulfilled big data director, they face risk, ambition, and the search for meaning in an uncertain world.",
+      "rating": 8.0,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:275177": {
+    "backdrop_path": "/3Y5TZXEiOJSmwh8pQPfn3JlEv3A.jpg",
+    "trailer": ""
+  },
+  "ep-1 to 58|": [
+    "none",
+    null
+  ],
+  "find me in your memory|2020": [
+    "ok",
+    {
+      "tmdb_id": 99477,
+      "tmdb_type": "tv",
+      "tmdb_title": "Find Me in Your Memory",
+      "tmdb_year": "2020",
+      "poster": "/u7bCi8AoLID1ykXogzL5a4mAL0o.jpg",
+      "backdrop": "/3N6effQUWb64LeWUflfiB59BXNW.jpg",
+      "overview": "A deep connection forms between a news anchor who remembers every moment he's ever lived and an actress who's lost the memories of her past.",
+      "rating": 8.1,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:99477": {
+    "backdrop_path": "/3N6effQUWb64LeWUflfiB59BXNW.jpg",
+    "trailer": "https://www.youtube.com/watch?v=lcObqazNnI4"
+  },
+  "money heist: korea - joint economic area|2022": [
+    "ok",
+    {
+      "tmdb_id": 112836,
+      "tmdb_type": "tv",
+      "tmdb_title": "Money Heist: Korea - Joint Economic Area",
+      "tmdb_year": "2022",
+      "poster": "/mbsRGqJtdKcVbjQxkrfzKCAkYoU.jpg",
+      "backdrop": "/lcTuggU70y6pt6x13Rv1Ffjs93K.jpg",
+      "overview": "Disguised under the shadows of a mask, a crew of desperados band together under the leadership of a criminal mastermind known only as “The Professor” to pull off the biggest heist Korea has ever seen.",
+      "rating": 7.682,
+      "genre_ids": [
+        10759,
+        80,
+        18,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:112836": {
+    "backdrop_path": "/lcTuggU70y6pt6x13Rv1Ffjs93K.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Uafg97czxeQ"
+  },
+  "bloody flower|2026": [
+    "ok",
+    {
+      "tmdb_id": 310024,
+      "tmdb_type": "tv",
+      "tmdb_title": "Bloody Flower",
+      "tmdb_year": "2026",
+      "poster": "/bDoAdJLEAiCRj8B0QRAz2wt2xfv.jpg",
+      "backdrop": "/5T4ij5RgI7y5UHNgI2scH8BU5J9.jpg",
+      "overview": "A former medical school dropout claiming to be able to cure terminal illnesses is sentenced to death for the murder of 17 people. Is he a monstrous killer, or a savior holding the cure for humanity?",
+      "rating": 8.152,
+      "genre_ids": [
+        80,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:310024": {
+    "backdrop_path": "/5T4ij5RgI7y5UHNgI2scH8BU5J9.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Kn97CaTWPzc"
+  },
+  "sweet home season 1|2020": [
+    "none",
+    null
+  ],
+  "cha hyun-soo (song kang) green house|": [
+    "none",
+    null
+  ],
+  "cha hyun-soo|": [
+    "none",
+    null
+  ],
+  "boy in the pool|2025": [
+    "ok",
+    {
+      "tmdb_id": 1065967,
+      "tmdb_type": "movie",
+      "tmdb_title": "Boy in the Pool",
+      "tmdb_year": "2025",
+      "poster": "/5OHb8GVFrLnQa6vfDZhfAtQ4Yju.jpg",
+      "backdrop": "/9498ewTsf0SevoWYlXvG3ECsMKJ.jpg",
+      "overview": "A girl who loves swimming meets a boy with webbed feet and falls in love with him. Over time, the girl gets conflicted between cheering for the boy as a promising swimmer and keeping herself from an inferiority complex. Eventually, the girl breaks up with him and loses her chance at love.",
+      "rating": 6.3,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1065967": {
+    "backdrop_path": "/9498ewTsf0SevoWYlXvG3ECsMKJ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=fDoW1pT6K0U"
+  },
+  "seasons of blossom|2022": [
+    "ok",
+    {
+      "tmdb_id": 205454,
+      "tmdb_type": "tv",
+      "tmdb_title": "Seasons of Blossom",
+      "tmdb_year": "2022",
+      "poster": "/nmT7FvzCC2ib8jCJUateiSG1CXs.jpg",
+      "backdrop": "/jJI1T0M1PpA422wL3AVDqR3BdOz.jpg",
+      "overview": "A story of love and friendship between five high school students from Seoyeon High School.\n\nLee Ha-Min (Seo Ji-Hoon) appears like a bright person, but there is also darkness within his mind. Han So-Mang ( So Ju-Yeon) is a warm-hearted person, but she is also quite timid. Lee Jae-Min (Kim Min-Kyu) is a popular student with a painful past. He is kind to everyone around him. Yoon Bo-Mi (Kang Hye-Won) is a sweet, model student. Choi Jin-Young (Yoon Hyun-Soo) loves playing games. He can seem unfriendly and has a delicate personality.",
+      "rating": 5.4,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:205454": {
+    "backdrop_path": "/jJI1T0M1PpA422wL3AVDqR3BdOz.jpg",
+    "trailer": ""
+  },
+  "ep-1 to 56|": [
+    "none",
+    null
+  ],
+  "at a distance, spring is green|2021": [
+    "ok",
+    {
+      "tmdb_id": 126436,
+      "tmdb_type": "tv",
+      "tmdb_title": "At a Distance, Spring is Green",
+      "tmdb_year": "2021",
+      "poster": "/34x7p7y2Nbo3Khe49tplJz6AexR.jpg",
+      "backdrop": "/9lVqIHBWmX9LKk5AePZ7ku20JGU.jpg",
+      "overview": "A coming of age story about young people in their twenties and the problems they face in university. Nam Soo-hyun and Yeon Joo, two boys with contrasting personalities, unexpectedly become friends when they work on a project together.",
+      "rating": 7.6,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:126436": {
+    "backdrop_path": "/9lVqIHBWmX9LKk5AePZ7ku20JGU.jpg",
+    "trailer": ""
+  },
+  "british film the disappearance of alice creed|": [
+    "none",
+    null
+  ],
+  "remake lee soo-hyuk , the glory|": [
+    "none",
+    null
+  ],
+  "cha joo-young jung ziso|": [
+    "none",
+    null
+  ],
+  "blue birthday|2021": [
+    "ok",
+    {
+      "tmdb_id": 128586,
+      "tmdb_type": "tv",
+      "tmdb_title": "Blue Birthday",
+      "tmdb_year": "2021",
+      "poster": "/huTPjtVs1VMmzxnu0elfUD3QGL8.jpg",
+      "backdrop": "/e4pUznmHrlYwAfhaYHzXv9U7oK4.jpg",
+      "overview": "The series tells the story of Oh Ha-rin, who travels to the past through mysterious photos left by her first love, Ji Seo-jun. Since they were eight years old, they had been close friends, but he died by suicide on her birthday ten years ago.",
+      "rating": 5.7,
+      "genre_ids": [
+        10765,
+        18,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:128586": {
+    "backdrop_path": "/e4pUznmHrlYwAfhaYHzXv9U7oK4.jpg",
+    "trailer": ""
+  },
+  "no tail to tell|2026": [
+    "ok",
+    {
+      "tmdb_id": 270420,
+      "tmdb_type": "tv",
+      "tmdb_title": "No Tail to Tell",
+      "tmdb_year": "2026",
+      "poster": "/bSX49M4tjDsnC8dOVQxt1sLgH6z.jpg",
+      "backdrop": "/sa9igU1XIER6bMgtZ2Ejfo1KsD8.jpg",
+      "overview": "Imbued with the power to grant wishes, a cynical nine-tailed fox's life takes a turn when she encounters a soccer player — altering both of their fates.",
+      "rating": 7.953,
+      "genre_ids": [
+        10765,
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:270420": {
+    "backdrop_path": "/sa9igU1XIER6bMgtZ2Ejfo1KsD8.jpg",
+    "trailer": ""
+  },
+  "ep-1 to 57|": [
+    "none",
+    null
+  ],
+  "love all play|2022": [
+    "ok",
+    {
+      "tmdb_id": 130765,
+      "tmdb_type": "tv",
+      "tmdb_title": "Love All Play",
+      "tmdb_year": "2022",
+      "poster": "/m19Cko9WIICOCdV7qiRyj5ZxyhE.jpg",
+      "backdrop": "/rRMmxFRKyRkiob2EbN6Z8vFBLVG.jpg",
+      "overview": "Ryou joins a powerhouse badminton team to chase his dreams and surpass the rival he once admired.",
+      "rating": 6.8,
+      "genre_ids": [
+        16
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:130765": {
+    "backdrop_path": "/rRMmxFRKyRkiob2EbN6Z8vFBLVG.jpg",
+    "trailer": "https://www.youtube.com/watch?v=cnlpfo1ojyU"
+  },
+  "battle of fates|2026": [
+    "ok",
+    {
+      "tmdb_id": 313289,
+      "tmdb_type": "tv",
+      "tmdb_title": "Battle of Fates",
+      "tmdb_year": "2026",
+      "poster": "/o4DOGStruvyfrfKhazBO9UbxRhR.jpg",
+      "backdrop": "/hiuzn8JQ4Q0VjA8AaU1qhL5Rjx8.jpg",
+      "overview": "Is our fate predetermined? And can anyone truly read it? A groundbreaking competition dares to find out. Korea's top 49 top Fate Readers—masters of shamanism, saju, tarot, and face reading—put their pride on the line. Only those who can genuinely read fate will survive. Who will be the winner?",
+      "rating": 7.8,
+      "genre_ids": [
+        9648,
+        10764
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:313289": {
+    "backdrop_path": "/hiuzn8JQ4Q0VjA8AaU1qhL5Rjx8.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xnS_rfsEzOI"
+  },
+  "navillera|2021": [
+    "ok",
+    {
+      "tmdb_id": 119464,
+      "tmdb_type": "tv",
+      "tmdb_title": "Navillera",
+      "tmdb_year": "2021",
+      "poster": "/pBd6pEhszsWk95TrUqo4bdXhH8T.jpg",
+      "backdrop": "/ylS5KdDgb8s4Y7P3sDifrizvmA4.jpg",
+      "overview": "A 70-year-old with a dream and a 23-year-old with a gift lift each other out of harsh realities and rise to the challenge of becoming ballerinos.",
+      "rating": 8.596,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:119464": {
+    "backdrop_path": "/ylS5KdDgb8s4Y7P3sDifrizvmA4.jpg",
+    "trailer": "https://www.youtube.com/watch?v=YtK3Vtw4rno"
+  },
+  "vincenzo|2021": [
+    "ok",
+    {
+      "tmdb_id": 117376,
+      "tmdb_type": "tv",
+      "tmdb_title": "Vincenzo",
+      "tmdb_year": "2021",
+      "poster": "/qbkSS1cTjT4DzIwD44bdhTuYgdT.jpg",
+      "backdrop": "/sf7NCqyVUNoyjYuwW5oJke1T1lH.jpg",
+      "overview": "During a visit to his motherland, a Korean-Italian Mafia lawyer gives an unrivaled conglomerate a taste of its own medicine  with a side of justice.",
+      "rating": 8.496,
+      "genre_ids": [
+        10759,
+        35,
+        18,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:117376": {
+    "backdrop_path": "/sf7NCqyVUNoyjYuwW5oJke1T1lH.jpg",
+    "trailer": "https://www.youtube.com/watch?v=S12-4mXCNj4"
+  },
+  "family matters|2024": [
+    "ok",
+    {
+      "tmdb_id": 236356,
+      "tmdb_type": "tv",
+      "tmdb_title": "Family Matters",
+      "tmdb_year": "2024",
+      "poster": "/h5OFsjZCPyoTjLyWarFyPzMrZQp.jpg",
+      "backdrop": "/5kLv2yxi2Zj6ZsHssvCR4GvVKWK.jpg",
+      "overview": "A group of people with supernatural powers form a surrogate family to protect themselves from a criminal syndicate.",
+      "rating": 7.975,
+      "genre_ids": [
+        18,
+        80,
+        35,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:236356": {
+    "backdrop_path": "/5kLv2yxi2Zj6ZsHssvCR4GvVKWK.jpg",
+    "trailer": ""
+  },
+  "wedding impossible|2024": [
+    "ok",
+    {
+      "tmdb_id": 230198,
+      "tmdb_type": "tv",
+      "tmdb_title": "Wedding Impossible",
+      "tmdb_year": "2024",
+      "poster": "/auP4DnCCUHNH1CBlpL8TWBZya2f.jpg",
+      "backdrop": "/HXWwX1bleJRJSR9VZMZQiY8WOf.jpg",
+      "overview": "A struggling actress agrees to a fake marriage with a wealthy heir to help him hide his homosexuality, but their plan is threatened when his ambitious younger brother grows suspicious and seeks to expose the truth.",
+      "rating": 6.7,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:230198": {
+    "backdrop_path": "/HXWwX1bleJRJSR9VZMZQiY8WOf.jpg",
+    "trailer": "https://www.youtube.com/watch?v=wgJBSTiVENg"
+  },
+  "2019 time travel|": [
+    "none",
+    null
+  ],
+  "the auditors shin ha kyun|": [
+    "none",
+    null
+  ],
+  "queen of tears|2024": [
+    "ok",
+    {
+      "tmdb_id": 215720,
+      "tmdb_type": "tv",
+      "tmdb_title": "Queen of Tears",
+      "tmdb_year": "2024",
+      "poster": "/7ZXLZ3KYL3IVvsSHBZaHjcNQzNU.jpg",
+      "backdrop": "/wcP3FsRLog4GNEs9PFrDKKQdcof.jpg",
+      "overview": "The queen of department stores and the prince of supermarkets weather a marital crisis—until love miraculously begins to bloom again.",
+      "rating": 8.398,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:215720": {
+    "backdrop_path": "/wcP3FsRLog4GNEs9PFrDKKQdcof.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Gg2D8zrzlOA"
+  },
+  "ep-1 to 55|": [
+    "none",
+    null
+  ],
+  "eve|2022": [
+    "ok",
+    {
+      "tmdb_id": 138251,
+      "tmdb_type": "tv",
+      "tmdb_title": "Eve",
+      "tmdb_year": "2022",
+      "poster": "/6xvIRR50lDzFRWLFCAwSzEkoEu3.jpg",
+      "backdrop": "/79ngeH4ryvoMOvQOTLH176hoHFs.jpg",
+      "overview": "The Republic of Korea is overturned by 2 trillion-won divorce scandal of a chaebol caused by one ordinary woman. It is about getting into the truth of the scandal and the top 1% rich couple who made it. Surprisingly, Lee Ra-el, a nobody who's not rich nor famous has caused the divorce. But Ra-el is a charming and intelligent woman who's mastered art, psychology, and even economics. if she wants to, she can get any kind of man with her looks and brain.",
+      "rating": 6.659,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:138251": {
+    "backdrop_path": "/79ngeH4ryvoMOvQOTLH176hoHFs.jpg",
+    "trailer": "https://www.youtube.com/watch?v=CTJ0y2suMtw"
+  },
+  "numbers|2023": [
+    "ok",
+    {
+      "tmdb_id": 215320,
+      "tmdb_type": "tv",
+      "tmdb_title": "Numbers",
+      "tmdb_year": "2023",
+      "poster": "/1aKjOBF9NReK7IQZDRngoQRBwMO.jpg",
+      "backdrop": "/vWU2H286dFhgWluNIeqrHuyExRv.jpg",
+      "overview": "After uncovering a web of systemic corruption, a rookie accountant vows to end the injustice by dismantling a prestigious accounting firm.",
+      "rating": 7.4,
+      "genre_ids": [
+        18,
+        10759
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:215320": {
+    "backdrop_path": "/vWU2H286dFhgWluNIeqrHuyExRv.jpg",
+    "trailer": "https://www.youtube.com/watch?v=3GFo2JHSs8M"
+  },
+  "ep-1 to 53|": [
+    "none",
+    null
+  ],
+  "sassy go go|2015": [
+    "none",
+    null
+  ],
+  "jung eun-ji chae soo-bin lee won-keun jisoo|": [
+    "none",
+    null
+  ],
+  "cheerleading (jung eun-ji)|": [
+    "none",
+    null
+  ],
+  "once we were us|2025": [
+    "ok",
+    {
+      "tmdb_id": 1264805,
+      "tmdb_type": "movie",
+      "tmdb_title": "Once We Were Us",
+      "tmdb_year": "2025",
+      "poster": "/ivBI8FRQPIKzoZAryZK93xriOT.jpg",
+      "backdrop": "/2xtajuwR5EGFQm4pXuykWoEu4u0.jpg",
+      "overview": "Seoul, 2008. On a bus heading to their hometown, fate brings Eun-ho and Jeong-won together, sparking an unlikely friendship. While battling  a bustling and weary city life, they find themselves sharing lofty dreams and a love that comes to feel extraordinary. But, eventually, the harsh realities of life lead them to part ways. Over a decade after the separation, the two unexpectedly reunite on a flight back to Korea, where they reflect on their lost time.",
+      "rating": 7.8,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1264805": {
+    "backdrop_path": "/2xtajuwR5EGFQm4pXuykWoEu4u0.jpg",
+    "trailer": ""
+  },
+  "crash course in romance|2023": [
+    "ok",
+    {
+      "tmdb_id": 202318,
+      "tmdb_type": "tv",
+      "tmdb_title": "Crash Course in Romance",
+      "tmdb_year": "2023",
+      "poster": "/88rQREli2xtoDV6HToJysp71ZL7.jpg",
+      "backdrop": "/o3tS28maAJTDt9Zmnn4JvNv2Hix.jpg",
+      "overview": "The series follows the bittersweet relationship between a banchan shop owner whose daughter enters the war of Korea's college entrance exams, and a top hagwon instructor.",
+      "rating": 8.2,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:202318": {
+    "backdrop_path": "/o3tS28maAJTDt9Zmnn4JvNv2Hix.jpg",
+    "trailer": "https://www.youtube.com/watch?v=M0roNIisQ5w"
+  },
+  "again my life|2022": [
+    "ok",
+    {
+      "tmdb_id": 135654,
+      "tmdb_type": "tv",
+      "tmdb_title": "Again My Life",
+      "tmdb_year": "2022",
+      "poster": "/6QDWvFl9eScywwF8eUvhVZBleb1.jpg",
+      "backdrop": "/kuXlHSpBJlqFJsLunYe5rjf2K4F.jpg",
+      "overview": "A public prosecutor is murdered while investigating corruption. But when he is “reborn” as his previous self, can he team up with a wealthy family heir to find answers?",
+      "rating": 8.0,
+      "genre_ids": [
+        18,
+        80,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:135654": {
+    "backdrop_path": "/kuXlHSpBJlqFJsLunYe5rjf2K4F.jpg",
+    "trailer": ""
+  },
+  "ep-1 to 54|": [
+    "none",
+    null
+  ],
+  "call it love|2023": [
+    "ok",
+    {
+      "tmdb_id": 215471,
+      "tmdb_type": "tv",
+      "tmdb_title": "Call It Love",
+      "tmdb_year": "2023",
+      "poster": "/m7xiLb8mLyHHgThJICIPCsSq1qR.jpg",
+      "backdrop": "/6Yi0rIMX6jdst39Wk0jaUzrIxuZ.jpg",
+      "overview": "When her family becomes suddenly homeless, Woojoo decides on revenge for all the injustices she has been put through. However, her supposed foe, Dongjin, is a heart-wrenchingly lonely and gentle soul.",
+      "rating": 8.167,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:215471": {
+    "backdrop_path": "/6Yi0rIMX6jdst39Wk0jaUzrIxuZ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=WBkRcy9-9uU"
+  },
+  "perfect family|2024": [
+    "ok",
+    {
+      "tmdb_id": 306974,
+      "tmdb_type": "tv",
+      "tmdb_title": "Perfect Family",
+      "tmdb_year": "2025",
+      "poster": "/4HZCp7StTidUMJvty4fZ2VJaQgm.jpg",
+      "backdrop": "/tsDmPboTBEDiG7Bklg0OV2b3KlW.jpg",
+      "overview": "A Punjabi family appears happy but deals with hidden issues, attending therapy together to address mental health and family bonds while fighting cultural stigma.",
+      "rating": 5.2,
+      "genre_ids": [
+        10751,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:306974": {
+    "backdrop_path": "/tsDmPboTBEDiG7Bklg0OV2b3KlW.jpg",
+    "trailer": "https://www.youtube.com/watch?v=al9YyOkHQiM"
+  },
+  "high school return of a gangster|2024": [
+    "ok",
+    {
+      "tmdb_id": 224030,
+      "tmdb_type": "tv",
+      "tmdb_title": "High School Return of a Gangster",
+      "tmdb_year": "2024",
+      "poster": "/bK5kGsWq9vGALbDgPmNiLFNFVI1.jpg",
+      "backdrop": "/d5XO4xMMYukfDgcuAe4IBQ7MBmY.jpg",
+      "overview": "A spirit of a middle school dropout gangster who accidentally possesses an 18-year-old boy’s body who killed himself, goes back to high school to take a revenge against the bullies with his gangster skills and encounters unexpected relationship.",
+      "rating": 8.508,
+      "genre_ids": [
+        10765,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:224030": {
+    "backdrop_path": "/d5XO4xMMYukfDgcuAe4IBQ7MBmY.jpg",
+    "trailer": "https://www.youtube.com/watch?v=c5o74dSF8AM"
+  },
+  "officer black belt|2024": [
+    "ok",
+    {
+      "tmdb_id": 1139817,
+      "tmdb_type": "movie",
+      "tmdb_title": "Officer Black Belt",
+      "tmdb_year": "2024",
+      "poster": "/pWOiCearczq7zmWo4ASbUIF6HYS.jpg",
+      "backdrop": "/wSZbtiFIK1fkKZdSRtn2kz2Ttfd.jpg",
+      "overview": "A talented martial artist who can't walk past a person in need unites with a probation officer to fight and prevent crime as a martial arts officer.",
+      "rating": 7.679,
+      "genre_ids": [
+        28,
+        35,
+        80,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1139817": {
+    "backdrop_path": "/wSZbtiFIK1fkKZdSRtn2kz2Ttfd.jpg",
+    "trailer": "https://www.youtube.com/watch?v=WNkGz6aKFvk"
+  },
+  "to my beloved thief|2026": [
+    "ok",
+    {
+      "tmdb_id": 301886,
+      "tmdb_type": "tv",
+      "tmdb_title": "To My Beloved Thief",
+      "tmdb_year": "2026",
+      "poster": "/rovxC2ugTtaMsgo7lOF4R4VBSb9.jpg",
+      "backdrop": "/enTNCPGiu3dhul8XTBZEJCLZWbI.jpg",
+      "overview": "Hong Eun Jo leads a double life: a servant and healer by day and a Robin-Hood-like thief named Gil Dong by night. Grand Prince Do Wol, brother to the King, begins to investigate the case. An encounter with a monk leads to them swapping souls, and they are forced to navigate each other's complex worlds.",
+      "rating": 8.3,
+      "genre_ids": [
+        10765,
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:301886": {
+    "backdrop_path": "/enTNCPGiu3dhul8XTBZEJCLZWbI.jpg",
+    "trailer": ""
+  },
+  "ep-1 to 51|": [
+    "none",
+    null
+  ],
+  "tell me that you love me|2023": [
+    "ok",
+    {
+      "tmdb_id": 206689,
+      "tmdb_type": "tv",
+      "tmdb_title": "Tell Me That You Love Me",
+      "tmdb_year": "2023",
+      "poster": "/u8GTmtL8VkulRyq4z6xuQ9x2klw.jpg",
+      "backdrop": "/tTOxnft2N2JwdodCUFNfoD0PrjS.jpg",
+      "overview": "Since he lost his hearing, Cha Jin-woo has gotten used to his solitary life. One day, an aspiring actress Jung Mo-eun, enters his quiet daily routine.",
+      "rating": 7.9,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:206689": {
+    "backdrop_path": "/tTOxnft2N2JwdodCUFNfoD0PrjS.jpg",
+    "trailer": ""
+  },
+  "nailed|2019": [
+    "ok",
+    {
+      "tmdb_id": 546596,
+      "tmdb_type": "movie",
+      "tmdb_title": "Nailed",
+      "tmdb_year": "2019",
+      "poster": "/fRgYy3NhGYFkICXeTJzuidPxN6a.jpg",
+      "backdrop": "/nzMnERGaR0zYQXkN95Occx6LInR.jpg",
+      "overview": "A couple running a roadside garage has their livelihood threatened by trucks going in and out of a nearby construction site. When they learn that metal scraps from the trucks are flattening tires, they start to scatter scraps and make money from changing tires.",
+      "rating": 6.1,
+      "genre_ids": [
+        35,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:546596": {
+    "backdrop_path": "/nzMnERGaR0zYQXkN95Occx6LInR.jpg",
+    "trailer": ""
+  },
+  "doctor slump|2024": [
+    "ok",
+    {
+      "tmdb_id": 222233,
+      "tmdb_type": "tv",
+      "tmdb_title": "Doctor Slump",
+      "tmdb_year": "2024",
+      "poster": "/iOWmbZEbhvrYyWm6O4W3oHf2S9B.jpg",
+      "backdrop": "/8bF9oiu4L5jOmuob5lBxcCwaea2.jpg",
+      "overview": "Once rivals in school, two brilliant doctors reunite by chance — each facing life’s worst slump and unexpectedly finding solace in each other.",
+      "rating": 8.06,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:222233": {
+    "backdrop_path": "/8bF9oiu4L5jOmuob5lBxcCwaea2.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xCwAwwm4-sY"
+  },
+  "ep-1 to 52|": [
+    "none",
+    null
+  ],
+  "extracurricular|2020": [
+    "ok",
+    {
+      "tmdb_id": 90814,
+      "tmdb_type": "tv",
+      "tmdb_title": "Extracurricular",
+      "tmdb_year": "2020",
+      "poster": "/dPMsIHo7LUtGaBfpV4c35wKZERV.jpg",
+      "backdrop": "/nQAyoR7kmyiQCC9EAJLb12ZDS2.jpg",
+      "overview": "Determined to escape a dead-end life, a gifted high school student turns to a world of serious crime to ensure he can pay for college.",
+      "rating": 8.101,
+      "genre_ids": [
+        80,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:90814": {
+    "backdrop_path": "/nQAyoR7kmyiQCC9EAJLb12ZDS2.jpg",
+    "trailer": "https://www.youtube.com/watch?v=aV_DBz2rKsI"
+  },
+  "han gong-ju|2014": [
+    "ok",
+    {
+      "tmdb_id": 229304,
+      "tmdb_type": "movie",
+      "tmdb_title": "Han Gong-ju",
+      "tmdb_year": "2014",
+      "poster": "/4aLNAcE52EaKy8Iydtxyz9rozQh.jpg",
+      "backdrop": "/arJFjv59hsTImNezz87EjMaPs8t.jpg",
+      "overview": "After being involved in a traumatic incident, 17-year-old Gong-ju is forced to change schools. Uncared for by her parents, her previous teacher arranges for her to hide away at his mother's place. It takes time for her past to catch up with her, but when it does the revelation is devastating.",
+      "rating": 7.2,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:229304": {
+    "backdrop_path": "/arJFjv59hsTImNezz87EjMaPs8t.jpg",
+    "trailer": "https://www.youtube.com/watch?v=FsQyHhusuP4"
+  },
+  "daily dose of sunshine|2023": [
+    "ok",
+    {
+      "tmdb_id": 205319,
+      "tmdb_type": "tv",
+      "tmdb_title": "Daily Dose of Sunshine",
+      "tmdb_year": "2023",
+      "poster": "/d9hIiomaPXu6W9qATzPSqHgxze8.jpg",
+      "backdrop": "/bhCUn6Z509qTV4eBJZtjtQ4ennL.jpg",
+      "overview": "A kind-hearted nurse working in psychiatry goes above and beyond to be a ray of light for those under her care, despite the challenges coming her way.",
+      "rating": 8.282,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:205319": {
+    "backdrop_path": "/bhCUn6Z509qTV4eBJZtjtQ4ennL.jpg",
+    "trailer": "https://www.youtube.com/watch?v=a81i3lenqp4"
+  },
+  "cashero|2025": [
+    "ok",
+    {
+      "tmdb_id": 238458,
+      "tmdb_type": "tv",
+      "tmdb_title": "Cashero",
+      "tmdb_year": "2025",
+      "poster": "/dm6RoaKgkGUxckamMDzsbqtLhFv.jpg",
+      "backdrop": "/lr0h0OBj7QOEvkaX5g3JWoaKZsI.jpg",
+      "overview": "An ordinary man who inherits super strength discovers a greater evil out to steal his power. The one catch? Every use drains money from his wallet.",
+      "rating": 7.39,
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:238458": {
+    "backdrop_path": "/lr0h0OBj7QOEvkaX5g3JWoaKZsI.jpg",
+    "trailer": "https://www.youtube.com/watch?v=cI-iJmZbBXw"
+  },
+  "positively yours|2026": [
+    "ok",
+    {
+      "tmdb_id": 296009,
+      "tmdb_type": "tv",
+      "tmdb_title": "Positively Yours",
+      "tmdb_year": "2026",
+      "poster": "/6lnM7PecwSEyYjrWr2nQzmmZaDU.jpg",
+      "backdrop": "/zzLRrEtJPyqMAgCbpTiokRilGTd.jpg",
+      "overview": "A man and a woman who swore off marriage find their carefully controlled lives overturned after a one-night mistake forces them into an unexpected, reverse romance neither planned nor wanted.",
+      "rating": 8.779,
+      "genre_ids": [
+        35,
+        10751,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:296009": {
+    "backdrop_path": "/zzLRrEtJPyqMAgCbpTiokRilGTd.jpg",
+    "trailer": "https://www.youtube.com/watch?v=okCtnutlFzg"
+  },
+  "the hymn of death|2018": [
+    "ok",
+    {
+      "tmdb_id": 83755,
+      "tmdb_type": "tv",
+      "tmdb_title": "Hymn of Death",
+      "tmdb_year": "2018",
+      "poster": "/xhi0dblvDPyNZb8jl0HPQEXGhy2.jpg",
+      "backdrop": "/lwfvmZZK2KmM0fg785zamw0x0yJ.jpg",
+      "overview": "Based on a true story, the drama tells the tragic love story of Kim Woo Jin, a married stage drama writer, and Yun Shim Duk, Korea's first professional soprano, who meet while studying at Tokyo University in the 1920s. Yun Shim Duk's recording of \"Death Song\" became the first Korean pop song in 1926.",
+      "rating": 8.3,
+      "genre_ids": [
+        18
+      ],
+      "score": 0.87
+    }
+  ],
+  "details:tv:83755": {
+    "backdrop_path": "/lwfvmZZK2KmM0fg785zamw0x0yJ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=5QxdSiwK-nw"
+  },
+  "chief detective 1958|2024": [
+    "ok",
+    {
+      "tmdb_id": 216292,
+      "tmdb_type": "tv",
+      "tmdb_title": "Chief Detective 1958",
+      "tmdb_year": "2024",
+      "poster": "/3iJPQbGF9MzZQXb5HiUZP43LPz8.jpg",
+      "backdrop": "/teJVPef30lrI3zzC96BPoTYkwMo.jpg",
+      "overview": "In an era of violence and corruption, Park Yeong-han, a humble detective, joins forces with Sang-sun, Gyeong-hwan and Ho-jeong to uphold justice.",
+      "rating": 7.283,
+      "genre_ids": [
+        18,
+        9648,
+        10759
+      ],
+      "score": 1.0
+    }
+  ],
+  "move to heaven|2021": [
+    "ok",
+    {
+      "tmdb_id": 96571,
+      "tmdb_type": "tv",
+      "tmdb_title": "Move to Heaven",
+      "tmdb_year": "2021",
+      "poster": "/gUvA20jcHABFPjYMIiZl5o9tWi3.jpg",
+      "backdrop": "/tsdhmP9H7ZDveYDE0wkh90tjX3S.jpg",
+      "overview": "Finding life in all that’s left behind, a detail-oriented trauma cleaner and his estranged uncle deliver untold stories of the departed to loved ones.",
+      "rating": 7.992,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:96571": {
+    "backdrop_path": "/tsdhmP9H7ZDveYDE0wkh90tjX3S.jpg",
+    "trailer": "https://www.youtube.com/watch?v=80XSCaQIlko"
+  },
+  "serendipity's embrace|2024": [
+    "ok",
+    {
+      "tmdb_id": 211065,
+      "tmdb_type": "tv",
+      "tmdb_title": "Serendipity's Embrace",
+      "tmdb_year": "2024",
+      "poster": "/oOitjGRuMycmgMK7QdaHgt82fyF.jpg",
+      "backdrop": "/b1vIdwphipxepKvMRD9mxfVJZPJ.jpg",
+      "overview": "After 10 years in the US, Hu-young returns to Korea and meets his first love, Hong-ju, at a café by chance. Just as the window into which Peter Pan flew happened to be Wendy's room. Just as the prince happened to find Cinderella's glass shoes. As if nothing had changed in the past 10 years, Hu-young becomes clumsier only in front of Hong-ju. It’s like going back to the age of 19 when he met his first love, Hong-ju. Hu-young and Hong-ju’s days, which have faded a little, begin to turn into vivid rainbow colors again.",
+      "rating": 8.2,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:211065": {
+    "backdrop_path": "/b1vIdwphipxepKvMRD9mxfVJZPJ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=5kZK0oDPG1w"
+  },
+  "a love so beautiful|2020": [
+    "ok",
+    {
+      "tmdb_id": 114395,
+      "tmdb_type": "tv",
+      "tmdb_title": "A Love So Beautiful",
+      "tmdb_year": "2020",
+      "poster": "/hZQsdmWWB2kKDLJyfHvk8dR5VTJ.jpg",
+      "backdrop": "/wVxcWC5j9e4i3SDq4MesjY5GAsn.jpg",
+      "overview": "Love is as tough as it is sweet for a lovestruck teenager, whose relationship with her next-door neighbor transforms as they grow into adulthood.",
+      "rating": 8.3,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:114395": {
+    "backdrop_path": "/wVxcWC5j9e4i3SDq4MesjY5GAsn.jpg",
+    "trailer": "https://www.youtube.com/watch?v=0NiSVkyqfPs"
+  },
+  "watcher|2019": [
+    "ok",
+    {
+      "tmdb_id": 90403,
+      "tmdb_type": "tv",
+      "tmdb_title": "WATCHER",
+      "tmdb_year": "2019",
+      "poster": "/abDUQMDt8ex9PklXsKsWISyvxni.jpg",
+      "backdrop": "/g2HC9jLcRUvgu5JTIetTzGqjxWM.jpg",
+      "overview": "A psychological thriller that delves into the reality of power. It follows the story of three men and women whose lives are destroyed by a tragic accident as they become a team that uncovers corruption and fights against people with power.",
+      "rating": 7.979,
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:90403": {
+    "backdrop_path": "/g2HC9jLcRUvgu5JTIetTzGqjxWM.jpg",
+    "trailer": ""
+  },
+  "the roundup: no way out - the outlaws 3|2023": [
+    "review",
+    {
+      "tmdb_id": 955555,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Roundup: No Way Out",
+      "tmdb_year": "2023",
+      "poster": "/n7qqzqhxBn4eiJLb0cVQjSnXjGy.jpg",
+      "backdrop": "/5DKVH8KeqFwPacWFMyYqTaECxJP.jpg",
+      "overview": "Detective Ma Seok-do changes his affiliation from the Geumcheon Police Station to the Metropolitan Investigation Team, in order to eradicate Japanese gangsters who enter Korea to commit heinous crimes.",
+      "rating": 7.24,
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "score": 0.76
+    }
+  ],
+  "round up 3|": [
+    "none",
+    null
+  ],
+  "ma dong seok k movie ma dong seok|": [
+    "none",
+    null
+  ],
+  "the trauma code: heroes on call|2025": [
+    "ok",
+    {
+      "tmdb_id": 217553,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Trauma Code: Heroes on Call",
+      "tmdb_year": "2025",
+      "poster": "/y8h2RwUZM5chv9tuaKVwSPoo3KE.jpg",
+      "backdrop": "/58XBnfKhP569SuZuXks3fNYpLBm.jpg",
+      "overview": "To create a top-tier trauma center, a war-seasoned doctor arrives — bringing his blunt but skilled ways to transform his team into life-saving mavericks.",
+      "rating": 8.46,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:217553": {
+    "backdrop_path": "/58XBnfKhP569SuZuXks3fNYpLBm.jpg",
+    "trailer": "https://www.youtube.com/watch?v=pdDXO-dMjAc"
+  },
+  "ep-1 to 48|": [
+    "none",
+    null
+  ],
+  "hi,bye mama!|2020": [
+    "ok",
+    {
+      "tmdb_id": 97219,
+      "tmdb_type": "tv",
+      "tmdb_title": "Hi Bye, Mama!",
+      "tmdb_year": "2020",
+      "poster": "/mc5nLj2EM480d6tlxKsj2GRfsDC.jpg",
+      "backdrop": "/2TMsmPv6RMR1XvqcZSsdci0QDeh.jpg",
+      "overview": "Cha Yu-ri died in an accident five years ago, leaving her husband Cho Gang-hwa to raise their daughter by himself. She becomes a ghost and watches over them until one fateful day she is brought back to life by the deities and told she can become human again if she returns to her place in 49 days. Though her husband has remarried, so she must decide between her or his happiness as she slowly re-integrates back into her old lifestyle.",
+      "rating": 8.106,
+      "genre_ids": [
+        10765,
+        35,
+        18
+      ],
+      "score": 0.95
+    }
+  ],
+  "details:tv:97219": {
+    "backdrop_path": "/2TMsmPv6RMR1XvqcZSsdci0QDeh.jpg",
+    "trailer": "https://www.youtube.com/watch?v=GtJ7c6IQW4Q"
+  },
+  "our unwritten seoul|2025": [
+    "ok",
+    {
+      "tmdb_id": 261980,
+      "tmdb_type": "tv",
+      "tmdb_title": "Our Unwritten Seoul",
+      "tmdb_year": "2025",
+      "poster": "/4wnCkk4HmIzBuyyFGpcGxPKsyjI.jpg",
+      "backdrop": "/m0VuPoWQhbgMjVIwAdZmmHgHQrl.jpg",
+      "overview": "Twin sisters, whose similarities end with their looks, swap identities amid personal struggles — embarking on a journey to rediscover love and life.",
+      "rating": 8.417,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:261980": {
+    "backdrop_path": "/m0VuPoWQhbgMjVIwAdZmmHgHQrl.jpg",
+    "trailer": "https://www.youtube.com/watch?v=lsDGSricQ60"
+  },
+  "boyhood|2023": [
+    "ok",
+    {
+      "tmdb_id": 232812,
+      "tmdb_type": "tv",
+      "tmdb_title": "Boyhood",
+      "tmdb_year": "2023",
+      "poster": "/AeqV7Oy6KWQC5PnXn5FYqMxYnTC.jpg",
+      "backdrop": "/7eUsF9aZ4LxZURA9O5rWALSsfNe.jpg",
+      "overview": "Jang Byeong-tae is a small and weak boy living in Onyang in South Chungcheong Province. He's at the bottom of the school's social ladder and when he transfers to the neighboring Buyeo Agricultural High School, he faces an unexpected incident that becomes a turning point in his life.",
+      "rating": 8.2,
+      "genre_ids": [
+        35,
+        18,
+        10759
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:232812": {
+    "backdrop_path": "/7eUsF9aZ4LxZURA9O5rWALSsfNe.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ekFypbJKfW4"
+  },
+  "ep-1 to 49|": [
+    "none",
+    null
+  ],
+  "your honor|2024": [
+    "ok",
+    {
+      "tmdb_id": 247031,
+      "tmdb_type": "tv",
+      "tmdb_title": "Your Honor",
+      "tmdb_year": "2024",
+      "poster": "/d9pnj2aSShOtNTmW59B4a3FgYZD.jpg",
+      "backdrop": "/lvsITncd4FEQWvjAPhCHUOlHk8z.jpg",
+      "overview": "The story of the forces that inherited wealth centered around the Woowon Group headquarters in the fictional Woowon City adjacent to the sea, the voodoo cartel that dominates the lawless area, and Judge Song Pan-Ho, who comforts citizens seeking justice.",
+      "rating": 8.6,
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:247031": {
+    "backdrop_path": "/lvsITncd4FEQWvjAPhCHUOlHk8z.jpg",
+    "trailer": "https://www.youtube.com/watch?v=qPCzEjoh4V8"
+  },
+  "tomorrow|2022": [
+    "review",
+    {
+      "tmdb_id": 125000,
+      "tmdb_type": "tv",
+      "tmdb_title": "Hello Tomorrow!",
+      "tmdb_year": "2023",
+      "poster": "/nALIRiZ0ugu7fZejWzn0LvGjXr7.jpg",
+      "backdrop": "/s5aQ5GE5GTgu1T3X5GqfCS9WrOK.jpg",
+      "overview": "In a retro-futuristic world, charismatic salesman Jack Billings leads a team of fellow sales associates determined to revitalize their customers' lives by hawking timeshares on the moon.",
+      "rating": 6.1,
+      "genre_ids": [
+        18
+      ],
+      "score": 0.73
+    }
+  ],
+  "choi joon woong|": [
+    "none",
+    null
+  ],
+  "choi jong woong|": [
+    "none",
+    null
+  ],
+  "the story of park's marriage contract|2023": [
+    "ok",
+    {
+      "tmdb_id": 220076,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Story of Park's Marriage Contract",
+      "tmdb_year": "2023",
+      "poster": "/c3IKOXfdRVYN1BH97rWC7U0BI1L.jpg",
+      "backdrop": "/jV5VPSDT4KoGyjBcTBvT7f4kcLJ.jpg",
+      "overview": "A woman travels from 19th century Joseon to modern-day Seoul, her fate takes a twist with a ‘fake marriage’ with a man who resembles her ex-husband.",
+      "rating": 7.6,
+      "genre_ids": [
+        18,
+        10765
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:220076": {
+    "backdrop_path": "/jV5VPSDT4KoGyjBcTBvT7f4kcLJ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=nFfIl5tgWWg"
+  },
+  "welcome to samdal-ri|2023": [
+    "ok",
+    {
+      "tmdb_id": 219651,
+      "tmdb_type": "tv",
+      "tmdb_title": "Welcome to Samdal-ri",
+      "tmdb_year": "2023",
+      "poster": "/98IvA2i0PsTY8CThoHByCKOEAjz.jpg",
+      "backdrop": "/jPTwLNzWGvJzbxjVbpqGaF5kB1k.jpg",
+      "overview": "After suffering a fall from grace, a photographer returns to her hometown and bumps into her childhood friend — rekindling an unfinished romance.",
+      "rating": 8.168,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:219651": {
+    "backdrop_path": "/jPTwLNzWGvJzbxjVbpqGaF5kB1k.jpg",
+    "trailer": "https://www.youtube.com/watch?v=aY8QmExZrlY"
+  },
+  "ep-1 to 45|": [
+    "none",
+    null
+  ],
+  "the judge returns|2026": [
+    "ok",
+    {
+      "tmdb_id": 282810,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Judge Returns",
+      "tmdb_year": "2026",
+      "poster": "/xWYVlBIWrpdiGnSRfLgZIxf2V11.jpg",
+      "backdrop": "/l3qDk8o59jgLfO5HBAJKpCwMAld.jpg",
+      "overview": "The return of corrupt judge Lee Han-young, who was a slave to a large law firm, to the past 10 years ago. He makes new choices to punish evil and implement justice.",
+      "rating": 8.2,
+      "genre_ids": [
+        80,
+        10765,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:282810": {
+    "backdrop_path": "/l3qDk8o59jgLfO5HBAJKpCwMAld.jpg",
+    "trailer": ""
+  },
+  "live on|2020": [
+    "ok",
+    {
+      "tmdb_id": 111724,
+      "tmdb_type": "tv",
+      "tmdb_title": "Live On",
+      "tmdb_year": "2020",
+      "poster": "/dop9lujlpXaIGZImoTgUteHXt7a.jpg",
+      "backdrop": "/MDZq0ci4aZAhfa5SMsVPz9snsb.jpg",
+      "overview": "Baek Ho-rang is a high school student. Due to her pretty appearance, she is popular on social media and at her school. Yet, Baek Ho-rang only has one friend, due to her condescending personality. Baek Ho-rang encounters a problem. She learns that someone is trying to unveil her secret. To find that anonymous person, Baek Ho-rang joins her high school's broadcasting club. Go Eun-taek is the chief of the broadcasting club. He is a perfectionist and respected by the club members.",
+      "rating": 7.6,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:111724": {
+    "backdrop_path": "/MDZq0ci4aZAhfa5SMsVPz9snsb.jpg",
+    "trailer": ""
+  },
+  "the outlaws 1|2017": [
+    "ok",
+    {
+      "tmdb_id": 479718,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Outlaws",
+      "tmdb_year": "2017",
+      "poster": "/9yi66KlKsDrsu2KuSgtBUmk6Seo.jpg",
+      "backdrop": "/xord8lZ7mK8ctki6FBgNYrbpWCO.jpg",
+      "overview": "In Chinatown, law and order is turned upside down when a trio of feral Chinese gangsters arrive, start terrorizing civilians, and usurping territory. The beleaguered local gangsters team up with the police, lead by the badass loose cannon Ma Seok-do, to bring them down. Based on a true story.",
+      "rating": 7.637,
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "score": 0.92
+    }
+  ],
+  "details:movie:479718": {
+    "backdrop_path": "/xord8lZ7mK8ctki6FBgNYrbpWCO.jpg",
+    "trailer": "https://www.youtube.com/watch?v=UbLzMUbiMmY"
+  },
+  "vagabond|2019": [
+    "ok",
+    {
+      "tmdb_id": 92983,
+      "tmdb_type": "tv",
+      "tmdb_title": "Vagabond",
+      "tmdb_year": "2019",
+      "poster": "/8Sud9wqG7WZMXesZhPZ4lergRvp.jpg",
+      "backdrop": "/6BdGjKqud1rFcEa7p2zGfc29z5H.jpg",
+      "overview": "Stuntman Cha Dal-geon gets involved in a tragic airplane crash and ends up discovering a national corruption scandal in the process. Go Hae-ri, the oldest daughter of a deceased marine, decides to work for the National Intelligence Service as a secret ops agent in order to support her mom and younger siblings, although all she wanted to do is to become a civil servant.",
+      "rating": 8.27,
+      "genre_ids": [
+        18,
+        9648,
+        10759
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:92983": {
+    "backdrop_path": "/6BdGjKqud1rFcEa7p2zGfc29z5H.jpg",
+    "trailer": "https://www.youtube.com/watch?v=tyhnEHCUtv4"
+  },
+  "ep-1 to 46|": [
+    "none",
+    null
+  ],
+  "summer strike|2022": [
+    "ok",
+    {
+      "tmdb_id": 197078,
+      "tmdb_type": "tv",
+      "tmdb_title": "Summer Strike",
+      "tmdb_year": "2022",
+      "poster": "/ge4M0QHCfegOETAkjAKZroo82Rr.jpg",
+      "backdrop": "/bFIXVd8oxOsFg4GkkTYTvMe7uF6.jpg",
+      "overview": "After getting dumped by her boyfriend and losing her mother in an accident, Yeo-reum decides to move to a small village to do nothing.",
+      "rating": 7.5,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:197078": {
+    "backdrop_path": "/bFIXVd8oxOsFg4GkkTYTvMe7uF6.jpg",
+    "trailer": ""
+  },
+  "racket boys|2021": [
+    "ok",
+    {
+      "tmdb_id": 125437,
+      "tmdb_type": "tv",
+      "tmdb_title": "Racket Boys",
+      "tmdb_year": "2021",
+      "poster": "/ofXLNr9Nmkicdz1UxLtzAv5ABHR.jpg",
+      "backdrop": "/rEwuB4VK9N1E3zKydXcI61xL7hd.jpg",
+      "overview": "A city kid is brought to the countryside by his father's new coaching gig: reviving a ragtag middle school badminton team on the brink of extinction.",
+      "rating": 8.0,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:125437": {
+    "backdrop_path": "/rEwuB4VK9N1E3zKydXcI61xL7hd.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Xw6pMU-bTlU"
+  },
+  "the roundup - the outlaw 2|2022": [
+    "none",
+    null
+  ],
+  "marry my husband|2024": [
+    "ok",
+    {
+      "tmdb_id": 221851,
+      "tmdb_type": "tv",
+      "tmdb_title": "Marry My Husband",
+      "tmdb_year": "2024",
+      "poster": "/899KcBqooj8nEyPcAEU3h7AdfUo.jpg",
+      "backdrop": "/bd1uYBQnd9HRex77LTiMughdKKK.jpg",
+      "overview": "Kang Ji-won, a terminally ill cancer patient, is killed by her husband and best friend after she witnesses them having an affair. She wakes up 10 years before the incident and decides to seek revenge with the help of Yu Ji-hyuk, a director at the company where she works. Now, she must reclaim her fate and eliminate the trash from her life.",
+      "rating": 8.5,
+      "genre_ids": [
+        18,
+        10765,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:221851": {
+    "backdrop_path": "/bd1uYBQnd9HRex77LTiMughdKKK.jpg",
+    "trailer": "https://www.youtube.com/watch?v=4URidE59IAI"
+  },
+  "ep-1 to 47|": [
+    "none",
+    null
+  ],
+  "when the weather is fine|2020": [
+    "ok",
+    {
+      "tmdb_id": 96977,
+      "tmdb_type": "tv",
+      "tmdb_title": "When the Weather Is Fine",
+      "tmdb_year": "2020",
+      "poster": "/h3FeWqdslmfD3d2wffFELjMcjQZ.jpg",
+      "backdrop": "/6duvyxTYkDRGCzvTvXMwnojlXot.jpg",
+      "overview": "Drained from her life in the city, a young cellist moves to a quiet small town, where she encounters an old friend who helps her heal and remake herself.",
+      "rating": 7.353,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:96977": {
+    "backdrop_path": "/6duvyxTYkDRGCzvTvXMwnojlXot.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ZOuMRNMa8UU"
+  },
+  "trigger|2025": [
+    "ok",
+    {
+      "tmdb_id": 238084,
+      "tmdb_type": "tv",
+      "tmdb_title": "Trigger",
+      "tmdb_year": "2025",
+      "poster": "/9eDF8Z4iFFCmQROiuej54rSK9LT.jpg",
+      "backdrop": "/2jiEkTXR7oiQNDfdday8AM9J5qF.jpg",
+      "overview": "As illegal firearms flood into a gun-free South Korea, a resolute cop and a mysterious partner join forces to stop the chaos from sweeping the nation.",
+      "rating": 8.1,
+      "genre_ids": [
+        10759,
+        18,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:238084": {
+    "backdrop_path": "/2jiEkTXR7oiQNDfdday8AM9J5qF.jpg",
+    "trailer": "https://www.youtube.com/watch?v=2JUx8MqpRuM"
+  },
+  "family by choice|2024": [
+    "ok",
+    {
+      "tmdb_id": 237565,
+      "tmdb_type": "tv",
+      "tmdb_title": "Family by Choice",
+      "tmdb_year": "2024",
+      "poster": "/drQh6tu7OupGBtE5zqVJB1AAGoa.jpg",
+      "backdrop": "/26hCPlTtSqxnW6HMSzvir9umFCW.jpg",
+      "overview": "A youth romance about two men and woman who aren't blood related but treated each other as family during their teens and how they meet again after 10 years.",
+      "rating": 8.082,
+      "genre_ids": [
+        18,
+        10751
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:237565": {
+    "backdrop_path": "/26hCPlTtSqxnW6HMSzvir9umFCW.jpg",
+    "trailer": "https://www.youtube.com/watch?v=pDiV5O_OIpM"
+  },
+  "while you were sleeping|2017": [
+    "ok",
+    {
+      "tmdb_id": 70649,
+      "tmdb_type": "tv",
+      "tmdb_title": "While You Were Sleeping",
+      "tmdb_year": "2017",
+      "poster": "/wFp7pVJbB5aD5y0A0AEBP4vmzCg.jpg",
+      "backdrop": "/3rS3hmIjYfzqPye1nWyTgrwfDnC.jpg",
+      "overview": "Nam Hong Ju, endowed with the ability to foresee events, resides with her widowed mother who runs a small restaurant. Despite her gift, she often finds herself powerless to change the outcomes. On the other side of the street, Jung Jae Chan, a rookie prosecutor, and his younger brother Seung Won become their new neighbors. An unusual dream involving Hong Ju, ruthless attorney Lee Yu Beom, and a life-saving intervention leads Jae Chan to realize their destinies are intertwined, as they begin sharing dreams and connecting in mysterious ways.",
+      "rating": 8.36,
+      "genre_ids": [
+        10765,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:70649": {
+    "backdrop_path": "/3rS3hmIjYfzqPye1nWyTgrwfDnC.jpg",
+    "trailer": "https://www.youtube.com/watch?v=g-NQ-7Qeivs"
+  },
+  "pyramid game|2024": [
+    "ok",
+    {
+      "tmdb_id": 227192,
+      "tmdb_type": "tv",
+      "tmdb_title": "Pyramid Game",
+      "tmdb_year": "2024",
+      "poster": "/pBUERwWNCuO36CPxiVFsoQCPu7W.jpg",
+      "backdrop": "/dCZ1lUvyItP8z9phfmu871xlFIf.jpg",
+      "overview": "Every last Thursday of the month at an all-girls high school, the students of Class 2–5 cast their votes in a popularity poll. The results classify them into Grades A, B, C, D, and F. If they fall into Grade F, they become legitimate victims of school violence.",
+      "rating": 8.1,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:227192": {
+    "backdrop_path": "/dCZ1lUvyItP8z9phfmu871xlFIf.jpg",
+    "trailer": "https://www.youtube.com/watch?v=BcYin0vw1yc"
+  },
+  "the good bad mother|2023": [
+    "ok",
+    {
+      "tmdb_id": 214999,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Good Bad Mother",
+      "tmdb_year": "2023",
+      "poster": "/vtDLhvpTk1xcaBCKubSH0if575G.jpg",
+      "backdrop": "/zOZqdv7UTc2sP2Tu5Cxj8j1M2r8.jpg",
+      "overview": "A tragic accident leaves an ambitious prosecutor with the mind of a child – forcing him and his mother to embark on a journey to heal their relationship.",
+      "rating": 8.858,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:214999": {
+    "backdrop_path": "/zOZqdv7UTc2sP2Tu5Cxj8j1M2r8.jpg",
+    "trailer": "https://www.youtube.com/watch?v=wyk2FtMAXfY"
+  },
+  "avengers social club|2017": [
+    "ok",
+    {
+      "tmdb_id": 74473,
+      "tmdb_type": "tv",
+      "tmdb_title": "Avengers Social Club",
+      "tmdb_year": "2017",
+      "poster": "/wpy1UizgrKv9CMfsTJrp9iz6TMU.jpg",
+      "backdrop": "/u1zvedeu86MWbX6D1YpGifXRk4N.jpg",
+      "overview": "Women gather power to revenge on targets, as well as uncover social injustice.",
+      "rating": 8.3,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:74473": {
+    "backdrop_path": "/u1zvedeu86MWbX6D1YpGifXRk4N.jpg",
+    "trailer": ""
+  },
+  "the last ride|2016": [
+    "none",
+    null
+  ],
+  "ep-1 to 42|": [
+    "none",
+    null
+  ],
+  "flex x cop|2024": [
+    "ok",
+    {
+      "tmdb_id": 220074,
+      "tmdb_type": "tv",
+      "tmdb_title": "Flex X Cop",
+      "tmdb_year": "2024",
+      "poster": "/2eWH2RDxpbIfEs17BpJTQhcOqRs.jpg",
+      "backdrop": "/nOGPxfYqd0f3oeFGGinpDOP68MQ.jpg",
+      "overview": "A chaebol cop joins forces with a gritty detective to take down criminals with a touch of wealth and a whole lot of wit.",
+      "rating": 7.698,
+      "genre_ids": [
+        18,
+        80,
+        9648,
+        10759
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:220074": {
+    "backdrop_path": "/nOGPxfYqd0f3oeFGGinpDOP68MQ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=fsRLcPlGsxE"
+  },
+  "it's okay to not be okay|2020": [
+    "ok",
+    {
+      "tmdb_id": 96462,
+      "tmdb_type": "tv",
+      "tmdb_title": "It's Okay to Not Be Okay",
+      "tmdb_year": "2020",
+      "poster": "/8XSJfLeImX8NszDUFnK1lbseCi8.jpg",
+      "backdrop": "/4IzdfRrxgbvtnE0ZBNEjlcFcxgc.jpg",
+      "overview": "Desperate to escape from his emotional baggage and the heavy responsibility he’s had all his life, a psychiatric ward worker begins to heal with help from the unexpected – a woman who writes fairy tales but doesn’t believe in them.",
+      "rating": 8.501,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:96462": {
+    "backdrop_path": "/4IzdfRrxgbvtnE0ZBNEjlcFcxgc.jpg",
+    "trailer": "https://www.youtube.com/watch?v=89i-Fn2CqQg"
+  },
+  "ep-1 to 43|": [
+    "none",
+    null
+  ],
+  "queen of divorce|2024": [
+    "ok",
+    {
+      "tmdb_id": 222425,
+      "tmdb_type": "tv",
+      "tmdb_title": "Queen of Divorce",
+      "tmdb_year": "2024",
+      "poster": "/8UF0D8B7CcRipl3BbQhUmuHrpJZ.jpg",
+      "backdrop": "/n81kPdXXk1zlmNieXFcpgh1KNcc.jpg",
+      "overview": "Korea’s most skilled divorce solver and an eccentric lawyer who provides solutions for troubled marriages, punishing unfaithful spouses in the process.",
+      "rating": 6.6,
+      "genre_ids": [
+        18,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:222425": {
+    "backdrop_path": "/n81kPdXXk1zlmNieXFcpgh1KNcc.jpg",
+    "trailer": "https://www.youtube.com/watch?v=0Xo32PBr-MM"
+  },
+  "heartman: rock and love|2026": [
+    "ok",
+    {
+      "tmdb_id": 863149,
+      "tmdb_type": "movie",
+      "tmdb_title": "Heartman: Rock and Love",
+      "tmdb_year": "2026",
+      "poster": "/wo1QECX5v5vzK8dAPkJecKyo2Ev.jpg",
+      "backdrop": "/xCZP9h6PNQmYwhSZZTdY0Qbw6Nj.jpg",
+      "overview": "Once known as the frontman of the rock band Ambulance during his college days, Seung-min now lives a quiet life running a small instrument shop. One day, his legendary first love Bo-na, the girl he never even had the courage to confess to before she suddenly disappeared, unexpectedly reappears in his life. From that moment on, Seung-min's heart begins to race again. But as old feelings resurface, he finds himself trapped in an awkward predicament: a secret he must never let his first love discover… no matter what.",
+      "rating": 5.6,
+      "genre_ids": [
+        10749,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:863149": {
+    "backdrop_path": "/xCZP9h6PNQmYwhSZZTdY0Qbw6Nj.jpg",
+    "trailer": "https://www.youtube.com/watch?v=h0h2JyIe1Aw"
+  },
+  "cinderella at 2 am|2024": [
+    "ok",
+    {
+      "tmdb_id": 233349,
+      "tmdb_type": "tv",
+      "tmdb_title": "Cinderella at 2AM",
+      "tmdb_year": "2024",
+      "poster": "/nhCY3QMao0Bjuc1R2YLCsAfgaHd.jpg",
+      "backdrop": "/1dOnZRIvxcTU8yesBLApjktIyeE.jpg",
+      "overview": "Ha Yoon-seo has worked hard her whole life: after raising her younger brother alone, she is now a marketing manager at a credit card company. Her life takes a dramatic turn when she discovers that her boyfriend, Seo Ju-won, is the heir to the family that owns the company! Upon learning of their relationship, Ju-won's mother offers Yoon-seo money to break up with him, and Yoon-seo accepts. However, Ju-won is determined to win her back and will stop at nothing to reclaim her heart. Can Yoon-seo and Ju-won overcome obstacles and find their fairytale ending, or will reality tear them apart?",
+      "rating": 7.6,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 0.97
+    }
+  ],
+  "details:tv:233349": {
+    "backdrop_path": "/1dOnZRIvxcTU8yesBLApjktIyeE.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Y4-Ysmvxg-Y"
+  },
+  "ep-1 to 44|": [
+    "none",
+    null
+  ],
+  "seoul busters|2024": [
+    "ok",
+    {
+      "tmdb_id": 239005,
+      "tmdb_type": "tv",
+      "tmdb_title": "Seoul Busters",
+      "tmdb_year": "2024",
+      "poster": "/nYDvkvutYQNKj2lhQTavGzgUE6L.jpg",
+      "backdrop": "/vas44Kp1BPca4ou2cBb4orAQ53F.jpg",
+      "overview": "Songwon Police Violent Crimes Unit 2 has the lowest arrest rate in the country. After their chief is demoted, the team is exiled to a closed daycare center. Enter Yubin, their new leader. Despite the team's initial distrust, Yubin and the team start to bond as they solve cases together.",
+      "rating": 8.5,
+      "genre_ids": [
+        35,
+        80,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:239005": {
+    "backdrop_path": "/vas44Kp1BPca4ou2cBb4orAQ53F.jpg",
+    "trailer": "https://www.youtube.com/watch?v=d70kIGd1_30"
+  },
+  "boy|2026": [
+    "none",
+    null
+  ],
+  "the uncanny counter cho byeong-kyu yoo in soo nmixx jini|": [
+    "none",
+    null
+  ],
+  "seo in-guk|": [
+    "none",
+    null
+  ],
+  "parasyte: the grey|2024": [
+    "ok",
+    {
+      "tmdb_id": 208825,
+      "tmdb_type": "tv",
+      "tmdb_title": "Parasyte: The Grey",
+      "tmdb_year": "2024",
+      "poster": "/9UPneQ4NF7g6WDNSFE5qyt88wJn.jpg",
+      "backdrop": "/p4rJTY1rvQrffoh2P09sty5cz8B.jpg",
+      "overview": "When unidentified parasites violently take over human hosts and gain power, humanity must rise to combat the growing threat.",
+      "rating": 7.439,
+      "genre_ids": [
+        10765,
+        10759,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:208825": {
+    "backdrop_path": "/p4rJTY1rvQrffoh2P09sty5cz8B.jpg",
+    "trailer": "https://www.youtube.com/watch?v=maIGHqJB6aQ"
+  }
 }
