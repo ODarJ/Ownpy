@@ -80185,5 +80185,369 @@
       ],
       "score": 0.97
     }
+  ],
+  "s-w-i-t-c-h|2023": [
+    "none",
+    null
+  ],
+  "( kwon sang woo)|": [
+    "none",
+    null
+  ],
+  "(oh jung se)|": [
+    "none",
+    null
+  ],
+  "s-h-a-k-e-s-p-e-a-r-e i-n l-o-v-e|1998": [
+    "none",
+    null
+  ],
+  "william shakespeare viola|": [
+    "none",
+    null
+  ],
+  "viola|": [
+    "ok",
+    {
+      "tmdb_id": 1408584,
+      "tmdb_type": "movie",
+      "tmdb_title": "Viola",
+      "tmdb_year": "2025",
+      "poster": null,
+      "backdrop": null,
+      "overview": "A horror short dilm",
+      "rating": 0.0,
+      "genre_ids": [
+        27
+      ],
+      "score": 1.0
+    }
+  ],
+  "the grandmaster|2026": [
+    "ok",
+    {
+      "tmdb_id": 1735058,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Grandmaster",
+      "tmdb_year": "2026",
+      "poster": "/nNIs1H0l9R806SDjctrqrfa7a9w.jpg",
+      "backdrop": "/7jkY32fe9P7uzYTzw73blp7eg01.jpg",
+      "overview": "Benjamin, with a history of financial scamming, moves to the Highlands for a fresh start. New name, new identity. After volunteering at the local chess club, will he integrate himself into the new community - or fall back into old ways?",
+      "rating": 0.0,
+      "genre_ids": [
+        18,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1735058": {
+    "backdrop_path": "/7jkY32fe9P7uzYTzw73blp7eg01.jpg",
+    "trailer": "https://www.youtube.com/watch?v=HAgqp2fGiW4"
+  },
+  "the odyssey|2026": [
+    "ok",
+    {
+      "tmdb_id": 1368337,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Odyssey",
+      "tmdb_year": "2026",
+      "poster": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "backdrop": "/iDiTY1wA35YWzTmXLTtqaxtN6tc.jpg",
+      "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+      "rating": 8.015,
+      "genre_ids": [
+        12,
+        28,
+        14
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1368337": {
+    "backdrop_path": "/iDiTY1wA35YWzTmXLTtqaxtN6tc.jpg",
+    "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I"
+  },
+  "one: high school heros|2025": [
+    "none",
+    null
+  ],
+  "study group weak hero class action|": [
+    "none",
+    null
+  ],
+  "epl- to 8|": [
+    "none",
+    null
+  ],
+  "university war s2|2024": [
+    "none",
+    null
+  ],
+  "university war season2|": [
+    "none",
+    null
+  ],
+  "kaist|": [
+    "ok",
+    {
+      "tmdb_id": 24077,
+      "tmdb_type": "tv",
+      "tmdb_title": "KAIST",
+      "tmdb_year": "1999",
+      "poster": "/b1K0jws7fBjzPNv17eNfYNr3mxP.jpg",
+      "backdrop": "/qGAb651pIvC54D2quNgbIE7AIoj.jpg",
+      "overview": "A situation drama on students of Korea Advanced Science and Technology. The story of love, agony and endless research of the top brains in the field of science. It also presents a role model of a free, creative youth and their professors dictating what education should be. K.A.I.S.T stands for Korea Advanced Institute of Science & Technology.",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 1.0
+    }
+  ],
+  "name : the first night with the duke|": [
+    "none",
+    null
+  ],
+  "red flag boys|": [
+    "none",
+    null
+  ],
+  "romance is a bonus book|2019": [
+    "ok",
+    {
+      "tmdb_id": 85220,
+      "tmdb_type": "tv",
+      "tmdb_title": "Romance Is a Bonus Book",
+      "tmdb_year": "2019",
+      "poster": "/3cbvygVSgmxN2r4f3nKE7uAv4Vg.jpg",
+      "backdrop": "/34Gl5oc5Z42DxlIomvXKHMFupYZ.jpg",
+      "overview": "A gifted writer who's the youngest editor-in-chief ever at his publishing company gets enmeshed in the life of a former copywriter desperate for a job.",
+      "rating": 7.552,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:85220": {
+    "backdrop_path": "/34Gl5oc5Z42DxlIomvXKHMFupYZ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=zjeXZEtEI2A"
+  },
+  "the old woman with the knife|2025": [
+    "ok",
+    {
+      "tmdb_id": 1247002,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Old Woman with the Knife",
+      "tmdb_year": "2025",
+      "poster": "/ffiK0tDO3N9KJ81xLWkIZt9tz6M.jpg",
+      "backdrop": "/fepnF3W4VP3s8ui8nDtrlsFVYwO.jpg",
+      "overview": "Aging assassin Hornclaw has seen it all, but she never expected to mentor a reckless rookie like Bullfight. As their unlikely bond deepens, cracks form in the underworld they navigate together. When Hornclaw discovers someone wants her dead, she's thrust into a deadly game of deception. With enemies closing in and trust in short supply, survival means staying sharp—both blade and mind.",
+      "rating": 6.505,
+      "genre_ids": [
+        28,
+        9648,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1247002": {
+    "backdrop_path": "/fepnF3W4VP3s8ui8nDtrlsFVYwO.jpg",
+    "trailer": "https://www.youtube.com/watch?v=KU4_jUwI6PQ"
+  },
+  "new world|2013": [
+    "none",
+    null
+  ],
+  "imdb....7.5|": [
+    "none",
+    null
+  ],
+  "goldmoon|": [
+    "none",
+    null
+  ],
+  "heesu in class 2|2025": [
+    "ok",
+    {
+      "tmdb_id": 220041,
+      "tmdb_type": "tv",
+      "tmdb_title": "Heesu in Class 2",
+      "tmdb_year": "2025",
+      "poster": "/lCjB943DiwohayuxmLffHEc4DmP.jpg",
+      "backdrop": "/weYIyGOCINk6CErYF9s8C3igfAr.jpg",
+      "overview": "Hee-su hides his love for his best friend—until that friend falls for someone else, and silence starts to hurt.",
+      "rating": 7.333,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:220041": {
+    "backdrop_path": "/weYIyGOCINk6CErYF9s8C3igfAr.jpg",
+    "trailer": ""
+  },
+  "plot school action loan boy|2023": [
+    "none",
+    null
+  ],
+  "eungyo|2012": [
+    "ok",
+    {
+      "tmdb_id": 118451,
+      "tmdb_type": "movie",
+      "tmdb_title": "Eungyo",
+      "tmdb_year": "2012",
+      "poster": "/rbxlxwD0YEK31Fm0QUqDlUo6HZx.jpg",
+      "backdrop": "/f50TAIeR79Yoh1zYb5Tn58zmIxs.jpg",
+      "overview": "A reclusive elderly poet feels the fire of his youth when gamine schoolgirl Eun-gyo enters his life, to the chagrin of the old man's assistant.",
+      "rating": 6.731,
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:118451": {
+    "backdrop_path": "/f50TAIeR79Yoh1zYb5Tn58zmIxs.jpg",
+    "trailer": "https://www.youtube.com/watch?v=jphHmAVTmmA"
+  },
+  "movie channel link|": [
+    "none",
+    null
+  ],
+  "ji chang wook|": [
+    "none",
+    null
+  ],
+  "hitman 1 hit man 2|": [
+    "none",
+    null
+  ],
+  "kim seon ho shin min ah hometown chachacha drama|": [
+    "none",
+    null
+  ],
+  "yoon hye jin shin min ah|": [
+    "none",
+    null
+  ],
+  "hye jin|": [
+    "none",
+    null
+  ],
+  "gongjin mr.hong|": [
+    "none",
+    null
+  ],
+  "one high school hero|2025": [
+    "ok",
+    {
+      "tmdb_id": 233219,
+      "tmdb_type": "tv",
+      "tmdb_title": "ONE: High School Heroes",
+      "tmdb_year": "2025",
+      "poster": "/uWK4QcYrLGITRNDvhLelm66j4Er.jpg",
+      "backdrop": "/6Ohfk6UG6BstEQbwqJ0JHSjHl3O.jpg",
+      "overview": "A former model student, pushed by domestic abuse and bullying, joins a group that stands up to school violence and defends its victims.",
+      "rating": 8.092,
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "score": 0.95
+    }
+  ],
+  "k-drama axell pinned a photo|": [
+    "none",
+    null
+  ],
+  "iu park bo-gum|": [
+    "none",
+    null
+  ],
+  "bogummie|": [
+    "none",
+    null
+  ],
+  "youth comedy action|": [
+    "none",
+    null
+  ],
+  "bogum boxing|": [
+    "none",
+    null
+  ],
+  "the haunted palace|2025": [
+    "ok",
+    {
+      "tmdb_id": 259486,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Haunted Palace",
+      "tmdb_year": "2025",
+      "poster": "/dstp4G3muuXFVr9x3McedmhMkRi.jpg",
+      "backdrop": "/dSNOb8E64mGUJJ51VJXlE0cnEtU.jpg",
+      "overview": "In a world of folklore and mysticism, a vengeful spirit and a devoted shaman cross paths, sparking a journey of love and redemption",
+      "rating": 8.1,
+      "genre_ids": [
+        10765,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:259486": {
+    "backdrop_path": "/dSNOb8E64mGUJJ51VJXlE0cnEtU.jpg",
+    "trailer": ""
+  },
+  "go youn-jung|": [
+    "none",
+    null
+  ],
+  "alchemy of soul s2|2022": [
+    "none",
+    null
+  ],
+  "action, thriller friendship weak hero class2|": [
+    "none",
+    null
+  ],
+  "ongoing channel|": [
+    "none",
+    null
+  ],
+  "vd forward|": [
+    "none",
+    null
+  ],
+  "k-drama axell pinned vd forward copyright channel|": [
+    "none",
+    null
+  ],
+  "k-drama axell pinned deleted message|": [
+    "none",
+    null
+  ],
+  "fantasy romance|": [
+    "ok",
+    {
+      "tmdb_id": 344645,
+      "tmdb_type": "movie",
+      "tmdb_title": "Fantasy Romance",
+      "tmdb_year": "1991",
+      "poster": "/vzMP8Xi25HnpPdtDJTQ5Domg5lP.jpg",
+      "backdrop": "/768uH6wYkMDmJ1G4VmuuPsoiqTm.jpg",
+      "overview": "Fans of Hong Kong pinup queen Joey Wang are likely to appreciate this ghost-themed seriocomic fantasy about a comic book artist named Shing (Tony Leung) who finds himself haunted by the ghostly Ching-ching (Wang).",
+      "rating": 6.8,
+      "genre_ids": [
+        14,
+        10749
+      ],
+      "score": 1.0
+    }
   ]
 }
