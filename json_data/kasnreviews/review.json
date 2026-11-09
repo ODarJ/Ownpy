@@ -39096,5 +39096,80 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14250",
+    "raw_title": "🔺ကျွဲပဲ စီးမလား 🟥စလော့ပဲ တီးမလား 🟥ရှမ်းပဲ မြည်းမလား  💯ငွေကြေးပိုင်း အရော်စားမှာ မှန်ကန်၊ ယုံကြည်၊ စိတ်ချ ရတဲ့Online Game Website ကြီး နဲ့မှ ဂိမ်းကစားချင်တဲ့ သူဌေးလောင်းတို့တွက် မိတ်ဆက်ပေးပါရစေရှင့်",
+    "query": "Telegram",
+    "tmdb": {
+      "tmdb_id": 612813,
+      "tmdb_type": "movie",
+      "tmdb_title": "Telegram",
+      "tmdb_year": "2001",
+      "poster": "/3pR3Ob7XVGfcrh8Hbtnwywd1XHd.jpg",
+      "backdrop": "/81PPHe35pYryAAffpGqccrBa2vl.jpg",
+      "overview": "In Jakarta, a young journalist struggling to escape from the confines of familiar obligations, receives a telegram informing him that his mother is dying.",
+      "rating": 10.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14257",
+    "raw_title": "Sex & Zen",
+    "query": "Sex & Zen",
+    "tmdb": {
+      "tmdb_id": 130174,
+      "tmdb_type": "tv",
+      "tmdb_title": "Sex and Zen",
+      "tmdb_year": "2002",
+      "poster": "/tjA4tpmtO2IKdqrwAkhzOSixppS.jpg",
+      "backdrop": null,
+      "overview": "",
+      "rating": 1.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 0.78
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14258",
+    "raw_title": "🥰အခြားမှာရှုံးများနေလို့ စိတ်ညစ်",
+    "query": "live casino",
+    "tmdb": {
+      "tmdb_id": 7500,
+      "tmdb_type": "tv",
+      "tmdb_title": "Smart Live Casino",
+      "tmdb_year": "",
+      "poster": null,
+      "backdrop": null,
+      "overview": "Smart Live Casino is a British online live casino, launched in May 2007. Smart Live Casino is most popular for their wide range of live casino products. Their live games, which is presented by fully licensed croupiers, is streamed in real-time; in high definition television quality, to television, browser; mobile and tablet.",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 0.79
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14260",
+    "raw_title": "Obsessed",
+    "query": "Obsessed",
+    "tmdb": {
+      "tmdb_id": 269955,
+      "tmdb_type": "movie",
+      "tmdb_title": "Obsessed",
+      "tmdb_year": "2014",
+      "poster": "/XdVqGnvRqCQXalcJPDGIeDn7Kj.jpg",
+      "backdrop": "/aQzXICKh3oaJanWSsSRJ2epB9Z5.jpg",
+      "overview": "A secret, passionate affair happens in the summer of 1969 between Colonel Jin Pyeong, trapped in a loveless marriage with Soo Jin, and Jong Ga Heun, the Chinese-Korean wife of Captain Kyung Woo Jin.",
+      "rating": 6.606,
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "score": 1.0
+    }
   }
 ]

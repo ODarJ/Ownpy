@@ -80549,5 +80549,138 @@
       ],
       "score": 1.0
     }
-  ]
+  ],
+  "the night of the hunter|1995": [
+    "ok",
+    {
+      "tmdb_id": 691018,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Night of the Hunter",
+      "tmdb_year": "",
+      "poster": null,
+      "backdrop": null,
+      "overview": "Harry Powell, a serial killer posing as a preacher, marries a widow solely to gain access to her deceased husband’s hidden fortune. Powell’s stepchildren, John and Pearl, become the targets of his relentless pursuit as he seeks the money hidden by their father.",
+      "rating": 0.0,
+      "genre_ids": [
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:691018": {
+    "backdrop_path": "",
+    "trailer": ""
+  },
+  "my tomorrow, your yesterday|2026": [
+    "ok",
+    {
+      "tmdb_id": 1716541,
+      "tmdb_type": "movie",
+      "tmdb_title": "My Tomorrow, Your Yesterday",
+      "tmdb_year": "2026",
+      "poster": "/eUconXwgew1PsFuDG6DtFdOI0UK.jpg",
+      "backdrop": "/s1HlzQhIghfQphmgFdodRuS5lG6.jpg",
+      "overview": "Ancient architecture restorer Jiang Nanshan falls for medical student Li Ai, only to discover that she comes from a parallel world where time flows in reverse and their timelines move in opposite directions.",
+      "rating": 4.0,
+      "genre_ids": [
+        10749,
+        14
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1716541": {
+    "backdrop_path": "/s1HlzQhIghfQphmgFdodRuS5lG6.jpg",
+    "trailer": ""
+  },
+  "a-prayer-for-the-dying|2026": [
+    "ok",
+    {
+      "tmdb_id": 1241046,
+      "tmdb_type": "movie",
+      "tmdb_title": "A Prayer for the Dying",
+      "tmdb_year": "2026",
+      "poster": "/VuimSXLB2U6t8txrWSpYaIM3m7.jpg",
+      "backdrop": "/yMqBFMvAGPw5aM4azNN07kSjNM0.jpg",
+      "overview": "In 1870 Friendship, Wisconsin, a small town of Scandinavian settlers still suffering the repercussions of the recent Civil War. When faced with a new and even deadlier threat, one man is forced to make a harrowing choice: save his young family or defend the community that gave him a second chance at life and meaning.",
+      "rating": 8.0,
+      "genre_ids": [
+        18,
+        53
+      ],
+      "score": 0.9
+    }
+  ],
+  "details:movie:1241046": {
+    "backdrop_path": "/yMqBFMvAGPw5aM4azNN07kSjNM0.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xbQjXVk9Sps"
+  },
+  "n-i-g-h-t-f-a-l-l: a p-a-r-a-n-o-r-m-a-l i-n-v-e-s-t-i-g-a-t-io-n|2026": [
+    "none",
+    null
+  ],
+  "mick sutherland archie charlesworth|": [
+    "none",
+    null
+  ],
+  "elizabeth blair|": [
+    "none",
+    null
+  ],
+  "case 13|": [
+    "ok",
+    {
+      "tmdb_id": 509783,
+      "tmdb_type": "movie",
+      "tmdb_title": "Case 137",
+      "tmdb_year": "2018",
+      "poster": "/tyswzNTNLWG1WKNVHHH3E8jZpNs.jpg",
+      "backdrop": "/1TByG2K2k3ekAf9d35FizRghk00.jpg",
+      "overview": "A rookie detective, Christina Owens (Haley Heslip), decides to conduct her own investigation of a murder cover up. Her life hangs in the balance as she risks everything to bring a racist chief of police to justice.",
+      "rating": 0.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 0.93
+    }
+  ],
+  "star member|": [
+    "none",
+    null
+  ],
+  "imdb rating (6.9)|": [
+    "none",
+    null
+  ],
+  "koo kyo-hwan webtoon-based|": [
+    "none",
+    null
+  ],
+  "d.p. koo kyo-hwan shin seung-ho, extraordinary attorney woo kang ki-young, if wishes could kill kim si-a 100 days of deception kim you-jung a bona fide killer jung jun-won cameo|": [
+    "none",
+    null
+  ],
+  "the perfect lie|2026": [
+    "ok",
+    {
+      "tmdb_id": 307478,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Perfect Lie",
+      "tmdb_year": "2026",
+      "poster": "/thXJkiBByDitV7iFSv1hU1sg7ij.jpg",
+      "backdrop": "/5V7scQ0nVkNcz8dcHRfZIiHECcc.jpg",
+      "overview": "After a heart-fluttering date, Joonho, a heart surgeon with a perfect smile, and Jisun, a free-spirited teacher-librarian, share a special night. The next day, they meet at a police station with completely different memories. A shocking polygraph result turns their lives upside down.",
+      "rating": 8.5,
+      "genre_ids": [
+        18,
+        80,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:307478": {
+    "backdrop_path": "/5V7scQ0nVkNcz8dcHRfZIiHECcc.jpg",
+    "trailer": "https://www.youtube.com/watch?v=5J6ZiYIyIiA"
+  }
 }
