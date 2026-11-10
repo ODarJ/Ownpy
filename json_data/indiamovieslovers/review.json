@@ -5005,5 +5005,25 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/indiamovieslovers/3676",
+    "raw_title": "My name is Khan",
+    "query": "My name is Khan",
+    "tmdb": {
+      "tmdb_id": 26022,
+      "tmdb_type": "movie",
+      "tmdb_title": "My Name Is Khan",
+      "tmdb_year": "2010",
+      "poster": "/5Y36lCiNyyV71mjq6LavgiggbhT.jpg",
+      "backdrop": "/zGCnIADWwpjGllYv8DgT8HIuIQl.jpg",
+      "overview": "Rizwan Khan, a Muslim from the Borivali section of Mumbai, has Asperger's syndrome. He marries a Hindu single mother, Mandira, in San Francisco. After 9/11, Rizwan is detained by authorities at LAX who treat him as a terrorist because of his condition and his race.",
+      "rating": 8.0,
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "score": 1.0
+    }
   }
 ]
