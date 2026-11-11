@@ -10222,5 +10222,41 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/Kdrama398/9329",
+    "raw_title": "အွန်လိုင်းဂိမ်းဝါသနာပါတဲ့ လူကြီးမင်းတို့အတွက် ယုံကြည်စိတ်ချရတဲ့ ဂိမ်းဆိုဒ်လေးတစ်ခုကိုလမ်းညွှန်ပေးပါရစေရှင့်🙏",
+    "query": "GoldenEagle",
+    "tmdb": {
+      "tmdb_id": 1220797,
+      "tmdb_type": "movie",
+      "tmdb_title": "Golden Eagle",
+      "tmdb_year": "1967",
+      "poster": "/j8b7v3WfU6Tj1e8qNFfbciX0zpJ.jpg",
+      "backdrop": null,
+      "overview": "Gangster Li Yibiao's jewelry was suspected to have been stolen by Gu Daqiang. Biao asked Jin Zhenyu to cooperate with him to get the jewelry back. During this period, Yu discovered that the mysterious woman Jin Ou was also looking for jewelry, and the two agreed to cooperate. Hou Yu learns that Biao set up a trap for him and Qiang to kill each other, and Ou and Qiang confront Biao. The jewelry originally belonged to Ou's deceased brother, so Yu lets Ou take it back.",
+      "rating": 7.0,
+      "genre_ids": [],
+      "score": 0.96
+    }
+  },
+  {
+    "post_link": "https://t.me/Kdrama398/9332",
+    "raw_title": "📌😀😀😍😍😀😀🌟🌟🎁",
+    "query": "Telegram",
+    "tmdb": {
+      "tmdb_id": 612813,
+      "tmdb_type": "movie",
+      "tmdb_title": "Telegram",
+      "tmdb_year": "2001",
+      "poster": "/3pR3Ob7XVGfcrh8Hbtnwywd1XHd.jpg",
+      "backdrop": "/81PPHe35pYryAAffpGqccrBa2vl.jpg",
+      "overview": "In Jakarta, a young journalist struggling to escape from the confines of familiar obligations, receives a telegram informing him that his mother is dying.",
+      "rating": 10.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
   }
 ]
