@@ -109371,5 +109371,57 @@
   "vampire francesca next door|2026": [
     "none",
     null
-  ]
+  ],
+  "kijsada paradise|2026": [
+    "ok",
+    {
+      "tmdb_id": 1419036,
+      "tmdb_type": "movie",
+      "tmdb_title": "Kijsada Paradise",
+      "tmdb_year": "2026",
+      "poster": "/flWf8cNQrlw1PXXW7uzPZPGRDHx.jpg",
+      "backdrop": "/x54Apuuj38C3aPv82BH34TQt8Um.jpg",
+      "overview": "A friend who goes missing in an abandoned amusement park sets the friendship of a group of teenagers to a challenge as they encounter conflict and secrets along the way.",
+      "rating": 4.25,
+      "genre_ids": [
+        27
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1419036": {
+    "backdrop_path": "/x54Apuuj38C3aPv82BH34TQt8Um.jpg",
+    "trailer": "https://www.youtube.com/watch?v=pIwWlvF3x3g"
+  },
+  "i' am game|2026": [
+    "none",
+    null
+  ],
+  "garfield (parts 1 & 2 collection)|": [
+    "none",
+    null
+  ],
+  "chillin' in another world with level 2 super cheat powers|2024": [
+    "ok",
+    {
+      "tmdb_id": 237233,
+      "tmdb_type": "tv",
+      "tmdb_title": "Chillin' in Another World with Level 2 Super Cheat Powers",
+      "tmdb_year": "2024",
+      "poster": "/3eBu6hYDRe72ZPUfLbhaHfF7EM9.jpg",
+      "backdrop": "/petHMm8TmcYiBy1JOTCncBcNk83.jpg",
+      "overview": "The Magical Kingdom of Klyrode summons hundreds of heroes from other worlds every year to fight in their war against the Dark One and his army of powerful demons. Banaza is one of those heroes, summoned from the Royal Capital Paluma, but something’s not right—Banaza is only an average merchant. He has no magic, no fighting ability, and his stats are abysmal. Worse, a mishap leaves him unable to return home! Rejected as a hero and stranded in another world, abandoned to the far reaches of the kingdom by a cruel king who just wants him gone, Banaza’s fate looks pretty bleak. But what will happen once the failed hero candidate finds himself with super cheat powers once he hits level two?",
+      "rating": 7.336,
+      "genre_ids": [
+        16,
+        10765,
+        10759
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:237233": {
+    "backdrop_path": "/petHMm8TmcYiBy1JOTCncBcNk83.jpg",
+    "trailer": "https://www.youtube.com/watch?v=IwxaZRkXdps"
+  }
 }
