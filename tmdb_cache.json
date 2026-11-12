@@ -109423,5 +109423,91 @@
   "details:tv:237233": {
     "backdrop_path": "/petHMm8TmcYiBy1JOTCncBcNk83.jpg",
     "trailer": "https://www.youtube.com/watch?v=IwxaZRkXdps"
+  },
+  "hwayi: a monster boy|2013": [
+    "ok",
+    {
+      "tmdb_id": 214910,
+      "tmdb_type": "movie",
+      "tmdb_title": "Hwayi: A Monster Boy",
+      "tmdb_year": "2013",
+      "poster": "/cDffUvnm2TaLxQYWTy0PnohSGNP.jpg",
+      "backdrop": "/22xVcTBVURFMHsFw8lNYeLFYj7Z.jpg",
+      "overview": "After being kidnapped as a small child and raised by the five men who abducted him, a teenage boy is now forced to join their life in crime.",
+      "rating": 7.399,
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:214910": {
+    "backdrop_path": "/22xVcTBVURFMHsFw8lNYeLFYj7Z.jpg",
+    "trailer": "https://www.youtube.com/watch?v=VaUH60v_Ze4"
+  },
+  "second plate|2026": [
+    "ok",
+    {
+      "tmdb_id": 328626,
+      "tmdb_type": "tv",
+      "tmdb_title": "Second Plate",
+      "tmdb_year": "2026",
+      "poster": "/2gdkgBlJCw4UpubfH8g4wPzkXa.jpg",
+      "backdrop": "/dghCzVY5bKKeDhPmoM5nLUkYOTO.jpg",
+      "overview": "Kang Yu Hyeon once dreamed of becoming a chef and entered culinary school with complete confidence in his abilities. However, after meeting his exceptionally talented junior, O Min Gyeom, he is forced to confront a level of skill he cannot surpass. Unable to come to terms with the gap between them, Yu Hyeon gives up on his dream and drops out of university.\n\nYears later, Yu Hyeon is living an ordinary life as a product developer at a food company. Just when he thinks the past is behind him, he reunites with Min Gyeom, who has become a renowned chef, when the two are assigned to collaborate on the development of a new product.\n\nAs old wounds resurface and lingering feelings refuse to fade, the reunion challenges both men to face the past they never truly left behind.",
+      "rating": 8.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:328626": {
+    "backdrop_path": "/dghCzVY5bKKeDhPmoM5nLUkYOTO.jpg",
+    "trailer": ""
+  },
+  "b-l-i-n-d g-a-m-e|2026": [
+    "none",
+    null
+  ],
+  "a-l-i g: w-h-o i-z i-?|2026": [
+    "none",
+    null
+  ],
+  "borat character sacha baron cohen ali g '|": [
+    "none",
+    null
+  ],
+  "pop cultrue comedy|": [
+    "none",
+    null
+  ],
+  "episode 7 preview images|": [
+    "none",
+    null
+  ],
+  "under the tuscan sun|2003": [
+    "ok",
+    {
+      "tmdb_id": 10934,
+      "tmdb_type": "movie",
+      "tmdb_title": "Under the Tuscan Sun",
+      "tmdb_year": "2003",
+      "poster": "/3vQUQwdtfPt1Sl2GZrIECWWA0dk.jpg",
+      "backdrop": "/dy516GsG7lvszB47FiotNjLARDY.jpg",
+      "overview": "Frances Mayes, a 35-year-old professor and writer from San Francisco, decides to take a tour of Tuscany following a difficult divorce. After impulsively buying a run-down villa in the Italian countryside, she begins to piece her life back together in unexpected ways.",
+      "rating": 6.881,
+      "genre_ids": [
+        10749,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:10934": {
+    "backdrop_path": "/dy516GsG7lvszB47FiotNjLARDY.jpg",
+    "trailer": "https://www.youtube.com/watch?v=aURoPYu_29w"
   }
 }
