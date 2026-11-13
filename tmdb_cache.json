@@ -109651,5 +109651,117 @@
   "details:movie:1475375": {
     "backdrop_path": "/sZ76qQnGC2jkNV5NV6hAvq8CPj7.jpg",
     "trailer": "https://www.youtube.com/watch?v=FodNX484-P0"
-  }
+  },
+  "d-a-a-y-r-a|2026": [
+    "none",
+    null
+  ],
+  "kareena kapoor khan prithviraj sukumaran|": [
+    "none",
+    null
+  ],
+  "dcp|": [
+    "none",
+    null
+  ],
+  "a-v-e-n-g-e-r-s e-n-d-g-a-m-e e-n-c-o-r-e|2026": [
+    "none",
+    null
+  ],
+  "avengers endgame: encore avengers: endgame (updated cut)|": [
+    "none",
+    null
+  ],
+  "encore (color grading ) avengers: doomsday|": [
+    "none",
+    null
+  ],
+  "endgame marvel marvel|": [
+    "none",
+    null
+  ],
+  "what a boss wants|2026": [
+    "ok",
+    {
+      "tmdb_id": 326975,
+      "tmdb_type": "tv",
+      "tmdb_title": "What a Boss Wants",
+      "tmdb_year": "2026",
+      "poster": "/1lrHuB1zHomAa4CIbfIrgkmftBA.jpg",
+      "backdrop": "/ypJyuwEqvF60u3H1yprnrYZPtw9.jpg",
+      "overview": "A struggling CEO's only hope to turn his career around lies in an indie singer – but neither of them expected to fall for each other.",
+      "rating": 0.0,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:326975": {
+    "backdrop_path": "/ypJyuwEqvF60u3H1yprnrYZPtw9.jpg",
+    "trailer": ""
+  },
+  "other mommy|2026": [
+    "ok",
+    {
+      "tmdb_id": 1400837,
+      "tmdb_type": "movie",
+      "tmdb_title": "Other Mommy",
+      "tmdb_year": "2026",
+      "poster": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop": "/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "rating": 6.181,
+      "genre_ids": [
+        27
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1400837": {
+    "backdrop_path": "/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+    "trailer": "https://www.youtube.com/watch?v=-mnTITqqiT0"
+  },
+  "street fighter|2026": [
+    "ok",
+    {
+      "tmdb_id": 1153576,
+      "tmdb_type": "movie",
+      "tmdb_title": "Street Fighter",
+      "tmdb_year": "2026",
+      "poster": "/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+      "backdrop": "/3BBjkQmdGacKYZtpmK2vIfuDmON.jpg",
+      "overview": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+      "rating": 6.314,
+      "genre_ids": [
+        28,
+        14
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1153576": {
+    "backdrop_path": "/3BBjkQmdGacKYZtpmK2vIfuDmON.jpg",
+    "trailer": "https://www.youtube.com/watch?v=U6sbm1OaJb8"
+  },
+  "reawakened man the red|2026": [
+    "review",
+    {
+      "tmdb_id": 961214,
+      "tmdb_type": "movie",
+      "tmdb_title": "Reawakened Man",
+      "tmdb_year": "2026",
+      "poster": "/bHRuUxWm7PsbUWOxh9ipgsulPx8.jpg",
+      "backdrop": "/kiDd05NykJBIoEvJPSG5SOd7qc6.jpg",
+      "overview": "Despite unwavering support from his best friend Young-ha and the unwavering support of his younger sister Ye-rin, job seeker Seok Hwan just can't seem to land a job, repeatedly failing interviews. One night, after yet another disastrous interview, he returns home only to be attacked by a group of strangers and killed. But 72 hours after his death, Seok Hwan suddenly opens his eyes as if nothing happened. He soon discovers that he possesses a special ability: no matter how many times he dies, he comes back to life. But there's little time to process his extraordinary new power before a mysterious figure known as Black, who has discovered Hwan's existence, begins hunting him down.  Yet with each resurrection, Seok Hwan grows stronger, unleashing powers beyond anything he could have imagined!",
+      "rating": 4.8,
+      "genre_ids": [
+        28,
+        14,
+        35
+      ],
+      "score": 0.78
+    }
+  ]
 }
