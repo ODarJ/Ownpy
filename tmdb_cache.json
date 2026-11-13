@@ -109509,5 +109509,147 @@
   "details:movie:10934": {
     "backdrop_path": "/dy516GsG7lvszB47FiotNjLARDY.jpg",
     "trailer": "https://www.youtube.com/watch?v=aURoPYu_29w"
+  },
+  "w-e w-e-r-e n-e-v-e-r h-e-r-e|2026": [
+    "none",
+    null
+  ],
+  "n-e-v-e-r s-u-r-r-e-n-d-e-r|2026": [
+    "none",
+    null
+  ],
+  "hari putri dim hari|": [
+    "none",
+    null
+  ],
+  "hari|": [
+    "ok",
+    {
+      "tmdb_id": 1049787,
+      "tmdb_type": "movie",
+      "tmdb_title": "Hari",
+      "tmdb_year": "2018",
+      "poster": "/cZ5u0a0kKzE0rrQIGtL36BUkI1f.jpg",
+      "backdrop": "/rAIdJDU9Len9wCzImd4OwxqXkXT.jpg",
+      "overview": "An overly religious and superstitious bachelor in his thirties sees his mundane, sheltered life take a surreal turn, triggering a profound identity crisis and an unexpected journey of self-discovery.",
+      "rating": 0.0,
+      "genre_ids": [
+        18,
+        80,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "r-a-n-a-ba-a-l-i|2026": [
+    "none",
+    null
+  ],
+  "t-e-l-l m-e s-o-m-e c-r-e-e-p-i-e-r s-t-o-r-i-e-s|2026": [
+    "none",
+    null
+  ],
+  "tazza 4: the song of beelzebub|2026": [
+    "ok",
+    {
+      "tmdb_id": 1394740,
+      "tmdb_type": "movie",
+      "tmdb_title": "Tazza: The Song of Beelzebub",
+      "tmdb_year": "2026",
+      "poster": "/nmVCk33Heit7ePc2tqJijyy444f.jpg",
+      "backdrop": "/w5OX3u2SpMVRU0sol0mtIaf4LSI.jpg",
+      "overview": "Jang Taeyoung, who believes he has everything after building a successful online casino business, loses it all to his former best friend and namesake, Park Taeyoung. The two reunite on the international poker circuit for a high-stakes battle of revenge.",
+      "rating": 6.8,
+      "genre_ids": [
+        80,
+        18
+      ],
+      "score": 0.96
+    }
+  ],
+  "details:movie:1394740": {
+    "backdrop_path": "/w5OX3u2SpMVRU0sol0mtIaf4LSI.jpg",
+    "trailer": "https://www.youtube.com/watch?v=qRIuZlQuh30"
+  },
+  "shadaloo m. bison|": [
+    "none",
+    null
+  ],
+  "bison (dark hadou)|": [
+    "none",
+    null
+  ],
+  "supernatural the animation|2011": [
+    "ok",
+    {
+      "tmdb_id": 32871,
+      "tmdb_type": "tv",
+      "tmdb_title": "Supernatural: The Anime Series",
+      "tmdb_year": "2011",
+      "poster": "/4dHiX4cui1Zk0d6nwONSx3jQ8Zf.jpg",
+      "backdrop": "/sVoc8UkF2a0SJOsMDGad0Kv8p4m.jpg",
+      "overview": "The anime re-imagining of the original live-action series follows the Winchester brothers Sam and Dean as they hunt creatures and other supernatural phenomena in the American countryside. The storyline covers the first two seasons of the live-action version, as well as original episodes.",
+      "rating": 7.9,
+      "genre_ids": [
+        16,
+        18,
+        9648,
+        10765,
+        10759
+      ],
+      "score": 0.98
+    }
+  ],
+  "details:tv:32871": {
+    "backdrop_path": "/sVoc8UkF2a0SJOsMDGad0Kv8p4m.jpg",
+    "trailer": "https://www.youtube.com/watch?v=je8lQJ0GYKk"
+  },
+  "episode 3 4 the end|": [
+    "none",
+    null
+  ],
+  "verity|2026": [
+    "ok",
+    {
+      "tmdb_id": 1283515,
+      "tmdb_type": "movie",
+      "tmdb_title": "Verity",
+      "tmdb_year": "2026",
+      "poster": "/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
+      "backdrop": "/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
+      "overview": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
+      "rating": 6.993,
+      "genre_ids": [
+        9648,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1283515": {
+    "backdrop_path": "/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xdPMKhjMSFs"
+  },
+  "korean haunted hospital|2026": [
+    "ok",
+    {
+      "tmdb_id": 1475375,
+      "tmdb_type": "movie",
+      "tmdb_title": "Korean Haunted Hospital",
+      "tmdb_year": "2026",
+      "poster": "/hDNUlUbOCqXK4a7o66rrbJti0eM.jpg",
+      "backdrop": "/sZ76qQnGC2jkNV5NV6hAvq8CPj7.jpg",
+      "overview": "A group of Indonesian friends travel to South Korea to live-stream a courage test inside an abandoned hospital with a dark history of cult activity, hoping to become the first to explore its supposedly haunted halls.",
+      "rating": 5.1,
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1475375": {
+    "backdrop_path": "/sZ76qQnGC2jkNV5NV6hAvq8CPj7.jpg",
+    "trailer": "https://www.youtube.com/watch?v=FodNX484-P0"
   }
 }
