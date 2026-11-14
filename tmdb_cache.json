@@ -109763,5 +109763,117 @@
       ],
       "score": 0.78
     }
+  ],
+  "m-o-d-e-l c-i-t-i-z-e-n|2026": [
+    "none",
+    null
+  ],
+  "t-h-e p-e-r-f-e-c-t l-i-e|2026": [
+    "none",
+    null
+  ],
+  "date|": [
+    "none",
+    null
+  ],
+  "n-e-w t-u-r-n|2021": [
+    "none",
+    null
+  ],
+  "bonus 'dn999' !|": [
+    "none",
+    null
+  ],
+  "betongame welcome bonus !!!|": [
+    "none",
+    null
+  ],
+  "promo code : dn999|": [
+    "none",
+    null
+  ],
+  "betongame register welcome bonus !|": [
+    "none",
+    null
+  ],
+  "allen|2026": [
+    "ok",
+    {
+      "tmdb_id": 1518204,
+      "tmdb_type": "movie",
+      "tmdb_title": "Allen",
+      "tmdb_year": "2026",
+      "poster": "/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
+      "backdrop": "/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
+      "overview": "20 years after his encounter with an alien, Petey never moved on. Now his old friend has returned, and the reason why is complicated — and unexpected.",
+      "rating": 7.357,
+      "genre_ids": [
+        878,
+        12,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1518204": {
+    "backdrop_path": "/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
+    "trailer": "https://www.youtube.com/watch?v=P8G5Y25W3eA"
+  },
+  "wish dragon|2021": [
+    "ok",
+    {
+      "tmdb_id": 550205,
+      "tmdb_type": "movie",
+      "tmdb_title": "Wish Dragon",
+      "tmdb_year": "2021",
+      "poster": "/lnPf6hzANL6pVQTxUlsNYSuhT5l.jpg",
+      "backdrop": "/4kIRrW1AlHP5Idne8CPHeQt8nR5.jpg",
+      "overview": "Determined teen Din is longing to reconnect with his childhood best friend when he meets a wish-granting dragon who shows him the magic of possibilities.",
+      "rating": 7.838,
+      "genre_ids": [
+        16,
+        10751,
+        35,
+        14,
+        10749,
+        12
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:550205": {
+    "backdrop_path": "/4kIRrW1AlHP5Idne8CPHeQt8nR5.jpg",
+    "trailer": "https://www.youtube.com/watch?v=uWIRyU5fuzU"
+  },
+  "get the hell out|2020": [
+    "ok",
+    {
+      "tmdb_id": 717863,
+      "tmdb_type": "movie",
+      "tmdb_title": "Get the Hell Out",
+      "tmdb_year": "2020",
+      "poster": "/7TUiyxIlL8c7EVfy1gQWA39sBe4.jpg",
+      "backdrop": "/wYwwLPvD6Gxk2HviS9QhHAyaeyW.jpg",
+      "overview": "A group, lead by a loser MP and his assistant, must work together to stay alive after a virus infects the Taiwanese parliament and turns them all into ravenous zombies.",
+      "rating": 6.0,
+      "genre_ids": [
+        35,
+        27,
+        28
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:717863": {
+    "backdrop_path": "/wYwwLPvD6Gxk2HviS9QhHAyaeyW.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Dj4idtC43u8"
+  },
+  "nezha (1 2)|": [
+    "none",
+    null
+  ],
+  "' ' (fengshen yanyi) fengshen cinematic universe (fcu) ... ed|": [
+    "none",
+    null
   ]
 }
