@@ -15357,5 +15357,64 @@
       "genre_ids": [],
       "score": 0.72
     }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12899",
+    "raw_title": "⏩👍 ❗️❗️❗️❗️ ⏩📱 ❗️❗️❗️ ⏩🎅 ❗️❗️❗️  🤩🤩  😍🇾🇪 🇾🇪🇾🇪 😍😂 😍😍 😍😔 🎰🎰🎰 🎰🎰",
+    "query": "Telegram",
+    "tmdb": {
+      "tmdb_id": 612813,
+      "tmdb_type": "movie",
+      "tmdb_title": "Telegram",
+      "tmdb_year": "2001",
+      "poster": "/3pR3Ob7XVGfcrh8Hbtnwywd1XHd.jpg",
+      "backdrop": "/81PPHe35pYryAAffpGqccrBa2vl.jpg",
+      "overview": "In Jakarta, a young journalist struggling to escape from the confines of familiar obligations, receives a telegram informing him that his mother is dying.",
+      "rating": 10.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12901",
+    "raw_title": "ဂျပန်ခေတ်က လူတိုင်းကိုလှည့်စားနိုင်တဲ့ ခါးပိုက်နှိုက်မလေး ဒိုဒိုဟီး",
+    "query": "100 Days of Deception",
+    "tmdb": {
+      "tmdb_id": 293607,
+      "tmdb_type": "tv",
+      "tmdb_title": "100 Days of Deception",
+      "tmdb_year": "2026",
+      "poster": "/bZHEU42QynnMrHUWK1Hhvj2cdPA.jpg",
+      "backdrop": "/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
+      "overview": "Hoping for freedom, Gyeongseong's top pickpocket infiltrates the Japanese colonial government to steal secrets — only to fall for her target's son.",
+      "rating": 8.7,
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12905",
+    "raw_title": "ဂျပန်ခေတ်က လူတိုင်းကိုလှည့်စားနိုင်တဲ့ ခါးပိုက်နှိုက်မလေး ဒိုဒိုဟီး",
+    "query": "100 Days of Deception",
+    "tmdb": {
+      "tmdb_id": 293607,
+      "tmdb_type": "tv",
+      "tmdb_title": "100 Days of Deception",
+      "tmdb_year": "2026",
+      "poster": "/bZHEU42QynnMrHUWK1Hhvj2cdPA.jpg",
+      "backdrop": "/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
+      "overview": "Hoping for freedom, Gyeongseong's top pickpocket infiltrates the Japanese colonial government to steal secrets — only to fall for her target's son.",
+      "rating": 8.7,
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "score": 1.0
+    }
   }
 ]

@@ -39747,5 +39747,64 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14352",
+    "raw_title": "My name is Khan",
+    "query": "My name is Khan",
+    "tmdb": {
+      "tmdb_id": 26022,
+      "tmdb_type": "movie",
+      "tmdb_title": "My Name Is Khan",
+      "tmdb_year": "2010",
+      "poster": "/5Y36lCiNyyV71mjq6LavgiggbhT.jpg",
+      "backdrop": "/zGCnIADWwpjGllYv8DgT8HIuIQl.jpg",
+      "overview": "Rizwan Khan, a Muslim from the Borivali section of Mumbai, has Asperger's syndrome. He marries a Hindu single mother, Mandira, in San Francisco. After 9/11, Rizwan is detained by authorities at LAX who treat him as a terrorist because of his condition and his race.",
+      "rating": 8.0,
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14353",
+    "raw_title": "Lost in Beijing",
+    "query": "Lost in Beijing",
+    "tmdb": {
+      "tmdb_id": 30112,
+      "tmdb_type": "movie",
+      "tmdb_title": "Lost in Beijing",
+      "tmdb_year": "2007",
+      "poster": "/sGIGSF44jWa3t08yQlrB1vu8pO4.jpg",
+      "backdrop": "/7F1djgcBJkMWFOeQ0ZK4b5Q3LPb.jpg",
+      "overview": "A look at modern-day life in China's capital centered on a ménage-a-quatre involving a young woman, her boss, her husband and her boss's wife.",
+      "rating": 6.5,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14354",
+    "raw_title": "18+မို့အမြင်မသင့်တော်ရင်ကျော်သွားပေးကြပါ🙏",
+    "query": "viva max",
+    "tmdb": {
+      "tmdb_id": 66485,
+      "tmdb_type": "movie",
+      "tmdb_title": "Viva Max!",
+      "tmdb_year": "1969",
+      "poster": "/9FRqnAuDNKmMtESwv98RaGMLgsE.jpg",
+      "backdrop": "/8DpmFCxyNckvLtnXe3AMMGX5jao.jpg",
+      "overview": "In order to prove his greatness to his unimpressed girlfriend, Mexican general Max takes a group of men across the border and recaptures the Alamo - international hijinks ensue!",
+      "rating": 5.4,
+      "genre_ids": [
+        35
+      ],
+      "score": 1.0
+    }
   }
 ]

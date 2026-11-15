@@ -9180,5 +9180,60 @@
       "genre_ids": [],
       "score": 0.79
     }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8912",
+    "raw_title": "G-H-O-S-T S-O-L-D-I-E-R (2026)",
+    "query": "Fitz",
+    "tmdb": {
+      "tmdb_id": 205044,
+      "tmdb_type": "movie",
+      "tmdb_title": "Fitz",
+      "tmdb_year": "2011",
+      "poster": "/lstghco1Ea5vNDdzTEHIQMwV8lA.jpg",
+      "backdrop": null,
+      "overview": "Nate Carridan, the new kid at Fitzgerald Academy, finds himself torn between rival factions as he learns to navigate the tricky political tides at a conservative East Coast boarding school.",
+      "rating": 1.7,
+      "genre_ids": [],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8915",
+    "raw_title": "T-h-e H-u-n-t(2026)",
+    "query": "Live Stream",
+    "tmdb": {
+      "tmdb_id": 1034871,
+      "tmdb_type": "movie",
+      "tmdb_title": "Live Stream",
+      "tmdb_year": "2023",
+      "poster": "/Arf9INcl0A9NoOoZuy4bqzQJqPQ.jpg",
+      "backdrop": "/wANy4U0ZXEOeUGuVKsYgUpRGSq2.jpg",
+      "overview": "A freelance TV producer in a relationship crisis receives a link to an illegal spy cam of his own girlfriend. With no time to lose, he decides to take matters into his own hands and rescue her, only to descend into the seedy world of illegal broadcasting.",
+      "rating": 5.4,
+      "genre_ids": [
+        80
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8917",
+    "raw_title": "T-h-e P-e-r-f-e-c-t L-i-e (2026)",
+    "query": "Thriller",
+    "tmdb": {
+      "tmdb_id": 12272,
+      "tmdb_type": "tv",
+      "tmdb_title": "Thriller",
+      "tmdb_year": "1960",
+      "poster": "/lLrNBo5Krzu1oNlxEqKprk8UW5b.jpg",
+      "backdrop": "/aAfUtBPM1a6VBiQYiHBuAFm16Om.jpg",
+      "overview": "Thriller is an American anthology television series that aired during the 1960–61 and 1961–62 seasons on NBC. The show featured host Boris Karloff introducing a mix of self-contained, macabre weird-horror and morbid, hitchockian crime stories, in some of which he also starred.",
+      "rating": 6.7,
+      "genre_ids": [
+        80
+      ],
+      "score": 1.0
+    }
   }
 ]
