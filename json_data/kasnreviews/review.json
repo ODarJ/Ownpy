@@ -39687,5 +39687,65 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14339",
+    "raw_title": "🔺စလော့အွန်လိုင်းဂိမ်းကို ငွေသွင်းငွေထုတ် မှန်ကန်၊ ယုံကြည်၊ စိတ်ချ ရတဲ့ Online Game Website ကြီး နဲ့မှ ရေရှည်လက်တွဲ ဂိမ်းကစားချင်တဲ့ သူဌေးလောင်းတို့တွက် လမ်းညွှန်​ပေးပါရစေရှင့်",
+    "query": "Telegram",
+    "tmdb": {
+      "tmdb_id": 612813,
+      "tmdb_type": "movie",
+      "tmdb_title": "Telegram",
+      "tmdb_year": "2001",
+      "poster": "/3pR3Ob7XVGfcrh8Hbtnwywd1XHd.jpg",
+      "backdrop": "/81PPHe35pYryAAffpGqccrBa2vl.jpg",
+      "overview": "In Jakarta, a young journalist struggling to escape from the confines of familiar obligations, receives a telegram informing him that his mother is dying.",
+      "rating": 10.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14341",
+    "raw_title": "Naked Killer",
+    "query": "Naked Killer",
+    "tmdb": {
+      "tmdb_id": 26877,
+      "tmdb_type": "movie",
+      "tmdb_title": "Naked Killer",
+      "tmdb_year": "1992",
+      "poster": "/d9V3lIqF0fyQfMe4CUl86N0nQfJ.jpg",
+      "backdrop": "/44nIaOvDWJ04EGFEMGrU1gO3im7.jpg",
+      "overview": "A young woman is trained by a professional assassin to become her partner in crime.",
+      "rating": 6.0,
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14348",
+    "raw_title": "Lost in Beijing",
+    "query": "Lost in Beijing",
+    "tmdb": {
+      "tmdb_id": 30112,
+      "tmdb_type": "movie",
+      "tmdb_title": "Lost in Beijing",
+      "tmdb_year": "2007",
+      "poster": "/sGIGSF44jWa3t08yQlrB1vu8pO4.jpg",
+      "backdrop": "/7F1djgcBJkMWFOeQ0ZK4b5Q3LPb.jpg",
+      "overview": "A look at modern-day life in China's capital centered on a ménage-a-quatre involving a young woman, her boss, her husband and her boss's wife.",
+      "rating": 6.5,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "score": 1.0
+    }
   }
 ]

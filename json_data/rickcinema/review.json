@@ -15321,5 +15321,41 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12894",
+    "raw_title": "⏩👍 ❗️❗️❗️❗️ ⏩📱 ❗️❗️❗️ ⏩🎅 ❗️❗️❗️  🤩🤩  😍🇾🇪 🇾🇪🇾🇪 😍😂 😍😍 😍😔 🎰🎰🎰 🎰🎰",
+    "query": "Telegram",
+    "tmdb": {
+      "tmdb_id": 612813,
+      "tmdb_type": "movie",
+      "tmdb_title": "Telegram",
+      "tmdb_year": "2001",
+      "poster": "/3pR3Ob7XVGfcrh8Hbtnwywd1XHd.jpg",
+      "backdrop": "/81PPHe35pYryAAffpGqccrBa2vl.jpg",
+      "overview": "In Jakarta, a young journalist struggling to escape from the confines of familiar obligations, receives a telegram informing him that his mother is dying.",
+      "rating": 10.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12895",
+    "raw_title": "Khemjira Forever (2026)",
+    "query": "Episode 3",
+    "tmdb": {
+      "tmdb_id": 1209037,
+      "tmdb_type": "movie",
+      "tmdb_title": "Makers Episode 3",
+      "tmdb_year": "2022",
+      "poster": "/qPdDbdvQdcoLKaMc86VAaigiOja.jpg",
+      "backdrop": "/zJwNhGOIpPxLKRD8uMuQHDmeWI4.jpg",
+      "overview": "GCN+ showcases the fascinating processes, inspiration, and journeys of two cycling craftspeople who put their own unique spins on creating. Based in Sacramento, United States, Emily Kachorek refutes the high-strung notions of the traditional cycling world. Her company, Squid Bikes, boasts crazy and wild spray painted bikes with a DIY punk-rock style. In contrast, South African Matthew Sowter’s journey as a frame builder took him all the way to the UK after an exhaustive career as a chef. Sowter believes in powerful minimalism and a pursuit of perfection. This film unveils the Makers’ lives, motivations, and ethos behind their craft.",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 0.72
+    }
   }
 ]

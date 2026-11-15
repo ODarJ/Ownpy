@@ -114604,5 +114604,344 @@
       ],
       "score": 1.0
     }
-  ]
+  ],
+  "(samuel l. jackson) the beast|": [
+    "none",
+    null
+  ],
+  "the beast|": [
+    "ok",
+    {
+      "tmdb_id": 1185344,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Beast",
+      "tmdb_year": "2026",
+      "poster": "/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
+      "backdrop": "/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
+      "overview": "When a militia of unidentified hostiles coordinates a coup against the United States, the president must fight back by utilizing the highly classified offensive capabilities of his armored limousine, nicknamed The Beast.",
+      "rating": 5.0,
+      "genre_ids": [
+        28,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "the 12 dates of christmas|2026": [
+    "ok",
+    {
+      "tmdb_id": 1600653,
+      "tmdb_type": "movie",
+      "tmdb_title": "The 12 Dates of Christmas",
+      "tmdb_year": "2026",
+      "poster": "/w82vKEoYNZ9SxYxvccxO85CnZKE.jpg",
+      "backdrop": "/uRVWQyHPmkyKmjjkPQRO0Q475II.jpg",
+      "overview": "Christina Walker, a successful shop owner who has devoted her energy to her career at the expense of her dating life, goes on 12 dates in the 12 weeks leading up to Christmas hoping to find Mr. Right.",
+      "rating": 6.0,
+      "genre_ids": [
+        35,
+        10749
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1600653": {
+    "backdrop_path": "/uRVWQyHPmkyKmjjkPQRO0Q475II.jpg",
+    "trailer": "https://www.youtube.com/watch?v=AGFqDK6CT0U"
+  },
+  "mamachya govyala jauya|2026": [
+    "ok",
+    {
+      "tmdb_id": 1743690,
+      "tmdb_type": "movie",
+      "tmdb_title": "Mamachya Govyala Jauya",
+      "tmdb_year": "2026",
+      "poster": "/1mFf6olPNa6vs0hKx1aFGwrvYvP.jpg",
+      "backdrop": "/wEIIwWMtd3SvqyG21Wd0OX0rmZz.jpg",
+      "overview": "Three friends win a free Goa trip and invite an old college buddy who brings a surprise guest. Their dream vacation turns into chaos as plans unravel. The unexpected companion becomes both the trip's highlight and its downfall.",
+      "rating": 0.0,
+      "genre_ids": [
+        35,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1743690": {
+    "backdrop_path": "/wEIIwWMtd3SvqyG21Wd0OX0rmZz.jpg",
+    "trailer": "https://www.youtube.com/watch?v=1g5knkhaDSc"
+  },
+  "reviews|": [
+    "none",
+    null
+  ],
+  "official telegram channel|": [
+    "none",
+    null
+  ],
+  "official bog website|": [
+    "none",
+    null
+  ],
+  "ammnewslive|": [
+    "none",
+    null
+  ],
+  "ammtopnews|": [
+    "none",
+    null
+  ],
+  "100 jiliburma|": [
+    "none",
+    null
+  ],
+  "hometown cha-cha-cha|2021": [
+    "ok",
+    {
+      "tmdb_id": 128883,
+      "tmdb_type": "tv",
+      "tmdb_title": "Hometown Cha-Cha-Cha",
+      "tmdb_year": "2021",
+      "poster": "/en6lrlJ1DhyvkeZEqrk3R6EJz1p.jpg",
+      "backdrop": "/2avhn5tACIdOp9F5EhNytbChJib.jpg",
+      "overview": "A big-city dentist opens up a practice in a close-knit seaside village, home to a charming jack-of-all-trades who is her polar opposite in every way.",
+      "rating": 8.2,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "tarzan|1999": [
+    "ok",
+    {
+      "tmdb_id": 37135,
+      "tmdb_type": "movie",
+      "tmdb_title": "Tarzan",
+      "tmdb_year": "1999",
+      "poster": "/bTvHlcqiOjGa3lFtbrTLTM3zasY.jpg",
+      "backdrop": "/a0E1mbejev56Ii51hCnYUDj4tZS.jpg",
+      "overview": "Tarzan was a small orphan who was raised by an ape named Kala since he was a child. He believed that this was his family, but on an expedition Jane Porter is rescued by Tarzan. He then finds out that he's human. Now Tarzan must make the decision as to which family he should belong to...",
+      "rating": 7.407,
+      "genre_ids": [
+        16,
+        10751,
+        12
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:37135": {
+    "backdrop_path": "/a0E1mbejev56Ii51hCnYUDj4tZS.jpg",
+    "trailer": "https://www.youtube.com/watch?v=JYOMf4SS2oA"
+  },
+  "tarzan .mp4|1999": [
+    "none",
+    null
+  ],
+  "tarzan ii|2005": [
+    "ok",
+    {
+      "tmdb_id": 15657,
+      "tmdb_type": "movie",
+      "tmdb_title": "Tarzan II",
+      "tmdb_year": "2005",
+      "poster": "/dI0ANmiLaqUuBrX4v8V3ZywkyZ0.jpg",
+      "backdrop": "/A6kMrGNxDHtjoOiksUdwAv7FCY4.jpg",
+      "overview": "When one of his missteps puts his family in jeopardy, Tarzan decides they would be better off without him.",
+      "rating": 6.093,
+      "genre_ids": [
+        12,
+        16,
+        10751
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:15657": {
+    "backdrop_path": "/A6kMrGNxDHtjoOiksUdwAv7FCY4.jpg",
+    "trailer": "https://www.youtube.com/watch?v=8SHE2shJ2No"
+  },
+  "1067. red one|2024": [
+    "none",
+    null
+  ],
+  "red one|2024": [
+    "ok",
+    {
+      "tmdb_id": 845781,
+      "tmdb_type": "movie",
+      "tmdb_title": "Red One",
+      "tmdb_year": "2024",
+      "poster": "/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg",
+      "backdrop": "/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+      "overview": "After Santa Claus (codename: Red One) is kidnapped, the North Pole's Head of Security must team up with the world's most infamous tracker in a globe-trotting, action-packed mission to save Christmas.",
+      "rating": 6.937,
+      "genre_ids": [
+        28,
+        12,
+        35,
+        14
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:845781": {
+    "backdrop_path": "/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "trailer": "https://www.youtube.com/watch?v=7l3hfD74X-4"
+  },
+  "venom|2018": [
+    "ok",
+    {
+      "tmdb_id": 335983,
+      "tmdb_type": "movie",
+      "tmdb_title": "Venom",
+      "tmdb_year": "2018",
+      "poster": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+      "backdrop": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+      "overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
+      "rating": 6.819,
+      "genre_ids": [
+        878,
+        28
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:335983": {
+    "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xLCn88bfW1o"
+  },
+  "venom: let there be carnage|2021": [
+    "ok",
+    {
+      "tmdb_id": 580489,
+      "tmdb_type": "movie",
+      "tmdb_title": "Venom: Let There Be Carnage",
+      "tmdb_year": "2021",
+      "poster": "/pzKsRuKLFmYrW5Q0q8E8G78Tcgo.jpg",
+      "backdrop": "/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+      "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+      "rating": 6.718,
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:580489": {
+    "backdrop_path": "/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+    "trailer": "https://www.youtube.com/watch?v=GVwq2HlKYpE"
+  },
+  "venom (2): let there be carnage|2021": [
+    "ok",
+    {
+      "tmdb_id": 580489,
+      "tmdb_type": "movie",
+      "tmdb_title": "Venom: Let There Be Carnage",
+      "tmdb_year": "2021",
+      "poster": "/pzKsRuKLFmYrW5Q0q8E8G78Tcgo.jpg",
+      "backdrop": "/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+      "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+      "rating": 6.718,
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "score": 0.96
+    }
+  ],
+  "movie channel join|": [
+    "none",
+    null
+  ],
+  "eo1 (cm)|": [
+    "none",
+    null
+  ],
+  "train to busan 1 2|": [
+    "none",
+    null
+  ],
+  "(gong yoo) zombie virus|": [
+    "none",
+    null
+  ],
+  "tra in to bus an|2016": [
+    "none",
+    null
+  ],
+  "trai n to bus an 2|2020": [
+    "none",
+    null
+  ],
+  "journey 2 the mysterious island|": [
+    "ok",
+    {
+      "tmdb_id": 72545,
+      "tmdb_type": "movie",
+      "tmdb_title": "Journey 2: The Mysterious Island",
+      "tmdb_year": "2012",
+      "poster": "/uFm2vnp9LhHx5MNo1Ego6O3vUhl.jpg",
+      "backdrop": "/fZvAroq9Vb5hhyKT6TxsjxJW7nm.jpg",
+      "overview": "Sean Anderson partners with his mom's boyfriend on a mission to find his grandfather, who is thought to be missing on a mythical island.",
+      "rating": 6.154,
+      "genre_ids": [
+        12,
+        28,
+        878
+      ],
+      "score": 1.0
+    }
+  ],
+  "journey 2 the mysterious island|2012": [
+    "ok",
+    {
+      "tmdb_id": 72545,
+      "tmdb_type": "movie",
+      "tmdb_title": "Journey 2: The Mysterious Island",
+      "tmdb_year": "2012",
+      "poster": "/uFm2vnp9LhHx5MNo1Ego6O3vUhl.jpg",
+      "backdrop": "/fZvAroq9Vb5hhyKT6TxsjxJW7nm.jpg",
+      "overview": "Sean Anderson partners with his mom's boyfriend on a mission to find his grandfather, who is thought to be missing on a mythical island.",
+      "rating": 6.154,
+      "genre_ids": [
+        12,
+        28,
+        878
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:72545": {
+    "backdrop_path": "/fZvAroq9Vb5hhyKT6TxsjxJW7nm.jpg",
+    "trailer": "https://www.youtube.com/watch?v=IVX7OidrkXQ"
+  },
+  "it|2017": [
+    "ok",
+    {
+      "tmdb_id": 346364,
+      "tmdb_type": "movie",
+      "tmdb_title": "It",
+      "tmdb_year": "2017",
+      "poster": "/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+      "backdrop": "/qVGpxnjrGlHaSTCqTQI6viBDSfp.jpg",
+      "overview": "In a small town in Maine, seven children known as The Losers Club come face to face with life problems, bullies and a monster that takes the shape of a clown called Pennywise.",
+      "rating": 7.24,
+      "genre_ids": [
+        27,
+        53,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:346364": {
+    "backdrop_path": "/qVGpxnjrGlHaSTCqTQI6viBDSfp.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xKJmEC5ieOk"
+  }
 }

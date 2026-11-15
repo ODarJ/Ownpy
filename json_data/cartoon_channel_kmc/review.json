@@ -2243,5 +2243,46 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/cartoon_channel_kmc/375",
+    "raw_title": "ကြည့်ရတာထစ်နေတဲ့သူတွေအတွက်",
+    "query": "crd",
+    "tmdb": {
+      "tmdb_id": 390836,
+      "tmdb_type": "movie",
+      "tmdb_title": "CRD",
+      "tmdb_year": "2016",
+      "poster": "/6yu0G5IIgZL1o6tx4xUVX1YbpPg.jpg",
+      "backdrop": "/fAgn3iepk1wBQZcnGoG2MfiWgaj.jpg",
+      "overview": "The Purushottam Karandak — a real-life inter-college festival in which theater students compete head-to-head — becomes an ideological battleground in this bold,brilliant exploration of the creative impulse. IFFLA alum Kranti Kanade leaves no radical idea or experimental flourish behind as he tells the story of Chetan, an aspiring young writer who dreams of winning the competition but struggles to find his own artistic voice. After Chetan clashes with his tyrannical acting professor, he enlists his own group of misfits to perform a play against his college’s official team. If only he could come up with a great story and keep his own temper and libido in check. And should true art even be placed in a competition, where one vision is declared the best?",
+      "rating": 7.0,
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/cartoon_channel_kmc/300",
+    "raw_title": "Journey 2 The Mysterious Island -",
+    "query": "Journey 2 The Mysterious Island",
+    "tmdb": {
+      "tmdb_id": 72545,
+      "tmdb_type": "movie",
+      "tmdb_title": "Journey 2: The Mysterious Island",
+      "tmdb_year": "2012",
+      "poster": "/uFm2vnp9LhHx5MNo1Ego6O3vUhl.jpg",
+      "backdrop": "/fZvAroq9Vb5hhyKT6TxsjxJW7nm.jpg",
+      "overview": "Sean Anderson partners with his mom's boyfriend on a mission to find his grandfather, who is thought to be missing on a mythical island.",
+      "rating": 6.154,
+      "genre_ids": [
+        12,
+        28,
+        878
+      ],
+      "score": 1.0
+    }
   }
 ]
