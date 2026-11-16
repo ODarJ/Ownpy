@@ -115261,5 +115261,56 @@
   "monthly epic bundle - 17000 ks|": [
     "none",
     null
+  ],
+  "s-a-n-d-a-k-a-r-i|2026": [
+    "none",
+    null
+  ],
+  "t-h-e s-p-e-c-i--a-l-i-s-t|1994": [
+    "none",
+    null
+  ],
+  "cia (james woods)|": [
+    "none",
+    null
+  ],
+  "stallone sharon stone|": [
+    "none",
+    null
+  ],
+  "betongame|": [
+    "none",
+    null
+  ],
+  "action mashle: magic and muscles anime|": [
+    "none",
+    null
+  ],
+  "ranabaali|2026": [
+    "ok",
+    {
+      "tmdb_id": 1389379,
+      "tmdb_type": "movie",
+      "tmdb_title": "Ranabaali",
+      "tmdb_year": "2026",
+      "poster": "/cXaCyYYbafVyMrs8rwKmxezBYPJ.jpg",
+      "backdrop": "/xpImgnsxuqb3VOp0QRtXTS5uBRi.jpg",
+      "overview": "Set in 19th-century British India, a fierce leader rises from a drought-stricken land to fight colonial oppression and atrocities.",
+      "rating": 5.0,
+      "genre_ids": [
+        36,
+        28,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1389379": {
+    "backdrop_path": "/xpImgnsxuqb3VOp0QRtXTS5uBRi.jpg",
+    "trailer": "https://www.youtube.com/watch?v=4AejYUbJiDs"
+  },
+  "(muzuki)|": [
+    "none",
+    null
   ]
 }

@@ -39842,5 +39842,45 @@
       "genre_ids": [],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14366",
+    "raw_title": "Naked Killer",
+    "query": "Naked Killer",
+    "tmdb": {
+      "tmdb_id": 26877,
+      "tmdb_type": "movie",
+      "tmdb_title": "Naked Killer",
+      "tmdb_year": "1992",
+      "poster": "/d9V3lIqF0fyQfMe4CUl86N0nQfJ.jpg",
+      "backdrop": "/44nIaOvDWJ04EGFEMGrU1gO3im7.jpg",
+      "overview": "A young woman is trained by a professional assassin to become her partner in crime.",
+      "rating": 6.0,
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14367",
+    "raw_title": "18+မို့အမြင်မသင့်တော်ရင်ကျော်သွားပေးကြပါ🙏",
+    "query": "viva max",
+    "tmdb": {
+      "tmdb_id": 66485,
+      "tmdb_type": "movie",
+      "tmdb_title": "Viva Max!",
+      "tmdb_year": "1969",
+      "poster": "/9FRqnAuDNKmMtESwv98RaGMLgsE.jpg",
+      "backdrop": "/8DpmFCxyNckvLtnXe3AMMGX5jao.jpg",
+      "overview": "In order to prove his greatness to his unimpressed girlfriend, Mexican general Max takes a group of men across the border and recaptures the Alamo - international hijinks ensue!",
+      "rating": 5.4,
+      "genre_ids": [
+        35
+      ],
+      "score": 1.0
+    }
   }
 ]
