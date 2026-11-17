@@ -9405,5 +9405,22 @@
       "genre_ids": [],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/movie1112/8971",
+    "raw_title": "တောင်ပေါ်သားရှမ်းကိုးမီး၊ဘူကြီး၊",
+    "query": "10 Lucky Star",
+    "tmdb": {
+      "tmdb_id": 1441508,
+      "tmdb_type": "movie",
+      "tmdb_title": "Ten Lucky Stars",
+      "tmdb_year": "2007",
+      "poster": "/8A8CeS5XunYPwQc7mdioiGxL7Un.jpg",
+      "backdrop": null,
+      "overview": "chinese film",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 0.79
+    }
   }
 ]

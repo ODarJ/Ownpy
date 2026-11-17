@@ -15471,5 +15471,46 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12922",
+    "raw_title": "⏩👍 ❗️❗️❗️❗️ ⏩📱 ❗️❗️❗️ ⏩🎅 ❗️❗️❗️  🤩🤩  😍🇾🇪 🇾🇪🇾🇪 😍😂 😍😍 😍😔 🎰🎰🎰 🎰🎰",
+    "query": "Telegram",
+    "tmdb": {
+      "tmdb_id": 612813,
+      "tmdb_type": "movie",
+      "tmdb_title": "Telegram",
+      "tmdb_year": "2001",
+      "poster": "/3pR3Ob7XVGfcrh8Hbtnwywd1XHd.jpg",
+      "backdrop": "/81PPHe35pYryAAffpGqccrBa2vl.jpg",
+      "overview": "In Jakarta, a young journalist struggling to escape from the confines of familiar obligations, receives a telegram informing him that his mother is dying.",
+      "rating": 10.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12923",
+    "raw_title": "📺 Reborn as a vending machine, I now",
+    "query": "Reborn as a vending machine, I now",
+    "tmdb": {
+      "tmdb_id": 207564,
+      "tmdb_type": "tv",
+      "tmdb_title": "Reborn as a Vending Machine, I Now Wander the Dungeon",
+      "tmdb_year": "2023",
+      "poster": "/yCptRpyI7wMZd64GCrRkOY6ivmP.jpg",
+      "backdrop": "/iA6yYtTPPyyxH883WTYYrB3z0fv.jpg",
+      "overview": "A middle-aged man with only one passion in his life meets a fitting end in a traffic accident. That's where most stories would end, but instead, this is when his story begins when he's reborn as what he admired the most in life--a vending machine! But his new lease on life happens in the worst place possible--what can a vending machine do in a monster-infested dungeon when he can't speak or even move on his own?",
+      "rating": 6.8,
+      "genre_ids": [
+        16,
+        35,
+        10759,
+        10765
+      ],
+      "score": 0.78
+    }
   }
 ]
