@@ -115312,5 +115312,176 @@
   "(muzuki)|": [
     "none",
     null
+  ],
+  "i-n-v-i-s-i-b-l-e-s|2026": [
+    "none",
+    null
+  ],
+  "elizabeth|": [
+    "ok",
+    {
+      "tmdb_id": 4518,
+      "tmdb_type": "movie",
+      "tmdb_title": "Elizabeth",
+      "tmdb_year": "1998",
+      "poster": "/qEk48VLOdibXFVIEzE9ETZUBcCs.jpg",
+      "backdrop": "/LTjGvAf92YLudl5zqJP9tHLuSo.jpg",
+      "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+      "rating": 7.163,
+      "genre_ids": [
+        18,
+        36
+      ],
+      "score": 1.0
+    }
+  ],
+  "l elizabeth client|": [
+    "none",
+    null
+  ],
+  "client elizabeth - elizabeth elizabeth - social drama|": [
+    "none",
+    null
+  ],
+  "crash season 1|2024": [
+    "none",
+    null
+  ],
+  "behind you touch, the beauty inside lee minki moving hospital playlist kwak sun young|": [
+    "none",
+    null
+  ],
+  "crash|": [
+    "ok",
+    {
+      "tmdb_id": 226102,
+      "tmdb_type": "tv",
+      "tmdb_title": "Crash",
+      "tmdb_year": "2024",
+      "poster": "/7PbecqJmo620ngl4X3hW0Ht6WVI.jpg",
+      "backdrop": "/4wZZ8CGEsjXaKt5TosiFqbaPymD.jpg",
+      "overview": "A drama about Cha Yeon-ho, a reasonable individualist from KAIST, and Min So-hee, a traffic investigation ace with cool judgment and warm sensitivity at the Traffic Crime Investigation (TCI).",
+      "rating": 8.6,
+      "genre_ids": [
+        10759,
+        35,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "breakout-brothers|2020": [
+    "ok",
+    {
+      "tmdb_id": 743417,
+      "tmdb_type": "movie",
+      "tmdb_title": "Breakout Brothers",
+      "tmdb_year": "2020",
+      "poster": "/uWyUs3OWSBRahksgwcIWmp4Yp9k.jpg",
+      "backdrop": "/p9swNJc6olL3CjxGdj2TItKRgY8.jpg",
+      "overview": "Triad leader Roller and life-sentence inmate Scar maintain the balance of power as the bosses of the prison they're incarcerated at. Life at the prison gets disrupted by the arrival of new inmate Mak, who has run-ins with both Scar and Roller. With things going so badly for him in prison, Mak has no choice but to join in the breakout plot being hatched by Chan. However, Roller and Scar also end up being part of the plan!",
+      "rating": 5.2,
+      "genre_ids": [
+        35,
+        80
+      ],
+      "score": 0.97
+    }
+  ],
+  "details:movie:743417": {
+    "backdrop_path": "/p9swNJc6olL3CjxGdj2TItKRgY8.jpg",
+    "trailer": "https://www.youtube.com/watch?v=hodyyyhA6zY"
+  },
+  "crash season 2: fury road|2026": [
+    "none",
+    null
+  ],
+  "(tci) (season 2) ... 2026 korean action crime thriller|": [
+    "none",
+    null
+  ],
+  "7th time loop the villainess enjoys a carefree life married to her worst enemy|2024": [
+    "ok",
+    {
+      "tmdb_id": 232926,
+      "tmdb_type": "tv",
+      "tmdb_title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
+      "tmdb_year": "2024",
+      "poster": "/5k7bkqolsaJVCj321gLkuikk2Ax.jpg",
+      "backdrop": "/tcyNNeegjLwPdopDTIG7XWZZbC2.jpg",
+      "overview": "Rishe, the duke’s daughter, is no stranger to reincarnation—it’s her seventh life, after all. Each life restarts at her broken engagement. Having been a merchant, a maid, and a knight, she now desires leisure. But her world changes when a prince, who killed her in a past life, proposes! To prevent war and live to a ripe old age, she begins her seventh life as the bride of an enemy nation’s prince.",
+      "rating": 7.935,
+      "genre_ids": [
+        16,
+        18,
+        10765
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:232926": {
+    "backdrop_path": "/tcyNNeegjLwPdopDTIG7XWZZbC2.jpg",
+    "trailer": "https://www.youtube.com/watch?v=aPSmBt6GeqA"
+  },
+  "ebenezer|2026": [
+    "ok",
+    {
+      "tmdb_id": 1567605,
+      "tmdb_type": "movie",
+      "tmdb_title": "Ebenezer",
+      "tmdb_year": "2026",
+      "poster": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+      "backdrop": "/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
+      "overview": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+      "rating": 7.631,
+      "genre_ids": [
+        14,
+        35,
+        27
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1567605": {
+    "backdrop_path": "/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
+    "trailer": "https://www.youtube.com/watch?v=D-n-lqKVr78"
+  },
+  "nausica of the valley of the wind|1984": [
+    "none",
+    null
+  ],
+  "fall 2 deadpoint|2026": [
+    "ok",
+    {
+      "tmdb_id": 1101412,
+      "tmdb_type": "movie",
+      "tmdb_title": "Fall 2: Deadpoint",
+      "tmdb_year": "2026",
+      "poster": "/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+      "backdrop": "/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+      "overview": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
+      "rating": 7.24,
+      "genre_ids": [
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "2 fall 2 deadpoint|2026": [
+    "ok",
+    {
+      "tmdb_id": 1101412,
+      "tmdb_type": "movie",
+      "tmdb_title": "Fall 2: Deadpoint",
+      "tmdb_year": "2026",
+      "poster": "/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+      "backdrop": "/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+      "overview": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
+      "rating": 7.24,
+      "genre_ids": [
+        53
+      ],
+      "score": 0.94
+    }
   ]
 }
