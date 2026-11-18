@@ -115755,5 +115755,90 @@
   "details:movie:82675": {
     "backdrop_path": "/5M92Rtz6r01HLrN0TMrU8jCbyVm.jpg",
     "trailer": "https://www.youtube.com/watch?v=otHUjWVgIig"
-  }
+  },
+  "h i|2026": [
+    "none",
+    null
+  ],
+  "no-rest-for-the-wicked|2026": [
+    "ok",
+    {
+      "tmdb_id": 1486475,
+      "tmdb_type": "movie",
+      "tmdb_title": "No Rest for the Wicked",
+      "tmdb_year": "2026",
+      "poster": "/wFjWt33Atg3j43hR7Q0cH1y9uY6.jpg",
+      "backdrop": "/2HxNJ0RWpTE4liAC2MHL2QYjS2Z.jpg",
+      "overview": "1862. Baldur lives a fisherman’s life on the isolated Faroe Islands far to the north in the Atlantic Ocean. His world is turned upside down when a stranger arrives: Helge, a rugged whaler, who awakens deep emotions within him. A mutual attraction starts to grow. When tragedy strikes, their forbidden passion unleashes natural forces so disturbing that the villagers rally to keep evil at bay. But Baldur and Helge refuse to let their love be buried. They will fight till the end – and after.",
+      "rating": 8.2,
+      "genre_ids": [
+        10749,
+        18,
+        27,
+        14
+      ],
+      "score": 0.9
+    }
+  ],
+  "details:movie:1486475": {
+    "backdrop_path": "/2HxNJ0RWpTE4liAC2MHL2QYjS2Z.jpg",
+    "trailer": "https://www.youtube.com/watch?v=FWHydpn9xIM"
+  },
+  "taken 3|2014": [
+    "ok",
+    {
+      "tmdb_id": 260346,
+      "tmdb_type": "movie",
+      "tmdb_title": "Taken 3",
+      "tmdb_year": "2014",
+      "poster": "/vzvMXMypMq7ieDofKThsxjHj9hn.jpg",
+      "backdrop": "/vFm4pF0BgaWPj0i2zEiZO6TqEQ0.jpg",
+      "overview": "Ex-government operative Bryan Mills finds his life is shattered when he's falsely accused of a murder that hits close to home. As he's pursued by a savvy police inspector, Mills employs his particular set of skills to track the real killer and exact his unique brand of justice.",
+      "rating": 6.269,
+      "genre_ids": [
+        53,
+        28
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:260346": {
+    "backdrop_path": "/vFm4pF0BgaWPj0i2zEiZO6TqEQ0.jpg",
+    "trailer": "https://www.youtube.com/watch?v=JuU0M2xBasc"
+  },
+  "emergency declaration|2021": [
+    "ok",
+    {
+      "tmdb_id": 626872,
+      "tmdb_type": "movie",
+      "tmdb_title": "Emergency Declaration",
+      "tmdb_year": "2022",
+      "poster": "/h7kaQG5MbraSLibOuTpo0gtMxRz.jpg",
+      "backdrop": "/fI8hv1IqWUIUjx4YRfl6TWhdqHW.jpg",
+      "overview": "While investigating a terroristic threat that goes viral online, Korean authorities discover that a suspect has recently boarded an international flight bound for the United States. When a healthy passenger on the same flight suddenly dies a gruesome death of unknown cause, panic erupts both in-flight and on the ground. With steadily decreasing fuel and international refusals to offer aid, the captain and crew will be forced to take unprecedented emergency measures in an attempt to save the lives of their passengers.",
+      "rating": 7.395,
+      "genre_ids": [
+        28,
+        18,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:626872": {
+    "backdrop_path": "/fI8hv1IqWUIUjx4YRfl6TWhdqHW.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ZHN9bN7PyLA"
+  },
+  "20 kagura legend ticket event phase2 preorder recharge 500 18|": [
+    "none",
+    null
+  ],
+  "weekly pass 700oks|": [
+    "none",
+    null
+  ],
+  "202 12000 ks|": [
+    "none",
+    null
+  ]
 }

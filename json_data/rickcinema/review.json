@@ -15531,5 +15531,26 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12940",
+    "raw_title": "The Mentalist",
+    "query": "The Mentalist",
+    "tmdb": {
+      "tmdb_id": 5920,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Mentalist",
+      "tmdb_year": "2008",
+      "poster": "/acYXu4KaDj1NIkMgObnhe4C4a0T.jpg",
+      "backdrop": "/rJFqKcmMSttdNP58l0dVzY2NcTA.jpg",
+      "overview": "Patrick Jane, a former celebrity psychic medium, uses his razor sharp skills of observation and expertise at \"reading\" people to solve serious crimes with the California Bureau of Investigation.",
+      "rating": 8.4,
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "score": 1.0
+    }
   }
 ]
