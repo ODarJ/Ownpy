@@ -115645,5 +115645,115 @@
   "weekly pass 660oks|": [
     "none",
     null
-  ]
+  ],
+  "kiku chiranjeevi|2026": [
+    "ok",
+    {
+      "tmdb_id": 1748499,
+      "tmdb_type": "movie",
+      "tmdb_title": "Kiku Chiranjeevi",
+      "tmdb_year": "2026",
+      "poster": "/uAlTYjwLAX9VCP8mSbKDiKzkqcS.jpg",
+      "backdrop": "/gKq0JtdFQy1vp3A6nb0Tx264wYH.jpg",
+      "overview": "A young man named Chiru, born with dextrocardia-a rare condition where his heart is on the right side of his chest faces struggles and challenges as he works to overcome his condition and achieve his goals.",
+      "rating": 0.0,
+      "genre_ids": [
+        53,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1748499": {
+    "backdrop_path": "/gKq0JtdFQy1vp3A6nb0Tx264wYH.jpg",
+    "trailer": "https://www.youtube.com/watch?v=StC3xtJIGaU"
+  },
+  "t-h-e-l-o-s-t-g-e-n-e-r-a-t-i-o-n|2025": [
+    "none",
+    null
+  ],
+  "the lost generation ernest hemingway 1926 fiesta: the sun also rises melodrama|2025": [
+    "none",
+    null
+  ],
+  "jake barnes lady brett ashley jake robert|": [
+    "none",
+    null
+  ],
+  "robert lady brett lady brett hemingway|": [
+    "none",
+    null
+  ],
+  "888.bufalo.site|": [
+    "none",
+    null
+  ],
+  "migi & dali|2023": [
+    "ok",
+    {
+      "tmdb_id": 153450,
+      "tmdb_type": "tv",
+      "tmdb_title": "Migi&Dali",
+      "tmdb_year": "2023",
+      "poster": "/oRWVGZ4k0DUPpIpzGuD6irKJJ1z.jpg",
+      "backdrop": "/sTnKX862YdnrLzhtAlzqGIYoHZs.jpg",
+      "overview": "The boy's name was Hitori. A stork brought the angel into the lives of a middle-aged couple who were not blessed with children. His parents were kind, his house spacious, and his meals hot. But to protect the happiness he had received, Hitori continued to hide an important secret from his parents.",
+      "rating": 6.8,
+      "genre_ids": [
+        16,
+        18,
+        9648
+      ],
+      "score": 0.94
+    }
+  ],
+  "details:tv:153450": {
+    "backdrop_path": "/sTnKX862YdnrLzhtAlzqGIYoHZs.jpg",
+    "trailer": "https://www.youtube.com/watch?v=2aqkHQXIfiw"
+  },
+  "taken|2008": [
+    "ok",
+    {
+      "tmdb_id": 8681,
+      "tmdb_type": "movie",
+      "tmdb_title": "Taken",
+      "tmdb_year": "2008",
+      "poster": "/ognkaUSNgJe1a2pjB4UNdzEo5jT.jpg",
+      "backdrop": "/ysCmtf9Y9fLDChZ88PXId5RbLP1.jpg",
+      "overview": "Bryan Mills, a former government operative, is trying to reconnect with his teenage daughter Kim. After reluctantly agreeing with his ex-wife to let Kim go to Paris on vacation with a friend, his worst nightmare comes true. While on the phone with his daughter shortly after she arrives in Paris, she and her friend are abducted by a gang of human traffickers. Working against the clock, Bryan relies on his extensive training and skills to track down the ruthless gang that abducted her and launch a one-man war to rescue his daughter.",
+      "rating": 7.419,
+      "genre_ids": [
+        28,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:8681": {
+    "backdrop_path": "/ysCmtf9Y9fLDChZ88PXId5RbLP1.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ZxKDnpiJaVc"
+  },
+  "taken 2|2012": [
+    "ok",
+    {
+      "tmdb_id": 82675,
+      "tmdb_type": "movie",
+      "tmdb_title": "Taken 2",
+      "tmdb_year": "2012",
+      "poster": "/yzAlcuJhpnxRPjaj7AHBRbNPQCJ.jpg",
+      "backdrop": "/5M92Rtz6r01HLrN0TMrU8jCbyVm.jpg",
+      "overview": "In Istanbul, retired CIA operative Bryan Mills and his wife are taken hostage by the father of a kidnapper Mills killed while rescuing his daughter.",
+      "rating": 6.372,
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:82675": {
+    "backdrop_path": "/5M92Rtz6r01HLrN0TMrU8jCbyVm.jpg",
+    "trailer": "https://www.youtube.com/watch?v=otHUjWVgIig"
+  }
 }
