@@ -115992,5 +115992,95 @@
   "details:movie:869641": {
     "backdrop_path": "/gyaqhppr9BnBCFF0R2dXeIe4J1k.jpg",
     "trailer": "https://www.youtube.com/watch?v=lMUu-ag9ofk"
-  }
+  },
+  "m-a-r-r-o-w|2026": [
+    "none",
+    null
+  ],
+  "view subscriber|": [
+    "none",
+    null
+  ],
+  "true crime|": [
+    "ok",
+    {
+      "tmdb_id": 10354,
+      "tmdb_type": "movie",
+      "tmdb_title": "True Crime",
+      "tmdb_year": "1999",
+      "poster": "/ozrV1xtwU3Y5XOFuVn9T00ZYoiV.jpg",
+      "backdrop": "/891kxjT04dJNMhbsyMOlycO5wAN.jpg",
+      "overview": "Boozer, skirt chaser, careless father. You could create your own list of reporter Steve Everett's faults but there's no time. A San Quentin Death Row prisoner is slated to die at midnight – a man Everett has suddenly realized is innocent.",
+      "rating": 6.521,
+      "genre_ids": [
+        80,
+        53,
+        9648,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "show|": [
+    "none",
+    null
+  ],
+  "6 last call! ps5 gta vi !|": [
+    "none",
+    null
+  ],
+  "? gta6tg betongame player id telegram stories !|": [
+    "none",
+    null
+  ],
+  "betongame ? !|": [
+    "none",
+    null
+  ],
+  "gta6tg|": [
+    "none",
+    null
+  ],
+  "to the forest of firefly lights|2011": [
+    "none",
+    null
+  ],
+  "hide and seek|2004": [
+    "ok",
+    {
+      "tmdb_id": 11096,
+      "tmdb_type": "movie",
+      "tmdb_title": "Hide and Seek",
+      "tmdb_year": "2005",
+      "poster": "/orY4PX3TNFdCbdVwhKY32UKMvoA.jpg",
+      "backdrop": "/4QwtFTo7e8pfh0HCklVng5xun3y.jpg",
+      "overview": "David Callaway tries to piece together his life in the wake of his wife's suicide and has been left to raise his nine-year-old daughter, Emily on his own. David is at first amused to discover that Emily has created an imaginary friend named 'Charlie', but it isn't long before 'Charlie' develops a sinister and violent side, and as David struggles with his daughter's growing emotional problems, he comes to the frightening realisation that 'Charlie' isn't just a figment of Emily's imagination.",
+      "rating": 6.335,
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:11096": {
+    "backdrop_path": "/4QwtFTo7e8pfh0HCklVng5xun3y.jpg",
+    "trailer": "https://www.youtube.com/watch?v=o9uEkTPchIo"
+  },
+  "weekly pass 800oks|": [
+    "none",
+    null
+  ],
+  "weekly elite bundle 400oks|": [
+    "none",
+    null
+  ],
+  "monthly epic bundle 1950oks|": [
+    "none",
+    null
+  ],
+  "twilight pass 4000oks|": [
+    "none",
+    null
+  ]
 }
