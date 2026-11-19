@@ -115840,5 +115840,157 @@
   "202 12000 ks|": [
     "none",
     null
-  ]
+  ],
+  "l o-t u-sla-n t-e r-n : amo-r t-alhe-a r-tqu-e s-t i-o n-s t he h e-a v-e n-s|2026": [
+    "none",
+    null
+  ],
+  "kunlun|": [
+    "review",
+    {
+      "tmdb_id": 201722,
+      "tmdb_type": "tv",
+      "tmdb_title": "Kunlun Tomb",
+      "tmdb_year": "2022",
+      "poster": "/7UIU1eLYwUfLURCWXCIuvjjvK55.jpg",
+      "backdrop": "/zWpLfPg12HpCDrczwuJbbLD55Ey.jpg",
+      "overview": "Hong Kong antique dealer Ming Shu commissions Hu Bayi, Wang Kaixuan and Shirley Yang to look for the glacier corpse within the demonic kingdom from the legends of King Gesar. Having just escaped the \"worm\" valley, they embark on a new journey to unravel a curse.",
+      "rating": 6.7,
+      "genre_ids": [
+        10759,
+        18,
+        9648
+      ],
+      "score": 0.71
+    }
+  ],
+  "hansel-&-gretel's-halloween|2026": [
+    "ok",
+    {
+      "tmdb_id": 1741617,
+      "tmdb_type": "movie",
+      "tmdb_title": "Hansel & Gretel's Halloween",
+      "tmdb_year": "2026",
+      "poster": "/taNnBPN5FrJqYxsiJIqAL0KhqZ.jpg",
+      "backdrop": null,
+      "overview": "On Halloween night, six teens enter a candy-coated labyrinth from the tale of Hansel and Gretel, where a deadly Witch turns temptation into traps-and resisting the sweetest lure is their only way out.",
+      "rating": 4.8,
+      "genre_ids": [
+        27,
+        14
+      ],
+      "score": 0.96
+    }
+  ],
+  "details:movie:1741617": {
+    "backdrop_path": "",
+    "trailer": "https://www.youtube.com/watch?v=ix27wcPrFw4"
+  },
+  "d-e-a-t-h b-e-l-l|2008": [
+    "none",
+    null
+  ],
+  "witch hat atelier|2026": [
+    "ok",
+    {
+      "tmdb_id": 196950,
+      "tmdb_type": "tv",
+      "tmdb_title": "Witch Hat Atelier",
+      "tmdb_year": "2026",
+      "poster": "/78m1Tv3suHmUryTI9VNPwKLKjHZ.jpg",
+      "backdrop": "/5NmmaK9dt38UXOwzPC2t9yR3HTv.jpg",
+      "overview": "In a world where only witches can cast magic, they must avoid being seen by ordinary people while casting. While Coco does her chores, she daydreams of becoming a witch. When a young witch named Qifrey visits her village, Coco uncovers the “absolute secret,” becomes Qifrey’s apprentice, and begins her studies. This is the story of children who encounter despair, yet reach out toward hope.",
+      "rating": 8.69,
+      "genre_ids": [
+        16,
+        18,
+        10765
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:196950": {
+    "backdrop_path": "/5NmmaK9dt38UXOwzPC2t9yR3HTv.jpg",
+    "trailer": "https://www.youtube.com/watch?v=E10fd3B8hUw"
+  },
+  "rookie historian goo hae-ryung|2019": [
+    "ok",
+    {
+      "tmdb_id": 90721,
+      "tmdb_type": "tv",
+      "tmdb_title": "Rookie Historian Goo Hae-Ryung",
+      "tmdb_year": "2019",
+      "poster": "/ijHgv6ZbvW4ZUu2QbHwOSb3YPTK.jpg",
+      "backdrop": "/oBLzaHvZfTmZlNQeRF1ZouX4WjK.jpg",
+      "overview": "The story takes place at the beginning of the 19th century. Goo Hae-Ryung is a historian who tries to fight gender stereotypes as her work is often looked down on. She meets Prince Yi Rim.",
+      "rating": 7.6,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "extra geography|2026": [
+    "ok",
+    {
+      "tmdb_id": 1528830,
+      "tmdb_type": "movie",
+      "tmdb_title": "Extra Geography",
+      "tmdb_year": "2026",
+      "poster": "/yhHRpLhtaFXGYMsE5LuaRvZYs77.jpg",
+      "backdrop": "/ptLT3O7XmXOLplR8T0e9ykGcw8l.jpg",
+      "overview": "In an English girls boarding school, two teenage best friends grapple with the challenges of girlhood—friendship, boys, studies, and growing up—and embark on their school project... falling in love.",
+      "rating": 6.1,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1528830": {
+    "backdrop_path": "/ptLT3O7XmXOLplR8T0e9ykGcw8l.jpg",
+    "trailer": "https://www.youtube.com/watch?v=XmMyQD-BDEE"
+  },
+  "vacation friends 1|2021": [
+    "ok",
+    {
+      "tmdb_id": 653349,
+      "tmdb_type": "movie",
+      "tmdb_title": "Vacation Friends",
+      "tmdb_year": "2021",
+      "poster": "/cCyJeTAct07ORPJPHyzxCrVtZzh.jpg",
+      "backdrop": "/o0UGl6icA4DbhmDNgdZ5AWvuTtM.jpg",
+      "overview": "When a straight-laced couple that has fun with a rowdy couple on vacation in Mexico return to the States, they discover that the crazy couple they met in Mexico followed them back home and decide to play tricks on them.",
+      "rating": 6.995,
+      "genre_ids": [
+        35
+      ],
+      "score": 0.94
+    }
+  ],
+  "details:movie:653349": {
+    "backdrop_path": "/o0UGl6icA4DbhmDNgdZ5AWvuTtM.jpg",
+    "trailer": "https://www.youtube.com/watch?v=UuK21YmfpsE"
+  },
+  "vacation friends 2|2023": [
+    "ok",
+    {
+      "tmdb_id": 869641,
+      "tmdb_type": "movie",
+      "tmdb_title": "Vacation Friends 2",
+      "tmdb_year": "2023",
+      "poster": "/wmH3VaUbwwTO3vDJhWT35BOFgb3.jpg",
+      "backdrop": "/gyaqhppr9BnBCFF0R2dXeIe4J1k.jpg",
+      "overview": "Newly married Marcus and Emily invite Ron and Kyla, who are also newly married with a baby, to join them at a Caribbean resort, where Marcus is meeting with the owners about a construction contract for a Chicago hotel. But when the party begins the couples' relaxing vacation quickly becomes a wild adventure.",
+      "rating": 6.279,
+      "genre_ids": [
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:869641": {
+    "backdrop_path": "/gyaqhppr9BnBCFF0R2dXeIe4J1k.jpg",
+    "trailer": "https://www.youtube.com/watch?v=lMUu-ag9ofk"
+  }
 }
