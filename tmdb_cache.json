@@ -116277,5 +116277,57 @@
   "details:movie:351460": {
     "backdrop_path": "/nDAbr3NSkkOMIkFrQ3ycVxzgaMc.jpg",
     "trailer": "https://www.youtube.com/watch?v=gvxNaSIB_WI"
-  }
+  },
+  "a-n-b-i-l a-v-a-n|2026": [
+    "none",
+    null
+  ],
+  "ashok selvan preity mukhundhan|": [
+    "none",
+    null
+  ],
+  "romantic action thriller|": [
+    "none",
+    null
+  ],
+  "viber - 09676666106|": [
+    "none",
+    null
+  ],
+  "telegram - athuhtaymin|": [
+    "none",
+    null
+  ],
+  "telegram channel|": [
+    "none",
+    null
+  ],
+  "the empire corpses|2015": [
+    "ok",
+    {
+      "tmdb_id": 342588,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Empire of Corpses",
+      "tmdb_year": "2015",
+      "poster": "/gtfQzn3lRnJ2P3CcE8yxOtXPHTC.jpg",
+      "backdrop": "/Agt0eZRu9N7W17FJDNMOqYlqNDx.jpg",
+      "overview": "The story takes place in 19th century Europe, and revolves around John Watson. He is scouted by the government to become a secret agent. However, Watson lives in a world where \"Frankensteins\"—human corpses that are re-purposed with a false soul in order to use them as laborers—are used to improve industrial development.",
+      "rating": 6.2,
+      "genre_ids": [
+        16,
+        27,
+        878,
+        53
+      ],
+      "score": 0.92
+    }
+  ],
+  "details:movie:342588": {
+    "backdrop_path": "/Agt0eZRu9N7W17FJDNMOqYlqNDx.jpg",
+    "trailer": "https://www.youtube.com/watch?v=CF0wVpPhTck"
+  },
+  "breakout brothers-123|": [
+    "none",
+    null
+  ]
 }

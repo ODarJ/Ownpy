@@ -40115,5 +40115,65 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14439",
+    "raw_title": "Don't Breathe 2",
+    "query": "Don't Breathe 2",
+    "tmdb": {
+      "tmdb_id": 482373,
+      "tmdb_type": "movie",
+      "tmdb_title": "Don't Breathe 2",
+      "tmdb_year": "2021",
+      "poster": "/aOu6PJVO9RyGAzdUwG6fupu0gpz.jpg",
+      "backdrop": "/3ULzK4XTSC1wal11K7459fxnjjA.jpg",
+      "overview": "The Blind Man has been hiding out for several years in an isolated cabin and has taken in and raised a young girl orphaned from a devastating house fire. Their quiet life together is shattered when a group of criminals kidnap the girl, forcing the Blind Man to leave his safe haven to save her.",
+      "rating": 6.96,
+      "genre_ids": [
+        53,
+        27
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14442",
+    "raw_title": "Naked Killer",
+    "query": "Naked Killer",
+    "tmdb": {
+      "tmdb_id": 26877,
+      "tmdb_type": "movie",
+      "tmdb_title": "Naked Killer",
+      "tmdb_year": "1992",
+      "poster": "/d9V3lIqF0fyQfMe4CUl86N0nQfJ.jpg",
+      "backdrop": "/44nIaOvDWJ04EGFEMGrU1gO3im7.jpg",
+      "overview": "A young woman is trained by a professional assassin to become her partner in crime.",
+      "rating": 6.0,
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14443",
+    "raw_title": "18+မို့အမြင်မသင့်တော်ရင်ကျော်သွားပေးကြပါ🙏",
+    "query": "viva max",
+    "tmdb": {
+      "tmdb_id": 66485,
+      "tmdb_type": "movie",
+      "tmdb_title": "Viva Max!",
+      "tmdb_year": "1969",
+      "poster": "/9FRqnAuDNKmMtESwv98RaGMLgsE.jpg",
+      "backdrop": "/8DpmFCxyNckvLtnXe3AMMGX5jao.jpg",
+      "overview": "In order to prove his greatness to his unimpressed girlfriend, Mexican general Max takes a group of men across the border and recaptures the Alamo - international hijinks ensue!",
+      "rating": 5.4,
+      "genre_ids": [
+        35
+      ],
+      "score": 1.0
+    }
   }
 ]
