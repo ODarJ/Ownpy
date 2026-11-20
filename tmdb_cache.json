@@ -116082,5 +116082,200 @@
   "twilight pass 4000oks|": [
     "none",
     null
-  ]
+  ],
+  "a-p-p-o-f-e-n-i-a-c-s|2026": [
+    "none",
+    null
+  ],
+  "deepfake deepfake|": [
+    "none",
+    null
+  ],
+  "deepfake|": [
+    "ok",
+    {
+      "tmdb_id": 1676521,
+      "tmdb_type": "movie",
+      "tmdb_title": "Deepfake",
+      "tmdb_year": "",
+      "poster": "/i6mtsJKENKOknAoK8C7Acq4o1mW.jpg",
+      "backdrop": "/pbNKS5Idh59qpLiCtdNlL3b3PF5.jpg",
+      "overview": "After a breakup, rudderless millennial Jane hires a team of Gen-Z consultants to reinvent her life. But what begins as a makeover soon spirals into a sharp social media satire about image, app culture, and the cost of becoming someone else.",
+      "rating": 0.0,
+      "genre_ids": [
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "k-i-l-l s-a-v-e|2026": [
+    "none",
+    null
+  ],
+  "kill save virtual|": [
+    "none",
+    null
+  ],
+  "megacity|": [
+    "none",
+    null
+  ],
+  "programmer darknet streamer virtual survival game|": [
+    "none",
+    null
+  ],
+  "f-a-m-i-l-y t-i-e-s|2006": [
+    "none",
+    null
+  ],
+  "family ties drama moon so-ri go doo-shim uhm tae-woong gong hyo-jin, jung yu-mi|": [
+    "none",
+    null
+  ],
+  "the blue road|2026": [
+    "ok",
+    {
+      "tmdb_id": 300523,
+      "tmdb_type": "tv",
+      "tmdb_title": "The Blue Road",
+      "tmdb_year": "2026",
+      "poster": "/cVbilrgtgKi7gN74KK4voyV7iDR.jpg",
+      "backdrop": "/7ojpD6ARKYhRxnsjzMIrorOfj4T.jpg",
+      "overview": "Two detectives join forces when brutal murders and cryptic messages surface across borders — but the deadly truth lurks dangerously close.",
+      "rating": 10.0,
+      "genre_ids": [
+        80,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:300523": {
+    "backdrop_path": "/7ojpD6ARKYhRxnsjzMIrorOfj4T.jpg",
+    "trailer": "https://www.youtube.com/watch?v=n1omQI6g3v0"
+  },
+  "sound track|2026": [
+    "ok",
+    {
+      "tmdb_id": 342666,
+      "tmdb_type": "tv",
+      "tmdb_title": "Sound:Track",
+      "tmdb_year": "2026",
+      "poster": "/aOi5LLy0uVBBIuDNrnCryVFRr9n.jpg",
+      "backdrop": "/1yqowq5ppTE7mEv1pd3txEG6rcF.jpg",
+      "overview": "It is an anthology consisting of eight independent stories that explore moments of love, separation, and personal growth through “that song”—a song that everyone has encountered at least once in their life.",
+      "rating": 0.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 0.95
+    }
+  ],
+  "details:tv:342666": {
+    "backdrop_path": "/1yqowq5ppTE7mEv1pd3txEG6rcF.jpg",
+    "trailer": ""
+  },
+  "happy anding|2026": [
+    "ok",
+    {
+      "tmdb_id": 299764,
+      "tmdb_type": "tv",
+      "tmdb_title": "Happy Anding",
+      "tmdb_year": "2026",
+      "poster": "/4fjhWeTNyTz0ElvDpjOthABNp3g.jpg",
+      "backdrop": "/uh1RVXu8o2nQ1WP5Gnl5pO8p6nF.jpg",
+      "overview": "The story of three unknown comedians who are running towards their dreams and a woman whose life has collapsed, getting back up and finding her dream.",
+      "rating": 0.0,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:299764": {
+    "backdrop_path": "/uh1RVXu8o2nQ1WP5Gnl5pO8p6nF.jpg",
+    "trailer": "https://www.youtube.com/watch?v=EQUqOlOfbFU"
+  },
+  "ice cube cedric the entertainer eve|": [
+    "none",
+    null
+  ],
+  "barbershop|2002": [
+    "ok",
+    {
+      "tmdb_id": 10611,
+      "tmdb_type": "movie",
+      "tmdb_title": "Barbershop",
+      "tmdb_year": "2002",
+      "poster": "/up8cEgEsl2Dq5Djb9lMZYBK0s84.jpg",
+      "backdrop": "/zsbmsV4XHyJqG5fD7Vdw4NZbT2Y.jpg",
+      "overview": "A day in the life of a barbershop on the south side of Chicago. Calvin, who inherited the struggling business from his deceased father, views the shop as nothing but a burden and waste of his time. After selling the shop to a local loan shark, Calvin slowly begins to see his father's vision and legacy and struggles with the notion that he just sold it out.",
+      "rating": 6.453,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:10611": {
+    "backdrop_path": "/zsbmsV4XHyJqG5fD7Vdw4NZbT2Y.jpg",
+    "trailer": "https://www.youtube.com/watch?v=pECEp1iOh-k"
+  },
+  "king of beggars|1992": [
+    "ok",
+    {
+      "tmdb_id": 47648,
+      "tmdb_type": "movie",
+      "tmdb_title": "King of Beggars",
+      "tmdb_year": "1992",
+      "poster": "/wKNXgt7W65khSFjqoqUuJ0aEClj.jpg",
+      "backdrop": "/p44hXmcLTfLRBFEhqXETXTZAw3t.jpg",
+      "overview": "The heir to a noble and influential family finds the love of his life, but she will only accept him if he becomes a kung-fu master. He becomes a legendary folk hero who tries to save the emperor.",
+      "rating": 7.116,
+      "genre_ids": [
+        28,
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:47648": {
+    "backdrop_path": "/p44hXmcLTfLRBFEhqXETXTZAw3t.jpg",
+    "trailer": "https://www.youtube.com/watch?v=01b-aHZgNws"
+  },
+  "cinderella collection|": [
+    "none",
+    null
+  ],
+  "family matters|2006": [
+    "none",
+    null
+  ],
+  "death note|2017": [
+    "ok",
+    {
+      "tmdb_id": 351460,
+      "tmdb_type": "movie",
+      "tmdb_title": "Death Note",
+      "tmdb_year": "2017",
+      "poster": "/8xRQ0KG9ZZzjEiFa5fgEaTKhc0d.jpg",
+      "backdrop": "/nDAbr3NSkkOMIkFrQ3ycVxzgaMc.jpg",
+      "overview": "Light Turner finds a supernatural notebook and uses it to mete out death, attracting the attention of a detective, a demon and a girl in his class.",
+      "rating": 4.281,
+      "genre_ids": [
+        80,
+        14,
+        27,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:351460": {
+    "backdrop_path": "/nDAbr3NSkkOMIkFrQ3ycVxzgaMc.jpg",
+    "trailer": "https://www.youtube.com/watch?v=gvxNaSIB_WI"
+  }
 }

@@ -9554,5 +9554,43 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/movie1112/9018",
+    "raw_title": "A-p-p-o-f-e-n-i-a-c-s (2026)",
+    "query": "deepfake",
+    "tmdb": {
+      "tmdb_id": 1676521,
+      "tmdb_type": "movie",
+      "tmdb_title": "Deepfake",
+      "tmdb_year": "",
+      "poster": "/i6mtsJKENKOknAoK8C7Acq4o1mW.jpg",
+      "backdrop": "/pbNKS5Idh59qpLiCtdNlL3b3PF5.jpg",
+      "overview": "After a breakup, rudderless millennial Jane hires a team of Gen-Z consultants to reinvent her life. But what begins as a makeover soon spirals into a sharp social media satire about image, app culture, and the cost of becoming someone else.",
+      "rating": 0.0,
+      "genre_ids": [
+        35
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/movie1112/9019",
+    "raw_title": "📌ငွေသွင်း/ငွေထုတ် စိတ်ချမှကစားချင်တဲ့ လူကြီးမင်းတို့အတွက် ညီမတို့😉😉😉😌😌9️⃣9️⃣ဂိမ်းဆိုဒ်မယ် လာကစားလို့ရပါပြီရှင့် 🙏",
+    "query": "Telegram",
+    "tmdb": {
+      "tmdb_id": 612813,
+      "tmdb_type": "movie",
+      "tmdb_title": "Telegram",
+      "tmdb_year": "2001",
+      "poster": "/3pR3Ob7XVGfcrh8Hbtnwywd1XHd.jpg",
+      "backdrop": "/81PPHe35pYryAAffpGqccrBa2vl.jpg",
+      "overview": "In Jakarta, a young journalist struggling to escape from the confines of familiar obligations, receives a telegram informing him that his mother is dying.",
+      "rating": 10.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
   }
 ]
