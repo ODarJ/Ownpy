@@ -40175,5 +40175,81 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14445",
+    "raw_title": "▶️ငွေထုတ်လည်း ကြမ်းရမယ်💸",
+    "query": "Scatter",
+    "tmdb": {
+      "tmdb_id": 1586411,
+      "tmdb_type": "movie",
+      "tmdb_title": "Scatter",
+      "tmdb_year": "2025",
+      "poster": null,
+      "backdrop": null,
+      "overview": "Fulfilling her late father’s dying wish to have his ashes scattered at a famous monument in the North of England, a non-hiking pragmatist confronts the grief she’s long kept buried as she tackles the arduous – and strikingly beautiful – route there.",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14447",
+    "raw_title": "My name is Khan",
+    "query": "My name is Khan",
+    "tmdb": {
+      "tmdb_id": 26022,
+      "tmdb_type": "movie",
+      "tmdb_title": "My Name Is Khan",
+      "tmdb_year": "2010",
+      "poster": "/5Y36lCiNyyV71mjq6LavgiggbhT.jpg",
+      "backdrop": "/zGCnIADWwpjGllYv8DgT8HIuIQl.jpg",
+      "overview": "Rizwan Khan, a Muslim from the Borivali section of Mumbai, has Asperger's syndrome. He marries a Hindu single mother, Mandira, in San Francisco. After 9/11, Rizwan is detained by authorities at LAX who treat him as a terrorist because of his condition and his race.",
+      "rating": 8.0,
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14448",
+    "raw_title": "🔺စလော့အွန်လိုင်းဂိမ်းကို ငွေသွင်းငွေထုတ် မှန်ကန်၊ ယုံကြည်၊ စိတ်ချ ရတဲ့ Online Game Website ကြီး နဲ့မှ ရေရှည်လက်တွဲ ဂိမ်းကစားချင်တဲ့ သူဌေးလောင်းတို့တွက် လမ်းညွှန်​ပေးပါရစေရှင့်",
+    "query": "Telegram",
+    "tmdb": {
+      "tmdb_id": 612813,
+      "tmdb_type": "movie",
+      "tmdb_title": "Telegram",
+      "tmdb_year": "2001",
+      "poster": "/3pR3Ob7XVGfcrh8Hbtnwywd1XHd.jpg",
+      "backdrop": "/81PPHe35pYryAAffpGqccrBa2vl.jpg",
+      "overview": "In Jakarta, a young journalist struggling to escape from the confines of familiar obligations, receives a telegram informing him that his mother is dying.",
+      "rating": 10.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/kasnreviews/14450",
+    "raw_title": "Kabhi khushi kabhie Gham",
+    "query": "Kabhi khushi kabhie Gham",
+    "tmdb": {
+      "tmdb_id": 10757,
+      "tmdb_type": "movie",
+      "tmdb_title": "Kabhi Khushi Kabhie Gham",
+      "tmdb_year": "2001",
+      "poster": "/eJrD94E1msYEa0DygvkvdEKpChm.jpg",
+      "backdrop": "/sPMBiyjTco4JdKojlfGIz5Wd0jC.jpg",
+      "overview": "Years after his father disowns his adopted brother for marrying a woman of lower social standing, a young man goes on a mission to reunite his family.",
+      "rating": 7.7,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 1.0
+    }
   }
 ]

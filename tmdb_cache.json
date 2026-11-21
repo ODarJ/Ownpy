@@ -116329,5 +116329,135 @@
   "breakout brothers-123|": [
     "none",
     null
-  ]
+  ],
+  "m-a-d-d--e-n|2026": [
+    "none",
+    null
+  ],
+  "john madden|": [
+    "none",
+    null
+  ],
+  "john madden oakland raiders super bowl al davis|": [
+    "none",
+    null
+  ],
+  "john madden electronic arts madden nfl|": [
+    "none",
+    null
+  ],
+  "s-t-e-p-s|2026": [
+    "none",
+    null
+  ],
+  "point of view point of view|": [
+    "none",
+    null
+  ],
+  "no breathing|2013": [
+    "ok",
+    {
+      "tmdb_id": 230726,
+      "tmdb_type": "movie",
+      "tmdb_title": "No Breathing",
+      "tmdb_year": "2013",
+      "poster": "/wGT5By7DBRWsamZaIJMNLx1rQox.jpg",
+      "backdrop": "/eXM9lL1dqZmkRi6iMWtgv5jFSMM.jpg",
+      "overview": "Two very different restless youths join a swimming competition for love and friendship which is, in fact, a rite of passage to growing up.",
+      "rating": 6.6,
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:230726": {
+    "backdrop_path": "/eXM9lL1dqZmkRi6iMWtgv5jFSMM.jpg",
+    "trailer": "https://www.youtube.com/watch?v=LWVoIm0WpxQ"
+  },
+  "people we meet on vacation|2026": [
+    "ok",
+    {
+      "tmdb_id": 1034716,
+      "tmdb_type": "movie",
+      "tmdb_title": "People We Meet on Vacation",
+      "tmdb_year": "2026",
+      "poster": "/peG6482ALJQ9Tbvv2P38BquVk0f.jpg",
+      "backdrop": "/qa3oDSDZSJKSdIdBgQgEAxO0N88.jpg",
+      "overview": "Poppy's a free spirit. Alex loves a plan. After years of summer vacations, these polar-opposite pals wonder if they could be a perfect romantic match.",
+      "rating": 6.947,
+      "genre_ids": [
+        35,
+        10749
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1034716": {
+    "backdrop_path": "/qa3oDSDZSJKSdIdBgQgEAxO0N88.jpg",
+    "trailer": "https://www.youtube.com/watch?v=m1C9DTOUH5s"
+  },
+  "who kissed me? (kiss scene in yeonnam-dong)|": [
+    "ok",
+    {
+      "tmdb_id": 106529,
+      "tmdb_type": "tv",
+      "tmdb_title": "Who Kissed Me? / Kiss Scene in Yeonnamdong",
+      "tmdb_year": "2019",
+      "poster": "/pDuGUu1K3lURJH3IaPPzIFirGjF.jpg",
+      "backdrop": "/7P5tMM4z5Kg9NXYcRDJKxr07aVE.jpg",
+      "overview": "The concept of \"Kiss Scene in Yeonnam-dong\" is 'who kissed her that night?' and it's about a young woman who has been single all her life looking for the most handsome kisser. She has been single all her life, but she's not all that innocent in this honest romantic story of young people.",
+      "rating": 6.2,
+      "genre_ids": [],
+      "score": 1.0
+    }
+  ],
+  "drawing closer|2024": [
+    "ok",
+    {
+      "tmdb_id": 1291559,
+      "tmdb_type": "movie",
+      "tmdb_title": "Drawing Closer",
+      "tmdb_year": "2024",
+      "poster": "/173FD4a0rpSF30z4CoWx6qdx8Ry.jpg",
+      "backdrop": "/6tTC2ooNo2KMgjosWCPfTOSOevE.jpg",
+      "overview": "With only a year left to live, 17-year-old Akito finds new meaning in life by bringing joy to a terminally ill girl who has just six months remaining.",
+      "rating": 8.4,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1291559": {
+    "backdrop_path": "/6tTC2ooNo2KMgjosWCPfTOSOevE.jpg",
+    "trailer": "https://www.youtube.com/watch?v=WMpngmDc7Sg"
+  },
+  "battle game in 5 seconds|2021": [
+    "ok",
+    {
+      "tmdb_id": 112940,
+      "tmdb_type": "tv",
+      "tmdb_title": "Battle Game in 5 Seconds",
+      "tmdb_year": "2021",
+      "poster": "/nGuTtEc5q3pO6Kl2Pmszc9IwEe.jpg",
+      "backdrop": "/xOi6lRbJh3fBFur8QuxTyGzOqiH.jpg",
+      "overview": "A new kind of battle of abilities for a new generation is about to begin! It all started on a regular morning like any other. Akira Shiroyanagi is a high school kid who loves nothing more than konpeito candy and games. One day, he ends up in a fight due to a mysterious girl named Mion. Mion then tells the people she had gathered that they no longer officially exist in any records. They were given powers and were about to be test subjects. Akira makes up his mind to use his powers to climb up the ranks and then crush this organization.",
+      "rating": 7.7,
+      "genre_ids": [
+        16,
+        18,
+        9648,
+        10759,
+        10765
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:112940": {
+    "backdrop_path": "/xOi6lRbJh3fBFur8QuxTyGzOqiH.jpg",
+    "trailer": "https://www.youtube.com/watch?v=mmIDlgZf3WY"
+  }
 }
