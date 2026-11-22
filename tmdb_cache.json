@@ -116568,5 +116568,42 @@
   "episode 4 the end|": [
     "none",
     null
-  ]
+  ],
+  "akhin6830 1|": [
+    "none",
+    null
+  ],
+  "c-i-t-y l-i-g-h-t-s|2026": [
+    "none",
+    null
+  ],
+  "b-e y-o-u-r-s-e-l-f|2026": [
+    "none",
+    null
+  ],
+  "steps|2026": [
+    "ok",
+    {
+      "tmdb_id": 1595124,
+      "tmdb_type": "movie",
+      "tmdb_title": "Steps",
+      "tmdb_year": "2026",
+      "poster": "/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
+      "backdrop": "/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "overview": "After being blamed for disrupting the Royal Ball with a stolen magic wand, a misunderstood stepsister accidentally turns her sister into a frog and must team up with Cinderella and an unlikely ally to save the kingdom and rewrite their fairytale ending.",
+      "rating": 6.6,
+      "genre_ids": [
+        16,
+        10751,
+        35,
+        12,
+        14
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1595124": {
+    "backdrop_path": "/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+    "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
+  }
 }
