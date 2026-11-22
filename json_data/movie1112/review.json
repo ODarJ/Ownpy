@@ -9728,5 +9728,25 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/movie1112/9075",
+    "raw_title": "S-c-o-r-p-i-o-n (2026)",
+    "query": "CIA",
+    "tmdb": {
+      "tmdb_id": 289560,
+      "tmdb_type": "tv",
+      "tmdb_title": "CIA",
+      "tmdb_year": "2026",
+      "poster": "/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "backdrop": "/faxI8ewOUkQRy4z4vwP6kci8Ilk.jpg",
+      "overview": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "rating": 8.449,
+      "genre_ids": [
+        80,
+        18
+      ],
+      "score": 1.0
+    }
   }
 ]

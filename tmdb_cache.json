@@ -116605,5 +116605,64 @@
   "details:movie:1595124": {
     "backdrop_path": "/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
     "trailer": "https://www.youtube.com/watch?v=tNV4i3BqUGY"
-  }
+  },
+  "s-c-o-r-p-i-o-n|2026": [
+    "none",
+    null
+  ],
+  "batman 2 face aaron eckhart cia|": [
+    "none",
+    null
+  ],
+  "cia scorpion|": [
+    "none",
+    null
+  ],
+  "t-h-e l-a-k-e|2025": [
+    "none",
+    null
+  ],
+  "? horror|": [
+    "none",
+    null
+  ],
+  "sakamoto days mmsub|": [
+    "none",
+    null
+  ],
+  "sakamoto|": [
+    "review",
+    {
+      "tmdb_id": 207332,
+      "tmdb_type": "tv",
+      "tmdb_title": "SAKAMOTO DAYS",
+      "tmdb_year": "2025",
+      "poster": "/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+      "backdrop": "/blSthAPRbEOJBowdxppeQqNPRh9.jpg",
+      "overview": "Once the greatest hitman of all, Taro Sakamoto retired in the name of love. But when his past catches up, he must fight to protect his beloved family.",
+      "rating": 8.0,
+      "genre_ids": [
+        16,
+        35,
+        10759
+      ],
+      "score": 0.76
+    }
+  ],
+  "telegram - athuhtaymin bot|": [
+    "none",
+    null
+  ],
+  "myanmar server dia price|": [
+    "none",
+    null
+  ],
+  "weekly pass 750oks|": [
+    "none",
+    null
+  ],
+  "404 24000 ks|": [
+    "none",
+    null
+  ]
 }
