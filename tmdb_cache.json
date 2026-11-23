@@ -116664,5 +116664,99 @@
   "404 24000 ks|": [
     "none",
     null
-  ]
+  ],
+  "m-i-t-t-i d-e p-u-t-t|2026": [
+    "none",
+    null
+  ],
+  "paradise lost|2026": [
+    "ok",
+    {
+      "tmdb_id": 1584855,
+      "tmdb_type": "movie",
+      "tmdb_title": "Paradise Lost",
+      "tmdb_year": "2026",
+      "poster": "/6DLBaO4pKBuEXeoHZCCpEVAqyKz.jpg",
+      "backdrop": "/8Qybglcd5IqksU7rNRvpvodtrpQ.jpg",
+      "overview": "A bus full of children mysteriously vanishes. When an altered version of a grieving mother's son returns years later, she must grapple with the technologically revised reality she has created.",
+      "rating": 6.2,
+      "genre_ids": [
+        53,
+        18,
+        878
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1584855": {
+    "backdrop_path": "/8Qybglcd5IqksU7rNRvpvodtrpQ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Yhdt5zJ1_Jc"
+  },
+  "s-i-s-a|2026": [
+    "none",
+    null
+  ],
+  "quantum films cineko productions octobertrain films jun robles lana|": [
+    "none",
+    null
+  ],
+  "' ' hilda koronel eugene domingo jennica garcia|": [
+    "none",
+    null
+  ],
+  "jos rizal 'noli me t ngere' jun robles lana|": [
+    "none",
+    null
+  ],
+  "avatar 3|2025": [
+    "none",
+    null
+  ],
+  "perfect liars|2026": [
+    "ok",
+    {
+      "tmdb_id": 1568060,
+      "tmdb_type": "movie",
+      "tmdb_title": "Perfect Liars",
+      "tmdb_year": "2026",
+      "poster": "/kej8EipJOvfHUHFg5wtT7gQ6bNb.jpg",
+      "backdrop": "/m4i6oWU1LoAkYVuV37L7UyI2tcy.jpg",
+      "overview": "Jude Derry arrives at the exclusive Tagus university with a hidden mission: to infiltrate the circle of the Cash brothers and uncover the truth about her brother's death. What begins as revenge turns into a dangerous triangle of seduction, forbidden attraction and lies, drawing her toward a truth she may not be ready to face.",
+      "rating": 7.3,
+      "genre_ids": [
+        18,
+        10749,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1568060": {
+    "backdrop_path": "/m4i6oWU1LoAkYVuV37L7UyI2tcy.jpg",
+    "trailer": "https://www.youtube.com/watch?v=50v6k3LUcxU"
+  },
+  "baby do die do|2026": [
+    "ok",
+    {
+      "tmdb_id": 1512084,
+      "tmdb_type": "movie",
+      "tmdb_title": "Baby Do Die Do",
+      "tmdb_year": "2026",
+      "poster": "/jvfqp6gMlvHODYnBXoogqRyIs0k.jpg",
+      "backdrop": "/tRRtE7OmypTR2kDoTqqTyQu6bD5.jpg",
+      "overview": "A deaf and mute serial killer in Mumbai can only hear her dead sister's voice as she commits murders for mysterious reasons.",
+      "rating": 6.6,
+      "genre_ids": [
+        9648,
+        53,
+        80,
+        28
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1512084": {
+    "backdrop_path": "/tRRtE7OmypTR2kDoTqqTyQu6bD5.jpg",
+    "trailer": "https://www.youtube.com/watch?v=FkU0Tmf5iGk"
+  }
 }
