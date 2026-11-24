@@ -15704,5 +15704,62 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12988",
+    "raw_title": "Crash Season 2: Fury Road (2026)",
+    "query": "Episode 3",
+    "tmdb": {
+      "tmdb_id": 1209037,
+      "tmdb_type": "movie",
+      "tmdb_title": "Makers Episode 3",
+      "tmdb_year": "2022",
+      "poster": "/qPdDbdvQdcoLKaMc86VAaigiOja.jpg",
+      "backdrop": "/zJwNhGOIpPxLKRD8uMuQHDmeWI4.jpg",
+      "overview": "GCN+ showcases the fascinating processes, inspiration, and journeys of two cycling craftspeople who put their own unique spins on creating. Based in Sacramento, United States, Emily Kachorek refutes the high-strung notions of the traditional cycling world. Her company, Squid Bikes, boasts crazy and wild spray painted bikes with a DIY punk-rock style. In contrast, South African Matthew Sowter’s journey as a frame builder took him all the way to the UK after an exhaustive career as a chef. Sowter believes in powerful minimalism and a pursuit of perfection. This film unveils the Makers’ lives, motivations, and ethos behind their craft.",
+      "rating": 0.0,
+      "genre_ids": [],
+      "score": 0.72
+    }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12991",
+    "raw_title": "Eternal Brotherhood S 2",
+    "query": "Review",
+    "tmdb": {
+      "tmdb_id": 62611,
+      "tmdb_type": "tv",
+      "tmdb_title": "Review",
+      "tmdb_year": "2014",
+      "poster": "/igseZf0ClaW0kzqnAIORuXjNxkR.jpg",
+      "backdrop": "/dr8oooQY5BJuHihzk6JihNiOrdW.jpg",
+      "overview": "A review of a movie, or a restaurant, or a car—or whatever else that typically falls under a critic's domain—is all well and good, and can even be helpful at times. But how can one find out about myriad other experiences that are never tackled in reviews? Enter Forrest MacNeil, a critic who goes beyond overviews of life's more-common subjects—way beyond—to satisfy the curiosity of others: The adrenaline rush of stealing; the danger of drug addiction; the delight of sleeping with a celebrity. MacNeil tries anything suggested by viewers of his TV show, then presents a 1-to-5-star review. But his unwavering commitment to experiencing intense adventures means he must deal with the unintended consequences of such a goal.",
+      "rating": 7.5,
+      "genre_ids": [
+        35
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12994",
+    "raw_title": "Highway (2014)",
+    "query": "VIP",
+    "tmdb": {
+      "tmdb_id": 4397,
+      "tmdb_type": "tv",
+      "tmdb_title": "V.I.P.",
+      "tmdb_year": "1998",
+      "poster": "/2pHBPVGn2DpYEAHBdT62nc0untt.jpg",
+      "backdrop": "/axanatjrKAXS34wMOBtwYjXTbAb.jpg",
+      "overview": "While attending a Hollywood premiere with a famous action star, a crazed fan pulls a gun—but her movie hunk turns into a coward, and it's Vallery who becomes the hero. Suddenly, she's thrown into a world of action and danger as owner of a Hollywood protection agency, Vallery Irons Protection (V.I.P.), taking risks to protect others at a price few are willing to pay.",
+      "rating": 5.31,
+      "genre_ids": [
+        10759,
+        35,
+        80
+      ],
+      "score": 1.0
+    }
   }
 ]
