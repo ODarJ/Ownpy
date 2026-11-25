@@ -134492,5 +134492,117 @@
   "details:movie:9341": {
     "backdrop_path": "/xvWba8xKqTWn0Z1i17pObQMYmE7.jpg",
     "trailer": "https://www.youtube.com/watch?v=zcjj6ZSjtNU"
-  }
+  },
+  "bronze guard corps|2026": [
+    "ok",
+    {
+      "tmdb_id": 1749571,
+      "tmdb_type": "movie",
+      "tmdb_title": "Bronze Guard Corps",
+      "tmdb_year": "2026",
+      "poster": "/bNb5G8iIXUqFSIl2W34ZiUPOt8q.jpg",
+      "backdrop": "/bdX7ACR5QUzFTYMFNWhbVQg2eDe.jpg",
+      "overview": "At the Wulong Martial Academy, disciples train daily in martial arts. Li Xiuyuan arrives with the treasure orb from the Bronze Cauldron, drawing the attention of the Black and White Twin Killers and the martial artist Xie Shen. Xie Shen manipulates the Twin Killers into stealing the cauldron and the orb, and kidnapping the sisters guarding them. Four disciples train hard to master the lost Four Symbols Formation. In a final showdown, they defeat Xie Shen, rescue the hostages, and reclaim the treasure. Amid the clash between good and evil, the thousand-year-old secret of martial arts is finally revealed",
+      "rating": 0.0,
+      "genre_ids": [
+        35,
+        18,
+        28,
+        12
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1749571": {
+    "backdrop_path": "/bdX7ACR5QUzFTYMFNWhbVQg2eDe.jpg",
+    "trailer": ""
+  },
+  "the chr-ist-mas swi-tch|2026": [
+    "none",
+    null
+  ],
+  "mathilda freddie|": [
+    "none",
+    null
+  ],
+  "freddie mathilda|": [
+    "none",
+    null
+  ],
+  "freddie emma|": [
+    "none",
+    null
+  ],
+  "san andreas|2015": [
+    "ok",
+    {
+      "tmdb_id": 254128,
+      "tmdb_type": "movie",
+      "tmdb_title": "San Andreas",
+      "tmdb_year": "2015",
+      "poster": "/2Gfjn962aaFSD6eST6QU3oLDZTo.jpg",
+      "backdrop": "/zcySy6dnSmyqiichtDgO7AEeZoq.jpg",
+      "overview": "In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey across the state in order to rescue his estranged daughter.",
+      "rating": 6.262,
+      "genre_ids": [
+        28,
+        18,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:254128": {
+    "backdrop_path": "/zcySy6dnSmyqiichtDgO7AEeZoq.jpg",
+    "trailer": "https://www.youtube.com/watch?v=F1ZewAPl7L0"
+  },
+  "coach carter|2005": [
+    "ok",
+    {
+      "tmdb_id": 7214,
+      "tmdb_type": "movie",
+      "tmdb_title": "Coach Carter",
+      "tmdb_year": "2005",
+      "poster": "/y3HOTTyM5nLsdUzXFtFCohG28qj.jpg",
+      "backdrop": "/n4CvA50GBtIPrSqCl8nMNZCliYI.jpg",
+      "overview": "Based on a true story, in which Richmond High School head basketball coach Ken Carter made headlines in 1999 for benching his undefeated team due to poor academic results.",
+      "rating": 7.586,
+      "genre_ids": [
+        18,
+        36
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:7214": {
+    "backdrop_path": "/n4CvA50GBtIPrSqCl8nMNZCliYI.jpg",
+    "trailer": "https://www.youtube.com/watch?v=MV5v0zNDrlE"
+  },
+  "villain masterpiece ''|": [
+    "none",
+    null
+  ],
+  "avenger:infinity war|": [
+    "none",
+    null
+  ],
+  "nightcrawler|": [
+    "ok",
+    {
+      "tmdb_id": 242582,
+      "tmdb_type": "movie",
+      "tmdb_title": "Nightcrawler",
+      "tmdb_year": "2014",
+      "poster": "/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
+      "backdrop": "/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
+      "overview": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
+      "rating": 7.708,
+      "genre_ids": [
+        80,
+        18,
+        53
+      ],
+      "score": 1.0
+    }
+  ]
 }
