@@ -134234,5 +134234,263 @@
   "blue lock season 1|": [
     "none",
     null
-  ]
+  ],
+  "h-a-i-k-u|2026": [
+    "none",
+    null
+  ],
+  "anapat|": [
+    "none",
+    null
+  ],
+  "rudhramadevi|": [
+    "ok",
+    {
+      "tmdb_id": 315009,
+      "tmdb_type": "movie",
+      "tmdb_title": "Rudhramadevi",
+      "tmdb_year": "2015",
+      "poster": "/aYhchfLMt5nqXOEqIhZL5kGtpAK.jpg",
+      "backdrop": "/xWjschjsn5GlZNM6e40NK88BRv1.jpg",
+      "overview": "Rudraba, daughter of Ganapatideva, the emperor of the Kakatiya dynasty, was officially designated a son through the ancient Putrika ceremony and given the name Rudradeva so that she could succeed her father after his death. Despite opposition, she became of the most prominent rulers of the Kakatiya dynasty and one of the few ruling queens in Indian history.",
+      "rating": 5.1,
+      "genre_ids": [
+        36,
+        28,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "nba|": [
+    "none",
+    null
+  ],
+  "like mike|2002": [
+    "ok",
+    {
+      "tmdb_id": 21972,
+      "tmdb_type": "movie",
+      "tmdb_title": "Like Mike",
+      "tmdb_year": "2002",
+      "poster": "/9HSaQmu1QwzvUE7R97RGoDqjTv5.jpg",
+      "backdrop": "/lh0uM88KjXsmRzWXUGAGWJ0AOJR.jpg",
+      "overview": "Calvin and his friends, who all live in an orphanage, find old shoes with the faded letters MJ connected to a powerline. One stormy night, they go to get the shoes when Calvin and the shoes are struck by lightning. Calvin now has unbelievable basketball powers and has the chance to play for the NBA.",
+      "rating": 6.1,
+      "genre_ids": [
+        35,
+        10751,
+        14
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:21972": {
+    "backdrop_path": "/lh0uM88KjXsmRzWXUGAGWJ0AOJR.jpg",
+    "trailer": "https://www.youtube.com/watch?v=HTHJyw1UsLM"
+  },
+  "parasyte the maxim|2014": [
+    "ok",
+    {
+      "tmdb_id": 61459,
+      "tmdb_type": "tv",
+      "tmdb_title": "Parasyte -the maxim-",
+      "tmdb_year": "2014",
+      "poster": "/cXBfjZSdJelu2r0wKD7qCxS71kb.jpg",
+      "backdrop": "/zfk6siC4KRXurG4jJzSXHy9szGQ.jpg",
+      "overview": "A species of parasitic aliens descends on Earth and quickly infiltrates humanity by entering the brains of vulnerable targets; insatiable beings that gain total control of their host and are capable of transforming themselves to feed on unsuspecting prey. High school student Shinichi Izumi falls victim to one of these parasites, but the creature fails to take over his brain and ends up in his right hand.",
+      "rating": 8.315,
+      "genre_ids": [
+        16,
+        18,
+        10765,
+        10759
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:61459": {
+    "backdrop_path": "/zfk6siC4KRXurG4jJzSXHy9szGQ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=2ilVWE9uw88"
+  },
+  "kung fu panda link collation|": [
+    "none",
+    null
+  ],
+  "kung fu panda 1|2008": [
+    "ok",
+    {
+      "tmdb_id": 9502,
+      "tmdb_type": "movie",
+      "tmdb_title": "Kung Fu Panda",
+      "tmdb_year": "2008",
+      "poster": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
+      "backdrop": "/qdthf9WrRDSaIkGVQGhhJ9pz1hn.jpg",
+      "overview": "Chosen by prophecy but doubted by all, Po is an unlikely choice for the mystical title of the Dragon Warrior—a clumsy panda thrust into the world of kung fu as a deadly enemy threatens the Valley of Peace. Under reluctant guidance by Master Shifu and the Furious Five, Po must embrace who he is to unlock the power that no scroll can teach.",
+      "rating": 7.347,
+      "genre_ids": [
+        28,
+        16,
+        35,
+        10751
+      ],
+      "score": 0.93
+    }
+  ],
+  "mr. han|": [
+    "ok",
+    {
+      "tmdb_id": 41172,
+      "tmdb_type": "movie",
+      "tmdb_title": "Mr. Handy",
+      "tmdb_year": "2004",
+      "poster": "/lXfsEa5d4YGScHlgvNlVmEsoAQf.jpg",
+      "backdrop": "/tixF5NI0sTvCAC2SHbKvVzsOHgh.jpg",
+      "overview": "Righteous perfectionist Hye-jin moves down to countryside to open her own dental clinic after getting fired from her former job. There, she meets this Mr. Handy who happens to be a Chinese food deliveryman, a clerk at the convenience store, a singer at a live café , a patrolman and many other things. He gets in her way every day in every possible way. Their struggle to get rid of each other now begins.",
+      "rating": 6.4,
+      "genre_ids": [
+        28,
+        35,
+        53
+      ],
+      "score": 0.86
+    }
+  ],
+  "the karate kid|2010": [
+    "ok",
+    {
+      "tmdb_id": 38575,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Karate Kid",
+      "tmdb_year": "2010",
+      "poster": "/b1RBy3l297N0c7PHjlz35cClWju.jpg",
+      "backdrop": "/tm4ld48rqEoV5tn0PDfvu3Q4Kna.jpg",
+      "overview": "12-year-old Dre Parker could've been the most popular kid in Detroit, but his mother's latest career move has landed him in China. Dre immediately falls for his classmate Mei Ying but the cultural differences make such a friendship impossible. Even worse, Dre's feelings make him an enemy of the class bully, Cheng. With no friends in a strange land, Dre has nowhere to turn but maintenance man Mr. Han, who is a kung fu master. As Han teaches Dre that kung fu is not about punches and parries, but maturity and calm, Dre realizes that facing down the bullies will be the fight of his life.",
+      "rating": 6.567,
+      "genre_ids": [
+        28,
+        12,
+        18,
+        10751
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:38575": {
+    "backdrop_path": "/tm4ld48rqEoV5tn0PDfvu3Q4Kna.jpg",
+    "trailer": "https://www.youtube.com/watch?v=XY8amUImEu0"
+  },
+  "life is beautiful la vita bella|1997": [
+    "review",
+    {
+      "tmdb_id": 637,
+      "tmdb_type": "movie",
+      "tmdb_title": "Life Is Beautiful",
+      "tmdb_year": "1997",
+      "poster": "/74hLDKjD5aGYOotO6esUVaeISa2.jpg",
+      "backdrop": "/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg",
+      "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+      "rating": 8.434,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "score": 0.71
+    }
+  ],
+  "comedy drama romance war|": [
+    "none",
+    null
+  ],
+  "imdb 8.6 rotten tomatoes 81|": [
+    "none",
+    null
+  ],
+  "the whale|2022": [
+    "ok",
+    {
+      "tmdb_id": 785084,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Whale",
+      "tmdb_year": "2022",
+      "poster": "/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
+      "backdrop": "/99rKyXreiMW7kVgJK2GH4y8eU3O.jpg",
+      "overview": "A reclusive English teacher suffering from severe obesity attempts to reconnect with his estranged teenage daughter for one last chance at redemption.",
+      "rating": 7.7,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:785084": {
+    "backdrop_path": "/99rKyXreiMW7kVgJK2GH4y8eU3O.jpg",
+    "trailer": "https://www.youtube.com/watch?v=nWiQodhMvz4"
+  },
+  "(jedi) (sith) sci-fi|": [
+    "none",
+    null
+  ],
+  "star wars (all movies)|": [
+    "none",
+    null
+  ],
+  "action adventure fantasy sci-fi|": [
+    "none",
+    null
+  ],
+  "1. star wars: episode 4 a new hope|1977": [
+    "none",
+    null
+  ],
+  "big fish|2003": [
+    "ok",
+    {
+      "tmdb_id": 587,
+      "tmdb_type": "movie",
+      "tmdb_title": "Big Fish",
+      "tmdb_year": "2003",
+      "poster": "/tjK063yCgaBAluVU72rZ6PKPH2l.jpg",
+      "backdrop": "/bLqUd0tBvKezDr9MEla7k34i3rp.jpg",
+      "overview": "Throughout his life Edward Bloom has always been a man of big appetites, enormous passions and tall tales. In his later years, he remains a huge mystery to his son, William. Now, to get to know the real man, Will begins piecing together a true picture of his father from flashbacks of his amazing adventures.",
+      "rating": 7.745,
+      "genre_ids": [
+        12,
+        14,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:587": {
+    "backdrop_path": "/bLqUd0tBvKezDr9MEla7k34i3rp.jpg",
+    "trailer": "https://www.youtube.com/watch?v=T6M-jwyz28U"
+  },
+  "(core) sci-fi|": [
+    "none",
+    null
+  ],
+  "the core|2003": [
+    "ok",
+    {
+      "tmdb_id": 9341,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Core",
+      "tmdb_year": "2003",
+      "poster": "/iMPR3OFhKNVvJw4eZoRhf9RzfHJ.jpg",
+      "backdrop": "/xvWba8xKqTWn0Z1i17pObQMYmE7.jpg",
+      "overview": "Geophysicist Dr. Josh Keyes discovers that an unknown force has caused the earth's inner core to stop rotating. With the planet's magnetic field rapidly deteriorating, our atmosphere literally starts to come apart at the seams with catastrophic consequences. To resolve the crisis, Keyes, along with a team of the world's most gifted scientists, travel into the earth's core. Their mission: detonate a device that will reactivate the core.",
+      "rating": 5.848,
+      "genre_ids": [
+        878,
+        12,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:9341": {
+    "backdrop_path": "/xvWba8xKqTWn0Z1i17pObQMYmE7.jpg",
+    "trailer": "https://www.youtube.com/watch?v=zcjj6ZSjtNU"
+  }
 }

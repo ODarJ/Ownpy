@@ -15761,5 +15761,43 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/12999",
+    "raw_title": "rudhramadevi",
+    "query": "rudhramadevi",
+    "tmdb": {
+      "tmdb_id": 315009,
+      "tmdb_type": "movie",
+      "tmdb_title": "Rudhramadevi",
+      "tmdb_year": "2015",
+      "poster": "/aYhchfLMt5nqXOEqIhZL5kGtpAK.jpg",
+      "backdrop": "/xWjschjsn5GlZNM6e40NK88BRv1.jpg",
+      "overview": "Rudraba, daughter of Ganapatideva, the emperor of the Kakatiya dynasty, was officially designated a son through the ancient Putrika ceremony and given the name Rudradeva so that she could succeed her father after his death. Despite opposition, she became of the most prominent rulers of the Kakatiya dynasty and one of the few ruling queens in Indian history.",
+      "rating": 5.1,
+      "genre_ids": [
+        36,
+        28,
+        18
+      ],
+      "score": 1.0
+    }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/13000",
+    "raw_title": "Crash Season 2: Fury Road (2026)",
+    "query": "Episode 4",
+    "tmdb": {
+      "tmdb_id": 283001,
+      "tmdb_type": "movie",
+      "tmdb_title": "Sellig : Épisode 4",
+      "tmdb_year": "2014",
+      "poster": "/uSPP6lEpQA3Mgf7VlFs8Ir4gMsw.jpg",
+      "backdrop": "/mQQyOtQyfI1rq06z3OnP9cURzYn.jpg",
+      "overview": "",
+      "rating": 9.0,
+      "genre_ids": [],
+      "score": 0.72
+    }
   }
 ]
