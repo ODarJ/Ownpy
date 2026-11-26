@@ -134779,5 +134779,107 @@
   "details:movie:1038392": {
     "backdrop_path": "/i8MupUe4xgmYXoRNAQMYvuoexSU.jpg",
     "trailer": "https://www.youtube.com/watch?v=p4aWdkM5xF8"
+  },
+  "n-i-n-e t-o s-i-x|2026": [
+    "none",
+    null
+  ],
+  "(park min young) workaholic|": [
+    "none",
+    null
+  ],
+  "(yook sung jae)|": [
+    "none",
+    null
+  ],
+  "chronic motors|": [
+    "none",
+    null
+  ],
+  "d-e-l-h-i 2021|2026": [
+    "none",
+    null
+  ],
+  "(covid-19) it|": [
+    "none",
+    null
+  ],
+  "sl critical care (sl criticare)|": [
+    "none",
+    null
+  ],
+  "c-a-r-r-i-e|2002": [
+    "none",
+    null
+  ],
+  "100 love|2011": [
+    "ok",
+    {
+      "tmdb_id": 63378,
+      "tmdb_type": "movie",
+      "tmdb_title": "100% Love",
+      "tmdb_year": "2011",
+      "poster": "/xDuAT2K7kcN2kM9BP9lwwNqNWCD.jpg",
+      "backdrop": "/yAFPkPUKPhV5INwsUykCBMfe7Xa.jpg",
+      "overview": "Balu and Mahalakshmi are both very competitive in college, which leads to ego clashes. When they meet again after a few years, they try to outdo each other until they realize that they are in love.",
+      "rating": 6.3,
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:63378": {
+    "backdrop_path": "/yAFPkPUKPhV5INwsUykCBMfe7Xa.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Q0wjGBZ5yuU"
+  },
+  "crazy, stupid, love|2011": [
+    "ok",
+    {
+      "tmdb_id": 50646,
+      "tmdb_type": "movie",
+      "tmdb_title": "Crazy, Stupid, Love.",
+      "tmdb_year": "2011",
+      "poster": "/p4RafgAPk558muOjnBMHhMArjS2.jpg",
+      "backdrop": "/vyrCniZsrXZAW08eECKIp1BMLPh.jpg",
+      "overview": "Cal Weaver is living the American dream. He has a good job, a beautiful house, great children and a beautiful wife, named Emily. Cal's seemingly perfect life unravels, however, when he learns that Emily has been unfaithful and wants a divorce. Over 40 and suddenly single, Cal is adrift in the fickle world of dating. Enter, Jacob Palmer, a self-styled player who takes Cal under his wing and teaches him how to be a hit with the ladies.",
+      "rating": 7.279,
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:50646": {
+    "backdrop_path": "/vyrCniZsrXZAW08eECKIp1BMLPh.jpg",
+    "trailer": "https://www.youtube.com/watch?v=W7U03cW7k-Y"
+  },
+  "elysium|2013": [
+    "ok",
+    {
+      "tmdb_id": 68724,
+      "tmdb_type": "movie",
+      "tmdb_title": "Elysium",
+      "tmdb_year": "2013",
+      "poster": "/aRjuJuPXHtVs6YegfeeQWXGRs1E.jpg",
+      "backdrop": "/oo9GyiNKvR4CU1etuYl081UJ1LE.jpg",
+      "overview": "In the year 2159, two classes of people exist: the very wealthy who live on a pristine man-made space station called Elysium, and the rest, who live on an overpopulated, ruined Earth. Secretary Rhodes, a hard line government official, will stop at nothing to enforce anti-immigration laws and preserve the luxurious lifestyle of the citizens of Elysium. That doesn’t stop the people of Earth from trying to get in, by any means they can. When unlucky Max is backed into a corner, he agrees to take on a daunting mission that, if successful, will not only save his life, but could bring equality to these polarized worlds.",
+      "rating": 6.525,
+      "genre_ids": [
+        878,
+        28,
+        18,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:68724": {
+    "backdrop_path": "/oo9GyiNKvR4CU1etuYl081UJ1LE.jpg",
+    "trailer": "https://www.youtube.com/watch?v=oIBtePb-dGY"
   }
 }

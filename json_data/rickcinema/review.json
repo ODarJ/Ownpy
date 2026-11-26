@@ -15799,5 +15799,27 @@
       "genre_ids": [],
       "score": 0.72
     }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/13014",
+    "raw_title": "Rick and Morty",
+    "query": "Rick and Morty",
+    "tmdb": {
+      "tmdb_id": 60625,
+      "tmdb_type": "tv",
+      "tmdb_title": "Rick and Morty",
+      "tmdb_year": "2013",
+      "poster": "/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
+      "backdrop": "/iFOkrSrJRwE27PwbyQeYLlMJXzw.jpg",
+      "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
+      "rating": 8.678,
+      "genre_ids": [
+        16,
+        35,
+        10765,
+        10759
+      ],
+      "score": 1.0
+    }
   }
 ]
