@@ -134604,5 +134604,180 @@
       ],
       "score": 1.0
     }
-  ]
+  ],
+  "s-p-a-r-k|2026": [
+    "none",
+    null
+  ],
+  "t-h-e mo-sq-ui-to bo-wl|2026": [
+    "none",
+    null
+  ],
+  "4th marines 29th marines mosquito bowl|": [
+    "none",
+    null
+  ],
+  "d-r-a-g-o-n h-u-n-t-e-r-s|2008": [
+    "none",
+    null
+  ],
+  "wicker (romantic fantasy comedy)|": [
+    "none",
+    null
+  ],
+  "r-rated (18 ) olivia colman alexander skarsg rd|": [
+    "none",
+    null
+  ],
+  "(olivia colman) (peter dinklage)|": [
+    "none",
+    null
+  ],
+  "nine to six|2026": [
+    "ok",
+    {
+      "tmdb_id": 310209,
+      "tmdb_type": "tv",
+      "tmdb_title": "Nine to Six",
+      "tmdb_year": "2026",
+      "poster": "/1iVlL2Prt9Q5BWMfeZQ6d1ZAZBy.jpg",
+      "backdrop": "/vRuayyRqPoxFCq2xwAc2hsJqonm.jpg",
+      "overview": "Falsely blamed for a car fire, Chronic Motors Senior Manager Kang Yi-ji faces demotion. Can she find love and happiness amid office politics?",
+      "rating": 5.0,
+      "genre_ids": [
+        18,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:310209": {
+    "backdrop_path": "/y6vS0tG9uQPOU9y2YhuZ0Uga99c.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Tp8EdzRITTw"
+  },
+  "kill blue|2026": [
+    "ok",
+    {
+      "tmdb_id": 300131,
+      "tmdb_type": "tv",
+      "tmdb_title": "KILL BLUE",
+      "tmdb_year": "2026",
+      "poster": "/lqly2Kha1aFu2lJ3e82ZxllEjBj.jpg",
+      "backdrop": "/jOxZVOYxghHw6ofH1QFG6ZQUt2V.jpg",
+      "overview": "Legendary hitman Juzo Ogami has never failed an assignment. But after a mission, he’s stung by a mysterious wasp and wakes up in the body of a 13-year-old boy! And to make things even weirder, he receives a bizarre new order: infiltrate a middle school. Now the once-feared assassin must balance the chaos of school life with his deadly work, all while searching for a way to regain his adult body!",
+      "rating": 7.837,
+      "genre_ids": [
+        16,
+        10759,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:tv:300131": {
+    "backdrop_path": "/jOxZVOYxghHw6ofH1QFG6ZQUt2V.jpg",
+    "trailer": "https://www.youtube.com/watch?v=5SvzWmg1c14"
+  },
+  "life of pi|2012": [
+    "ok",
+    {
+      "tmdb_id": 87827,
+      "tmdb_type": "movie",
+      "tmdb_title": "Life of Pi",
+      "tmdb_year": "2012",
+      "poster": "/iLgRu4hhSr6V1uManX6ukDriiSc.jpg",
+      "backdrop": "/21YsCNMub5455NQCn3jh9SmRFyG.jpg",
+      "overview": "The story of an Indian boy named Pi, a zookeeper's son who finds himself in the company of a hyena, zebra, orangutan, and a Bengal tiger after a shipwreck sets them adrift in the Pacific Ocean.",
+      "rating": 7.419,
+      "genre_ids": [
+        12,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:87827": {
+    "backdrop_path": "/21YsCNMub5455NQCn3jh9SmRFyG.jpg",
+    "trailer": "https://www.youtube.com/watch?v=j9Hjrs6WQ8M"
+  },
+  "(voodoo)|": [
+    "ok",
+    {
+      "tmdb_id": 452789,
+      "tmdb_type": "movie",
+      "tmdb_title": "Voodoo",
+      "tmdb_year": "2010",
+      "poster": "/pOy3e6DlHljv1E6w1vLc16da6uz.jpg",
+      "backdrop": null,
+      "overview": "All sympathetic magic is based upon two principles: the first called the Law of Similarity says that “likes produce likes,” or that an effect resembles its cause; the second, called the law of contagion or contact says that all things having been in contact with each other continue to react upon one and another at a distance even after they have been severed or disconnected. A fearful man meets a disquiet woman. Do you believe in magic?",
+      "rating": 6.0,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "the skeleton key|2005": [
+    "ok",
+    {
+      "tmdb_id": 9913,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Skeleton Key",
+      "tmdb_year": "2005",
+      "poster": "/wHmubdzrVw8oq7htzrf364wsJNp.jpg",
+      "backdrop": "/uzHTp5aFmnSBJVkupHlHe2m70gj.jpg",
+      "overview": "A hospice nurse working at a spooky New Orleans plantation home finds herself entangled in a mystery involving the house's dark past.",
+      "rating": 6.621,
+      "genre_ids": [
+        18,
+        27,
+        9648,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:9913": {
+    "backdrop_path": "/uzHTp5aFmnSBJVkupHlHe2m70gj.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Ue86OkmeQxU"
+  },
+  "warren conjuring|": [
+    "review",
+    {
+      "tmdb_id": 138843,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Conjuring",
+      "tmdb_year": "2013",
+      "poster": "/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+      "backdrop": "/ecKQlAEG95k62SMGhvX83oEqANK.jpg",
+      "overview": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
+      "rating": 7.545,
+      "genre_ids": [
+        27,
+        53
+      ],
+      "score": 0.76
+    }
+  ],
+  "the conjuring: last rites|2026": [
+    "ok",
+    {
+      "tmdb_id": 1038392,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Conjuring: Last Rites",
+      "tmdb_year": "2025",
+      "poster": "/umvkcIb0XAk486TEmx1V5aVzhbm.jpg",
+      "backdrop": "/i8MupUe4xgmYXoRNAQMYvuoexSU.jpg",
+      "overview": "Paranormal investigators Ed and Lorraine Warren take on one last terrifying case involving mysterious entities they must confront.",
+      "rating": 6.949,
+      "genre_ids": [
+        27
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1038392": {
+    "backdrop_path": "/i8MupUe4xgmYXoRNAQMYvuoexSU.jpg",
+    "trailer": "https://www.youtube.com/watch?v=p4aWdkM5xF8"
+  }
 }
