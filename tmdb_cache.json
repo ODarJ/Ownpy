@@ -135055,5 +135055,79 @@
   "details:movie:1813": {
     "backdrop_path": "/bFRyrzb16IqM8hTmxT0z1nCaqhr.jpg",
     "trailer": "https://www.youtube.com/watch?v=etrZJJC4ox8"
+  },
+  "drishyam: the conclusion|2026": [
+    "ok",
+    {
+      "tmdb_id": 1269325,
+      "tmdb_type": "movie",
+      "tmdb_title": "Drishyam: The Conclusion",
+      "tmdb_year": "2026",
+      "poster": "/67FsF2kpgEZ1T5Qos4adgqm9dLf.jpg",
+      "backdrop": "/slSC0xYHynkHAwIdLPqfW9Blcow.jpg",
+      "overview": "Years after outsmarting the police, Vijay Salgaonkar's past resurfaces when a new evidence threatens to expose his secret. As the investigation reopens, he must outwit the system once again to save his family.",
+      "rating": 7.7,
+      "genre_ids": [
+        53,
+        18,
+        9648,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1269325": {
+    "backdrop_path": "/slSC0xYHynkHAwIdLPqfW9Blcow.jpg",
+    "trailer": "https://www.youtube.com/watch?v=MFQFxsDWbA8"
+  },
+  "(ryu) (ken masters) (chun-li) shadaloo m. bison|": [
+    "none",
+    null
+  ],
+  "s-i-h-i-r t-a-n-a-h k-u-b-u-r|2026": [
+    "none",
+    null
+  ],
+  "innocent witness|2019": [
+    "ok",
+    {
+      "tmdb_id": 570508,
+      "tmdb_type": "movie",
+      "tmdb_title": "Innocent Witness",
+      "tmdb_year": "2019",
+      "poster": "/rLfGdUJ4Rp1FTWKOvaZlMqHXb4i.jpg",
+      "backdrop": "/iJtsrvr9fWPpx9QO3PwuqMz58wy.jpg",
+      "overview": "An old man is found dead, and his housekeeper is charged with the murder. Her defense attorney is surprised to learn the only witness to the crime is a teenage girl with autism.",
+      "rating": 7.747,
+      "genre_ids": [
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:570508": {
+    "backdrop_path": "/iJtsrvr9fWPpx9QO3PwuqMz58wy.jpg",
+    "trailer": "https://www.youtube.com/watch?v=3wyIYAZzH-M"
+  },
+  "superbad|2007": [
+    "ok",
+    {
+      "tmdb_id": 8363,
+      "tmdb_type": "movie",
+      "tmdb_title": "Superbad",
+      "tmdb_year": "2007",
+      "poster": "/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
+      "backdrop": "/coru98UcFBzJIU7bxZguxaePgu0.jpg",
+      "overview": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
+      "rating": 7.276,
+      "genre_ids": [
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:8363": {
+    "backdrop_path": "/coru98UcFBzJIU7bxZguxaePgu0.jpg",
+    "trailer": "https://www.youtube.com/watch?v=LvKvus3vCEY"
   }
 }
