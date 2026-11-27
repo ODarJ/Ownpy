@@ -134881,5 +134881,179 @@
   "details:movie:68724": {
     "backdrop_path": "/oo9GyiNKvR4CU1etuYl081UJ1LE.jpg",
     "trailer": "https://www.youtube.com/watch?v=oIBtePb-dGY"
+  },
+  "always lalisa|2026": [
+    "ok",
+    {
+      "tmdb_id": 1489932,
+      "tmdb_type": "movie",
+      "tmdb_title": "Always Lalisa",
+      "tmdb_year": "2026",
+      "poster": "/1iEBScwr7ZWYo51ZXC27heV9pHk.jpg",
+      "backdrop": "/wJwTuwy1ZajIA6ivGjoe0Ee08XN.jpg",
+      "overview": "Documentary following global superstar LISA during a transformative year away from BLACKPINK, the K-pop phenomenon that made her one of the world's most recognizable performers. Documenting a year of risk, reinvention, and self-discovery as LISA begins to define her next chapter.",
+      "rating": 8.5,
+      "genre_ids": [
+        99,
+        10402
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1489932": {
+    "backdrop_path": "/wJwTuwy1ZajIA6ivGjoe0Ee08XN.jpg",
+    "trailer": "https://www.youtube.com/watch?v=s6NUEu1x64I"
+  },
+  "jackie-the-stripper|2026": [
+    "ok",
+    {
+      "tmdb_id": 1693983,
+      "tmdb_type": "movie",
+      "tmdb_title": "Jackie the Stripper",
+      "tmdb_year": "2026",
+      "poster": "/fdDicuDFWO0mHC3P7WwqP83UQui.jpg",
+      "backdrop": "/bQp0zCFl7Cg7tIsdStDBFBkn1aW.jpg",
+      "overview": "A female empowerment grind house comedy action thriller. Jackie and her band of female vigilante assassins hatch a plan to kill six members of the evil male dominated court. With deadly and hilarious consequences",
+      "rating": 7.0,
+      "genre_ids": [
+        35,
+        28
+      ],
+      "score": 0.94
+    }
+  ],
+  "details:movie:1693983": {
+    "backdrop_path": "/bQp0zCFl7Cg7tIsdStDBFBkn1aW.jpg",
+    "trailer": "https://www.youtube.com/watch?v=NEAeSz0Wn9A"
+  },
+  "ha-rb-in-ger|2026": [
+    "none",
+    null
+  ],
+  "thay - thay harbinger|": [
+    "none",
+    null
+  ],
+  "thay|": [
+    "none",
+    null
+  ],
+  "al-te-ri-ty|2026": [
+    "none",
+    null
+  ],
+  "roseville mall mall archie|": [
+    "none",
+    null
+  ],
+  "mall zander|": [
+    "none",
+    null
+  ],
+  "zander kate mall kate mall sci-fi horror, thriller|": [
+    "none",
+    null
+  ],
+  "episode 9 preview images|": [
+    "none",
+    null
+  ],
+  "love in vietnam|2025": [
+    "ok",
+    {
+      "tmdb_id": 1536626,
+      "tmdb_type": "movie",
+      "tmdb_title": "Love in Vietnam",
+      "tmdb_year": "2025",
+      "poster": "/or5aCixxUZOrPoE2LFw1PLMiZWV.jpg",
+      "backdrop": "/3T8zjFMH286tRDbTROLLprfIop2.jpg",
+      "overview": "A passionate cross-cultural romance unfolds between Vietnam and Punjab, inspired by the classic Turkish novel 'Madonna in a Fur Coat.",
+      "rating": 6.0,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1536626": {
+    "backdrop_path": "/3T8zjFMH286tRDbTROLLprfIop2.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ZZXxnph8PoY"
+  },
+  "myanmar server|": [
+    "none",
+    null
+  ],
+  "weekly pass 850oks|": [
+    "none",
+    null
+  ],
+  "the shallows|2016": [
+    "ok",
+    {
+      "tmdb_id": 332567,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Shallows",
+      "tmdb_year": "2016",
+      "poster": "/bnBV7hZmLuA0Si5Aop481sPF2RY.jpg",
+      "backdrop": "/5W160Z6MGl6xB7QomSwfdsRKVJx.jpg",
+      "overview": "While surfing on a secluded beach, Nancy finds herself in the feeding grounds of a great white shark. Though stranded only 200 yards from shore, survival proves to be the ultimate test of wills, requiring all of her ingenuity, resourcefulness, and fortitude.",
+      "rating": 6.35,
+      "genre_ids": [
+        27,
+        18,
+        53
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:332567": {
+    "backdrop_path": "/5W160Z6MGl6xB7QomSwfdsRKVJx.jpg",
+    "trailer": "https://www.youtube.com/watch?v=EgdxIlSuB70"
+  },
+  "the last duel|2021": [
+    "ok",
+    {
+      "tmdb_id": 617653,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Last Duel",
+      "tmdb_year": "2021",
+      "poster": "/zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg",
+      "backdrop": "/4LrL40XecjGLRpX5I2gzMTUt04l.jpg",
+      "overview": "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire, Jacques Le Gris, by challenging him to a duel.",
+      "rating": 7.391,
+      "genre_ids": [
+        18,
+        36
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:617653": {
+    "backdrop_path": "/4LrL40XecjGLRpX5I2gzMTUt04l.jpg",
+    "trailer": "https://www.youtube.com/watch?v=mgygUwPJvYk"
+  },
+  "the devil's advocate|1997": [
+    "ok",
+    {
+      "tmdb_id": 1813,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Devil's Advocate",
+      "tmdb_year": "1997",
+      "poster": "/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+      "backdrop": "/bFRyrzb16IqM8hTmxT0z1nCaqhr.jpg",
+      "overview": "Aspiring Florida defense lawyer Kevin Lomax accepts a job at a New York law firm. With the stakes getting higher every case, Kevin quickly learns that his boss has something far more evil planned.",
+      "rating": 7.483,
+      "genre_ids": [
+        27,
+        18,
+        9648
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1813": {
+    "backdrop_path": "/bFRyrzb16IqM8hTmxT0z1nCaqhr.jpg",
+    "trailer": "https://www.youtube.com/watch?v=etrZJJC4ox8"
   }
 }
