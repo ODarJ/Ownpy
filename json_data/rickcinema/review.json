@@ -15821,5 +15821,26 @@
       ],
       "score": 1.0
     }
+  },
+  {
+    "post_link": "https://t.me/rickcinema/13027",
+    "raw_title": "Khuda Haafiz Chapter 2",
+    "query": "Khuda Haafiz Chapter 2",
+    "tmdb": {
+      "tmdb_id": 965653,
+      "tmdb_type": "movie",
+      "tmdb_title": "Khuda Haafiz Chapter 2: Agni Pariksha",
+      "tmdb_year": "2022",
+      "poster": "/dWYGHG6yIG8Fh8LwhbGnnaYNYyX.jpg",
+      "backdrop": "/evekFb5xYhSJXoG6AbM3r9SSHg1.jpg",
+      "overview": "Following a traumatic chapter in their lives, Sameer and Nargis try to lead a happy life by adopting Nandini, a friend's orphaned niece. But fate soon strikes back hard when Nandini goes missing.",
+      "rating": 6.9,
+      "genre_ids": [
+        18,
+        28,
+        10749
+      ],
+      "score": 0.76
+    }
   }
 ]

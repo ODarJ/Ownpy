@@ -135129,5 +135129,270 @@
   "details:movie:8363": {
     "backdrop_path": "/coru98UcFBzJIU7bxZguxaePgu0.jpg",
     "trailer": "https://www.youtube.com/watch?v=LvKvus3vCEY"
-  }
+  },
+  "d-u-s-t f-a-t-e|2026": [
+    "none",
+    null
+  ],
+  "laugh to the sky|2026": [
+    "ok",
+    {
+      "tmdb_id": 1840548,
+      "tmdb_type": "movie",
+      "tmdb_title": "Laugh to the Sky",
+      "tmdb_year": "2026",
+      "poster": "/h7BV6D0c6vIwFs0pE8TkAOuao3R.jpg",
+      "backdrop": "/y8ufkiQKrIzHdylZJohCh3G90ZB.jpg",
+      "overview": "",
+      "rating": 2.0,
+      "genre_ids": [
+        35,
+        28,
+        12
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1840548": {
+    "backdrop_path": "/y8ufkiQKrIzHdylZJohCh3G90ZB.jpg",
+    "trailer": ""
+  },
+  "s-e-c-r-e-t s-e-r-v-i-c-e|2026": [
+    "none",
+    null
+  ],
+  "mi6 (kate henderson)|": [
+    "none",
+    null
+  ],
+  "(ryan walker) (imogen conrad)|": [
+    "none",
+    null
+  ],
+  "(stuart) mi6 (malta)|": [
+    "none",
+    null
+  ],
+  "room no.9|2018": [
+    "ok",
+    {
+      "tmdb_id": 82714,
+      "tmdb_type": "tv",
+      "tmdb_title": "Room No. 9",
+      "tmdb_year": "2018",
+      "poster": "/8jCKwe2AoFpnS2uiftmuCMjjdUb.jpg",
+      "backdrop": "/i5LT4yKjfY5OOZN9r7qGhtzudcI.jpg",
+      "overview": "Eulji Hae-Yi, a lawyer at a big law firm, is a kiss-up to those with power, but looks down upon those who are poor. When she meets death-row convict Jang Hwa-Sa in room 9 in the prison visitation area, their bodies are exchanged.",
+      "rating": 6.2,
+      "genre_ids": [
+        18,
+        9648,
+        10765
+      ],
+      "score": 0.94
+    }
+  ],
+  "details:tv:82714": {
+    "backdrop_path": "/i5LT4yKjfY5OOZN9r7qGhtzudcI.jpg",
+    "trailer": "https://www.youtube.com/watch?v=vbyoBjMaChM"
+  },
+  "purple hearts|2022": [
+    "ok",
+    {
+      "tmdb_id": 762975,
+      "tmdb_type": "movie",
+      "tmdb_title": "Purple Hearts",
+      "tmdb_year": "2022",
+      "poster": "/4JyNWkryifWbWXJyxcWh3pVya6N.jpg",
+      "backdrop": "/jdZM1Gs6DtRGvosgqaXRrIkvYX7.jpg",
+      "overview": "An aspiring musician agrees to a marriage of convenience with a soon-to-deploy Marine, but a tragedy soon turns their fake relationship all too real.",
+      "rating": 8.036,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:762975": {
+    "backdrop_path": "/jdZM1Gs6DtRGvosgqaXRrIkvYX7.jpg",
+    "trailer": "https://www.youtube.com/watch?v=WTLgg8oRSBE"
+  },
+  "shakespeare in love|1998": [
+    "ok",
+    {
+      "tmdb_id": 1934,
+      "tmdb_type": "movie",
+      "tmdb_title": "Shakespeare in Love",
+      "tmdb_year": "1998",
+      "poster": "/zdW7jdzPi4J9KZR3TyY2jn3Xh5e.jpg",
+      "backdrop": "/i16MjvM9YsQ85ejdB63gtGXDu4W.jpg",
+      "overview": "Young William Shakespeare is forced to stage his latest comedy, 'Romeo and Ethel, the Pirate's Daughter', before it's even written. When lovely noblewoman Viola de Lesseps auditions for a role, they fall into forbidden love — and Shakespeare's play finds a new life (and title). As their relationship intensifies, the comedy soon transforms into tragedy.",
+      "rating": 6.825,
+      "genre_ids": [
+        10749,
+        36,
+        35,
+        18
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1934": {
+    "backdrop_path": "/i16MjvM9YsQ85ejdB63gtGXDu4W.jpg",
+    "trailer": "https://www.youtube.com/watch?v=_CxNF4eA6yw"
+  },
+  "khuda haafiz chapter 2|": [
+    "review",
+    {
+      "tmdb_id": 965653,
+      "tmdb_type": "movie",
+      "tmdb_title": "Khuda Haafiz Chapter 2: Agni Pariksha",
+      "tmdb_year": "2022",
+      "poster": "/dWYGHG6yIG8Fh8LwhbGnnaYNYyX.jpg",
+      "backdrop": "/evekFb5xYhSJXoG6AbM3r9SSHg1.jpg",
+      "overview": "Following a traumatic chapter in their lives, Sameer and Nargis try to lead a happy life by adopting Nandini, a friend's orphaned niece. But fate soon strikes back hard when Nandini goes missing.",
+      "rating": 6.9,
+      "genre_ids": [
+        18,
+        28,
+        10749
+      ],
+      "score": 0.76
+    }
+  ],
+  "spongebob skin gift 5|": [
+    "none",
+    null
+  ],
+  "8days friend wait|": [
+    "none",
+    null
+  ],
+  "aillusion maru|": [
+    "none",
+    null
+  ],
+  "selling group|": [
+    "none",
+    null
+  ],
+  "pineapple express|2008": [
+    "ok",
+    {
+      "tmdb_id": 10189,
+      "tmdb_type": "movie",
+      "tmdb_title": "Pineapple Express",
+      "tmdb_year": "2008",
+      "poster": "/6E50WjeOYjDZg9HXgPjYdGtY2jG.jpg",
+      "backdrop": "/aO6Z7ErkEoahGFKYdEs4k4ilWFe.jpg",
+      "overview": "A stoner and his dealer are forced to go on the run from the police after the pothead witnesses a cop commit a murder.",
+      "rating": 6.634,
+      "genre_ids": [
+        28,
+        35,
+        80
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:10189": {
+    "backdrop_path": "/aO6Z7ErkEoahGFKYdEs4k4ilWFe.jpg",
+    "trailer": "https://www.youtube.com/watch?v=2T2o2WPNMXU"
+  },
+  "wicker|2026": [
+    "ok",
+    {
+      "tmdb_id": 1195803,
+      "tmdb_type": "movie",
+      "tmdb_title": "Wicker",
+      "tmdb_year": "2026",
+      "poster": "/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
+      "backdrop": "/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
+      "overview": "On the outskirts of a village by the sea, lives a Fisherwoman; smelly, single and perpetually ridiculed. One day, fed up with her stuffy, small-minded neighbours, she commissions herself a husband to be made from wicker. In an otherwise conservative town, this unconventional romance sparks outrage, jealousy and chaos.",
+      "rating": 7.588,
+      "genre_ids": [
+        10749,
+        14,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1195803": {
+    "backdrop_path": "/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
+    "trailer": "https://www.youtube.com/watch?v=kA9NfV4pM_Q"
+  },
+  "hangover (123)|": [
+    "none",
+    null
+  ],
+  "johnny english (123)|": [
+    "none",
+    null
+  ],
+  "good boys|": [
+    "ok",
+    {
+      "tmdb_id": 521777,
+      "tmdb_type": "movie",
+      "tmdb_title": "Good Boys",
+      "tmdb_year": "2019",
+      "poster": "/tximyCXMEnWIIyOy9STkOduUprG.jpg",
+      "backdrop": "/lZbpGWA1P8k7P6MJXdMDDDS01z9.jpg",
+      "overview": "A group of young boys on the cusp of becoming teenagers embark on an epic quest to fix their broken drone before their parents get home.",
+      "rating": 6.826,
+      "genre_ids": [
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "the interview|": [
+    "ok",
+    {
+      "tmdb_id": 228967,
+      "tmdb_type": "movie",
+      "tmdb_title": "The Interview",
+      "tmdb_year": "2014",
+      "poster": "/tIDC4xT65l7a8qbgg8GvwD5g8c5.jpg",
+      "backdrop": "/3YKGMZQ0pwQXSBSASeKlfPlkso7.jpg",
+      "overview": "Dave Skylark and his producer Aaron Rapaport run the celebrity tabloid show \"Skylark Tonight\". When they land an interview with a surprise fan, North Korean dictator Kim Jong-un, they are recruited by the CIA to turn their trip to Pyongyang into an assassination mission.",
+      "rating": 6.181,
+      "genre_ids": [
+        28,
+        35
+      ],
+      "score": 1.0
+    }
+  ],
+  "you can see everything|2026": [
+    "ok",
+    {
+      "tmdb_id": 1765072,
+      "tmdb_type": "movie",
+      "tmdb_title": "You Can See Everything",
+      "tmdb_year": "2026",
+      "poster": "/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
+      "backdrop": "/fnIcdPVaO4JAzfLhv8OVEqFK6a7.jpg",
+      "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+      "rating": 8.547,
+      "genre_ids": [
+        99
+      ],
+      "score": 1.0
+    }
+  ],
+  "details:movie:1765072": {
+    "backdrop_path": "/fnIcdPVaO4JAzfLhv8OVEqFK6a7.jpg",
+    "trailer": "https://www.youtube.com/watch?v=IEx8D1Wb__U"
+  },
+  "the butterfly effect (123)|": [
+    "none",
+    null
+  ],
+  "imdb 7.6 rotten tomatoes 34|": [
+    "none",
+    null
+  ]
 }
